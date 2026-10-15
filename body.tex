@@ -9,7 +9,10 @@ The dominant contributions arise from electroweak penguin and box diagrams, show
     \caption{Dominant Feynman diagrams for $B\rightarrow X_{s} \nu \bar{\nu}$ decay}
     \label{fig:feynman_diagram}
 \end{figure}
-The $b\rightarrow s \nu \bar{\nu}$ transition is described by the following effective Hamiltonian~\cite{Altmannshofer:2009ma}:
+Since the $W$-boson and top-quark masses are much larger than the $b$-quark mass, their effects at the energy scale of $B$-meson decays can be described by local interactions among the lighter particles.
+The strengths of these interactions are specified by Wilson coefficients.
+The dominant Standard Model~(SM) contribution comes from diagrams involving a top quark and is proportional to $V_{tb}V_{ts}^{*}$, where $V_{ij}$ are elements of the Cabibbo--Kobayashi--Maskawa~(CKM) matrix.
+The $b\rightarrow s \nu \bar{\nu}$ transition is therefore described by the following effective Hamiltonian~\cite{Altmannshofer:2009ma}:
 \begin{align}
     \label{eq:hamiltonian}
     \mathcal{H}_{\textrm{eff}}=-\frac{4G_{F}}{\sqrt{2}}V_{tb}V^{*}_{ts}(C_{L}^{\nu}\mathcal{O}_{L}^{\nu}+C_{R}^{\nu}\mathcal{O}_{R}^{\nu}) + \textrm{h.c.},
@@ -20,9 +23,7 @@ where $C^{\nu}_{L,R}$ are the Wilson coefficients, and $\mathcal{O}_{L,R}^{\nu}$
     \mathcal{O}_{L}^{\nu} = \frac{e^{2}}{16\pi^{2}}(\bar{s}\gamma_{\mu}P_{L}b)(\bar{\nu}\gamma^{\mu}(1-\gamma_{5})\nu),\quad 
 \mathcal{O}_{R}^{\nu} = \frac{e^{2}}{16\pi^{2}}(\bar{s}\gamma_{\mu}P_{R}b)(\bar{\nu}\gamma^{\mu}(1-\gamma_{5})\nu).
 \end{align}
-As shown in Eq.~\ref{eq:operator}, the effective Hamiltonian description reduces the decay to a single point-like interaction.
-In the $b\rightarrow s \nu \bar{\nu}$ transition, this is a valid approximation because the b-quark mass is much smaller than the W-boson and top-quark masses.
-In the Standard model~(SM), the weak interaction couples only to left-handed fermions. Therefore, 
+In the SM, the weak interaction couples only to left-handed fermions. Therefore,
 \begin{align}
     C_{R}^{\nu} = 0
 \end{align}
@@ -60,12 +61,14 @@ where
     \mathcal{T}_{\mu} = (m_B+m_{K^{*}})A_{1}(s)\epsilon^{*}_{\mu}-A_{2}(q^{2})\frac{\epsilon^{*} \cdot q}{m_{B}+m_{K^{*}}}(p+p_{K^{*}})_{\mu}+i\frac{2V(s)}{m_{B}+m_{K^{*}}}\epsilon_{\mu\nu\rho\sigma}\epsilon^{*\nu}p^{\rho}p^{\sigma}_{K^{*}},
 \end{align}
 with three form factors $A_{1}$, $A_{2}$, and $V$.
-These three form factors can be parametrized using the $z$ expansion~\cite{Bharucha:2015bzk}:
+To parametrize their $q^{2}$ dependence, we use the $z$ expansion~\cite{Bharucha:2015bzk}.
+In this parametrization, we use $A_{12}$ instead of $A_{2}$, with $A_{2}$ expressed in terms of $A_{1}$ and $A_{12}$ through the relation given below.
+The parametrization is written as follows:
 \begin{align}
     \label{eq:Kstarnunu_formfactor}
-    i = \frac{q}{1-q^{2}/m^{2}_{R,i}}\left[\alpha_{0}^{i} + \alpha_{1}^{i}(z-z_{0}) + \alpha_{2}^{i}(z-z_{0})^{2} \right],\\
+    F(q^{2}) = \frac{q}{1-q^{2}/m^{2}_{R,F}}\left[\alpha_{0}^{F} + \alpha_{1}^{F}(z-z_{0}) + \alpha_{2}^{F}(z-z_{0})^{2} \right],
 \end{align}
-with $i=A_{1},A_{12},V$. Here,
+where $F$ denotes $A_{1}$, $A_{12}$, or $V$. Here,
 \begin{align}
     A_{2} = \left[(m_{B}+m_{K^{*}})^{2}(m_{B}^{2}-m_{K^{*}}^{2}-q^{2})A_{1}-16m_{B}m_{K^{*}}(m_{B}+m_{K^{*}})A_{12} \right]/\lambda(q^{2}),
 \end{align}
