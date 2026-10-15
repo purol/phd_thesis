@@ -1,0 +1,127 @@
+\chapter{Analysis Strategy}\label{sec:strategy}
+
+As discussed in Sec.~\ref{sec:coherentMixing}, to measure the time-dependent \cp asymmetry in \ksksks using $e^+e^- \ra \FourS \ra \Bz\Bzb$ events, we need to:
+\begin{enumerate}
+    \item reconstruct one $B$ (\BCP) decaying into the target final state $\KS\KS\KS$, 
+    \item identify the flavor of the other $B$ (\Btag) from its decay products, and 
+    \item measure the difference of proper decay time \deltat between the pair of $B$'s.
+\end{enumerate}
+Figure~\ref{fig:overview} illustrates the above procedure.
+The ideal PDF of \deltat and the \Btag flavor $q\ (=+1 {\rm \ for\ } \Bztag, -1 {\rm \ for\ } \Bzbtag)$ is given by
+\begin{align}\label{eq:Psig}
+P_{\rm sig}^{\rm TD}(\deltat,q) = \frac{1}{4\tauBz}e^{-\frac{|\deltat|}{\tauBz}}\bigl[1 + q(S\sin(\Deltamd \deltat) + A\cos(\Deltamd \deltat)) \bigr].
+\end{align}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\columnwidth]{Figures/C03_strategy/overview.png}
+    \caption{Overview of time-dependent \cp violation measurement}
+    \label{fig:overview}
+\end{figure}
+
+%========================================================================
+\section{Reconstruction}
+We reconstruct the \ksksks decays where all three \KS's decay into \pipi. 
+\KS candidates are formed by combining two oppositely charged tracks.
+Having the lifetime of $c\tau = 2.7\cm$, most of \KS's decay at significantly displaced position from the IP.
+That signature makes it easy to discriminate \KS from fake candidates formed by random combination of tracks originating from the IP.
+We select \KS candidates using a boosted-decision-tree (BDT) classifier and the \pipi invariant mass~\cite{Keck:2017gsv}.
+
+Based on $\mathcal{B}(\KS \ra \pipi) = 0.692$, we expect the 3(\pipi) final state to cover 33\% of all \ksksks decays.
+Although allowing one $\KS \ra \pi^0\pi^0$ decay would potentially release 44\% in addition to that, this final state suffers from worse purity due to fake $\pi^0$ candidates.
+For example, the latest BaBar analysis reconstructed the $2\KS( \pipi ) \KS ( \pi^0 \pi^0)$ mode with 0.3 times smaller signal yield and 2.3 times more background than the $3\KS(\pipi)$ mode.~\cite{BaBar:2011ktx}
+In addition, the \deltat resolution of the $2\KS( \pipi ) \KS ( \pi^0 \pi^0)$ mode is worse than the $3\KS(\pipi)$ mode.
+Therefore, we put the first priority on the 3(\pipi) final state and concentrate on it in this analysis.
+
+\Bz candidates are reconstructed from the combination of three \KS candidates and selected using its invariant mass and beam-energy-constrained mass.
+
+Background candidates arise from $e^+e^- \ra \qqbar\ (q=u,d,s,c)$ events and $e^+e^- \ra \BB$ events. 
+Despite of similar cross sections, \qqbar events dominate over \BB because of relatively higher track momentum of them.
+As the light quark pair is largely boosted by the collision energy, the momenta of final-state particles in \qqbar events tend to distribute in a jet-like shape in the center-of-mass frame as shown in Fig.~\ref{fig:eventtopology}.
+In contrary, \BB event tend to have an isotropic momentum distribution.
+We discriminate the \qqbar events based on a BDT classifier using event-topology variables (\textit{continuum suppression}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\columnwidth]{Figures/C03_strategy/event_topology.png}
+    \caption[Illustration of event topology for \qqbar and \BB events]{Illustration of event topology for \qqbar (left) and \BB events (right)}
+    \label{fig:eventtopology}
+\end{figure}
+
+%=============================================================================
+\section{Flavor tag}\label{sec:flavortag_simple}
+We identify the \Btag flavor from the charge of its decay products.
+Leptons from semileptonic decays $b \ra c \ell^- \overline{\nu}\ (\ell=e,\mu)$ and kaons from CKM-favored $b \ra c \ra s$ decays are particularly discriminative because of the large branching fraction of these decays.
+Negatively charged leptons and kaons indicate \Bzb and vice versa.
+
+We use a BDT-based software called \textit{flavor tagger} in the BASF2~\cite{Belle-II:flavortag}.
+The flavor tagger estimates the flavor $q$ and its credibility $r$ ranging from 0 (ambiguous tag) to 1 (obvious tag) for each \Btag candidate.
+The performance of the flavor tagger is expressed by
+\begin{align}
+    \varepsilon &\equiv \frac{\varepsilon_{\Bz} + \varepsilon_{\Bzb}}{2},\\
+     w &\equiv \frac{w_{\Bz} + w_{\Bzb}}{2},\\
+    \mu &\equiv \frac{\varepsilon_{\Bz} - \varepsilon_{\Bzb}}{\varepsilon_{\Bz} + \varepsilon_{\Bzb}} {\rm \ and},\\
+    \Delta w &\equiv w_{\Bz} - w_{\Bzb},
+\end{align}
+where $\varepsilon_{\Bz(\Bzb)}$ and $w_{\Bz(\Bzb)}$ are the tagging efficiency of \Bz(\Bzb) and the probability to misidentify \Bz(\Bzb) as \Bzb(\Bz) (wrong-tag fraction). 
+$\mu$ and $\Delta w$ represent the difference in tagging efficiency and wrong-tag fraction between \Bz and \Bzb.
+These quantities are functions of $r$ in general.
+Instead of using continuous $r$, we use a rough binning with the following bin edges and call the binned $r$ as \rbin:
+\begin{align}
+(0, 0.1,0.25,0.5,0.625,0.75,0.875,1).    
+\end{align}
+The flavor tagger performance is calibrated by the measurement of the time-integrated mixing probability using $\Bz \ra D^{(*)-} h^+ \ (h=\pi, \rho, a_1)$ decays~\cite{Belle-II:flavortag}.
+The calibration is based on a data set corresponding to 62.8\invfb, which was collected before summer 2020.
+Table~\ref{tab:ft_performance} shows $\varepsilon, w, \mu$, and \dw measured in each \rbin.
+The statistical uncertainty for \cp asymmetry is proportional to $1/\sqrt{\varepsilon_{\rm eff}}$, where $\varepsilon_{\rm eff}\equiv\sum_{\rbin}\varepsilon(1-2w)^2$ is called effective tagging efficiency and is estimated to be $30.0 \pm 1.2 {\rm(stat)} \pm 0.4 ({\rm syst})$\%.
+
+\begin{table}[]
+    \centering
+    \caption{Flavor tagger performance parameters $\varepsilon, w, \mu,$ and \dw in \% measured in different bins of $r$~\cite{Belle-II:flavortag}. The first and second uncertainties are statistical and systematic, respectively.}
+   \begin{tabular}{c|cccc}
+    \hline
+$r$ & $\varepsilon$ & $w$ & $\mu$ & \dw \\\hline
+ 0--0.1 & $19.0 \pm 0.3 \pm 0.1$ & $47.1 \pm 1.6 \pm 0.5$ & $4.4 \pm 3.2 \pm 0.9$ & $8.8 \pm 2.0 \pm 0.6$ \\
+ 0.1--0.25 &  $17.1 \pm 0.3 \pm 0.1$ & $41.3 \pm 1.7 \pm 0.5$ & $3.9 \pm 3.3 \pm 0.9$ & $6.1 \pm 2.1 \pm 0.6$ \\
+ 0.25--0.5 & $21.3 \pm 0.3 \pm 0.1$ & $30.3 \pm 1.4 \pm 0.4$ & $6.8 \pm 2.9 \pm 0.8$ & $2.7 \pm 1.9 \pm 0.6$ \\
+ 0.5--0.625 & $11.3 \pm 0.3 \pm 0.1$ & $22.9 \pm 1.8 \pm 0.6$ & $3.2 \pm 4.0 \pm 1.1$ & $5.5 \pm 2.6 \pm 0.8$ \\
+ 0.625--0.75 & $10.7 \pm 0.3 \pm 0.1$ & $12.4 \pm 1.8 \pm 0.5$ & $-0.5 \pm 4.1 \pm 1.1$ & $0.7 \pm 2.9 \pm 0.7$ \\
+ 0.75--0.875 & $8.2 \pm 0.2 \pm 0.1$ & $9.4 \pm 1.9 \pm 0.5$ & $10.8 \pm 4.3 \pm 1.1$ & $7.7 \pm 3.2 \pm 0.9$ \\
+ 0.875--1 & $12.4 \pm 0.2 \pm 0.1$ & $2.3 \pm 1.3 \pm 0.4$ & $-3.7 \pm 3.2 \pm 1.0$ & $0.6 \pm 2.4 \pm 0.7$ \\\hline
+    \end{tabular}
+    \label{tab:ft_performance}
+\end{table}
+
+%==========================================================================
+\section{\deltat measurement}
+The absolute value of the proper decay time difference \deltat is typically so short around $\tauBz = 1.519 \ps$ that it is hard to directly measure.
+To overcome the difficulty, the center-of-mass system is boosted by the asymmetric beam energies with $\beta\gamma=0.287$ at the Belle~II experiment.
+As the \BB pair is almost at rest with momentum of only 0.3\gevc in the center-of-mass system, we approximate the boost factor of $B$ mesons as that of \FourS and measure \deltat as the difference of decay vertex positions of \BB,
+\begin{equation}\label{eq:deltat}
+    \deltat = \frac{\lboost - \tagvlboost}{\beta \gamma c},
+\end{equation}
+where \lboost and \tagvlboost are the decay vertex position of \BCP and \Btag, which is projected to the boost direction.
+The approximation of the boost factor is corrected by a response function described in Sec.~\ref{sec:Rk}.
+
+The decay vertex position is measured by kinematic fit using charged tracks in the final state.
+The vertex position resolution is typically tens of micrometers and thus can never be neglected compared to the average flight length of \Bz, 130\mum.
+Moreover, the resolution varies from around 10\mum to 100\mum depending on the situation such as the number of \KS having VXD hits for \BCP vertex and the number of available tracks for \Btag.
+Therefore, precise understanding of the vertex resolution on the event-by-event basis is a key to the time-dependent \cp violation measurement.
+
+We classify the reconstructed events into two categories based on the quality of \deltat measurement: \textit{time-differential (TD) events} and \textit{time-integrated (TI) events}.
+For TI events, where we cannot measure \deltat with good quality, we do not use the \deltat information but only the flavor information $q$.
+Therefore we integrate the PDF of Eq.~\eqref{eq:Psig} over \deltat:
+\begin{eqnarray}\label{eq:Psig_timeint}
+P_{\rm sig}^{\rm TI}(q) = \frac{1}{2} \left( 1 + qA\frac{1}{1 + x_d^2} \right),
+\end{eqnarray}
+where $x_d = \Delta m_d \tauBz$.
+%We call these events as \textit{time-integrated (TI) events}, and on the other hand, the events with good \deltat measurement quality as \textit{time-differential (TD) events}.
+As explicitly shown by Eq.~\eqref{eq:Psig_timeint}, \baddt events are sensitive to only $A$ through the dilution factor of $1/(1+x_d^2)$.
+The classification criteria are summarized in Tab.~\ref{tab:TDselection}.
+
+\section{Control sample}
+We use \ksksk decays as the control channel for the analysis of \ksksks.
+The branching fraction for the decay is $\mathcal{B}(\ksksk) = (1.05 \pm 0.04) \times 10^{-5}$ so the expected number of signals are twice larger than \ksksks, whose branching fraction is $\mathcal{B}(\ksksks) = (6.0 \pm 0.5) \times 10^{-6}$~\cite{ref:PDG2021}.
+
+Because of the similarity in decay kinematics and vertex resolution between \ksksk and \ksksks, we use the control sample to model the background shapes for $B$ masses and the continuum suppression classifier, and to validate our knowledge of vertex resolution obtained from simulation.
+
