@@ -194,13 +194,29 @@ Table~\ref{tab:accelerator_params} shows the parameter values and luminosity for
 \end{table}
 As seen in Eq.~\ref{eq:lumi} and Table~\ref{tab:accelerator_params}, the beam currents are increased to achieve higher luminosity during the upgrade from KEKB to SuperKEKB.
 According to Eq.~\ref{eq:lumi}, decreasing $\beta^{*}_{y}$ can also improve the luminosity.
-However, because of the interaction between beams in head-on collision, there is a constraint on $\beta^{*}_{y}$~\cite{SuperKEKB:TDR}:
+However, to limit the luminosity loss due to the hourglass effect, the vertical beta function at the IP should satisfy~\cite{Ohnishi:2013fma}
 \begin{equation}
-  \beta^{*}_{y}>\sigma_{z},
+  \beta^{*}_{y} \geq \ell_{\textrm{overlap}},
+\end{equation}
+where $\ell_{\textrm{overlap}}$ is the effective longitudinal overlap length of the two beams.
+For head-on collisions, this relation becomes~\cite{SuperKEKB:TDR}
+\begin{equation}
+  \beta^{*}_{y} \geq \sigma_{z},
 \end{equation}
 where $\sigma_{z}$ is the bunch length.
-In SuperKEKB accelerator, the beams collide with a crossing angle.
-Therefore, the overlapped length between beams are shorter than head-on collision, allowing SuperKEKB to achieve smaller $\beta^{*}_{y}$ value.
+
+SuperKEKB employs the nano-beam scheme, which combines a small horizontal beam size with a large horizontal crossing angle~\cite{Akai:2018mbz}.
+In the nano-beam scheme, the overlap length is approximately given by~\cite{Akai:2018mbz}
+\begin{equation}
+  \ell_{\textrm{overlap}} \sim \frac{\sigma_{x}^{*}}{\theta_{x}},
+\end{equation}
+where $2\theta_{x}$ is the crossing angle between beams.
+The horizontal beam size at the IP, $\sigma_{x}^{*}$, is given by~\cite{Holzer:2013lbc}
+\begin{equation}
+    \sigma_{x}^{*} \simeq \sqrt{\varepsilon_{x}\beta_{x}^{*}},
+\end{equation}
+where $\varepsilon_x$ is the horizontal geometric emittance, which characterizes the spread of particles in horizontal position and angle, and $\beta_{x}^{*}$ is the horizontal beta function at the IP.
+Thus, the low horizontal emittance helps reduce the horizontal beam size, which, together with the large horizontal crossing angle, shortens the overlap length and allows a smaller $\beta^{*}_{y}$ while limiting the luminosity loss due to the hourglass effect.
 
 \section{Belle II detector}
 Figure~\ref{fig:BelleII} shows a schematic overview of the Belle II detector~\cite{KEK:BelleIIDetectorOverviewImage}.
