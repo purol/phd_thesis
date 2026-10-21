@@ -481,8 +481,8 @@ At the SuperKEKB design luminosity of $8\times10^{35}~\textrm{cm}^{-2}\textrm{s}
 \section{Software}
 The Belle II software framework~(\textsc{basf2})~\cite{Kuhr:2018lps} is used to reconstruct events.
 The \textsc{basf2} version used in this analysis is \texttt{light-2305-korat}.
-\textsc{basf2} produces ROOT files~\cite{Brun:1997pa} that include kinematic and event information.
-To analyze these ROOT files, the ROOT data analysis framework is used.
+\textsc{basf2} produces ROOT files that include kinematic and event information.
+To analyze these ROOT files, the ROOT data analysis framework~\cite{Brun:1997pa} is used..
 
 For Monte Carlo~(MC) sample generation, \textsc{EvtGen}~\cite{Lange:2001uf} is used to simulate $B$- and $D$-meson decay chains.
 \textsc{KKMC}~\cite{Jadach:1999vf} is used to simulate $e^{+}e^{-}\to q\bar{q}$ events. \textsc{PHOTOS}~\cite{Barberio:1990ms} is used to simulate photon radiation from charged particles.
@@ -495,16 +495,23 @@ Before checking the data, the analysis procedure is optimized using MC samples.
 
 \subsection{Background Monte Carlo samples}
 \label{subsec:backgroundMC}
-The official MC15ri samples, the official MC15rd samples, and private MC samples at the $\Upsilon(4S)$ resonance are used.
-Additionally, the official MC15rd samples at a center-of-mass energy $60~\mathrm{MeV}$ below resonance are used in the analysis.
-The on-resonance samples consist of $e^{+}e^{-}\to \Upsilon(4S) \to B\bar{B}$ and $e^{+}e^{-}\rightarrow q\bar{q}$ events.
-The off-resonance samples consist of $e^{+}e^{-}\rightarrow q\bar{q}$ events.
-The private MC samples consist of $B^{+}\to K^{+}n\bar{n}$, $B^{+}\to K^{*+}n\bar{n}$, $B^{0}\to K^{0}n\bar{n}$, and $B^{0}\to K^{*0}n\bar{n}$ events.
+The background MC samples used in this analysis include samples produced centrally by the Belle II collaboration and samples generated specifically for this analysis, referred to as private MC samples.
+The centrally produced samples belong to the MC15 production campaign and comprise run-independent~(MC15ri) and run-dependent~(MC15rd) samples.
+Here, a run refers to a period of data taking under approximately stable operating conditions.
+The MC15ri samples use common simulation conditions across runs, whereas the MC15rd samples account for variations in detector conditions and beam backgrounds between runs.
 
-The official MC15ri on-resonance samples are used to train boosted decision tree (BDT)~\cite{Keck:2017gsv} and check for overfitting.
-The official MC15rd samples and the private MC samples at the on-resonance are used to obtain the histogram templates for signal and background events.
+Both MC15ri and MC15rd samples generated at the $\Upsilon(4S)$ resonance are used.
+These are referred to as on-resonance samples.
+These samples include $e^{+}e^{-}\to\Upsilon(4S)\to B\bar{B}$ and $e^{+}e^{-}\to q\bar{q}$~($q=u,d,s,c$) events.
+Off-resonance MC15rd samples, generated at a center-of-mass energy $60~\mathrm{MeV}$ below the resonance, are also used.
+They consist of $e^{+}e^{-}\to q\bar{q}$ events.
 
-The off-resonance MC15rd samples are used to estimate the correction factor and its systematic uncertainty for $e^{-}e^{+}\rightarrow q\bar{q}$~($q=u,d,s,c$) events.
+The private MC samples are generated at the $\Upsilon(4S)$ resonance and consist of $B^{+}\to K^{+}n\bar{n}$, $B^{+}\to K^{*+}n\bar{n}$, $B^{0}\to K^{0}n\bar{n}$, and $B^{0}\to K^{*0}n\bar{n}$ events.
+
+The official on-resonance MC15ri samples are used to train a boosted decision tree (BDT)~\cite{Keck:2017gsv} and check for overfitting.
+The official on-resonance MC15rd and private MC samples are used to obtain the histogram templates.
+
+The off-resonance MC15rd samples are used to estimate the correction factor and its systematic uncertainty for $e^{-}e^{+}\rightarrow q\bar{q}$ events.
 
 Table~\ref{tab:MC_background} shows the integrated luminosities or numbers of events for the background MC samples.
 \begin{table}
