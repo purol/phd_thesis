@@ -757,8 +757,21 @@ For pion and kaon candidates used to reconstruct the signal side, the requiremen
 The number of CDC hits, \texttt{nCDCHits}, is required to be greater than 20, following the recommendation of the PID performance group.
 The number of PXD hits, \texttt{nPXDHits}, is required to be greater than 0, motivated by the $B^{+}\rightarrow K^{+}\nu\bar{\nu}$ study to reduce the effects of SVD resolution mismodeling~\cite{Belle-II:2021rof}.
 After these requirements are applied, the tracks are identified as pion or kaon candidates according to the particle-identification~(PID) likelihood criteria.
-For the pion candidates, $\texttt{pionID} > 0.6$ is applied.
-For the kaon candidates, $\texttt{kaonID} > 0.6$ is applied.
+The variables \texttt{pionID} and \texttt{kaonID} are defined as
+\begin{equation}
+\begin{aligned}
+    \texttt{pionID} &=
+    \frac{\mathcal{L}_{\pi}}
+    {\mathcal{L}_{e}+\mathcal{L}_{\mu}+\mathcal{L}_{\pi}
+    +\mathcal{L}_{K}+\mathcal{L}_{p}+\mathcal{L}_{d}},\\
+    \texttt{kaonID} &=
+    \frac{\mathcal{L}_{K}}
+    {\mathcal{L}_{e}+\mathcal{L}_{\mu}+\mathcal{L}_{\pi}
+    +\mathcal{L}_{K}+\mathcal{L}_{p}+\mathcal{L}_{d}},
+\end{aligned}
+\end{equation}
+where $\mathcal{L}_{h}$ is the likelihood for particle hypothesis $h$, and $d$ denotes the deuteron.
+Pion and kaon candidates are required to satisfy $\texttt{pionID}>0.6$ and $\texttt{kaonID}>0.6$, respectively.
 
 For the signal side, A $K_S^0$ candidate is reconstructed from two oppositely charged tracks.
 The vertex fit~\cite{Krohn:2019dlq} is required to converge for these two tracks.
