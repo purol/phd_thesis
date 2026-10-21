@@ -754,8 +754,8 @@ The loose requirement $\mathcal{P}_{\textrm{FEI}} > 0.001$ is intended to suppre
 \section{Particle Selections}
 \label{sec:particle_selection}
 For pion and kaon candidates used to reconstruct the signal side, the requirements $dr < 0.5~\textrm{cm}$ and $\left|dz\right| < 2~\textrm{cm}$ are applied, where $dr$ and $dz$ are the distances of closest approach of a track to the interaction point~(IP) in the transverse plane and along the $z$-axis, respectively.
-The number of CDC hits is required to be greater than 20, $\texttt{nCDCHits}>20$, following the recommendation of the PID performance group.
-The number of PXD hits is required to be greater than 0, $\texttt{nPXDHits}>0$, motivated by the $B^{+}\rightarrow K^{+}\nu\bar{\nu}$ study to reduce the effects of SVD resolution mismodeling~\cite{Belle-II:2021rof}.
+The number of CDC hits, \texttt{nCDCHits}, is required to be greater than 20, following the recommendation of the PID performance group.
+The number of PXD hits, \texttt{nPXDHits}, is required to be greater than 0, motivated by the $B^{+}\rightarrow K^{+}\nu\bar{\nu}$ study to reduce the effects of SVD resolution mismodeling~\cite{Belle-II:2021rof}.
 After these requirements are applied, the tracks are identified as pion or kaon candidates according to the particle-identification~(PID) likelihood criteria.
 For the pion candidates, $\texttt{pionID} > 0.6$ is applied.
 For the kaon candidates, $\texttt{kaonID} > 0.6$ is applied.
