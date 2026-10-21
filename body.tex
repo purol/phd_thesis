@@ -737,9 +737,9 @@ On the other hand, hadronic tagging has a lower tag-side efficiency than semilep
 For example, Ref.~\cite{Bertacchi:2023kdm} reports an efficiency of approximately $0.5\%$ with a purity of $30\%$ for hadronic tagging, compared with an efficiency of $2\%$ with a purity of $10\%$ for semileptonic tagging.
 
 \section{Skimming}
-To save computing resources, samples skimmed using the FEI algorithm are used.
-This skimming requires that the beam-constrained mass to satisfy $M_{\textrm{bc}} > 5.2~\textrm{GeV}/c^{2}$, the energy difference to satisfy $|\Delta E| < 0.3~\textrm{GeV}$, and the FEI signal probability to satisfy $\mathcal{P}_{\textrm{FEI}} > 0.001$.
-Here,
+To reduce computational cost, we use samples processed with the official Belle II hadronic FEI skim.
+The tag-side selection requires $M_{\textrm{bc}} > 5.2~\textrm{GeV}/c^{2}$, $|\Delta E| < 0.3~\textrm{GeV}$, and $\mathcal{P}_{\textrm{FEI}} > 0.001$.
+Here, the beam-constrained mass $M_{\textrm{bc}}$ and the energy difference $\Delta E$ are defined as
 \begin{equation}
 \begin{aligned}
   M_{\textrm{bc}} &= \sqrt{(\sqrt{s}/2)^{2}-|\vec{p}_{B}^{*}c|^{2}},\\
@@ -749,6 +749,7 @@ Here,
 where $\sqrt{s}$ is the SuperKEKB center-of-mass~(c.m.) energy, and $\vec{p}_{B}^{*}$ and $E_{B}^{*}$ are the momentum and energy of the $B$ meson in the c.m. system, respectively.
 The FEI signal probability $\mathcal{P}_{\textrm{FEI}}$ is the output of the multivariate classifier in the FEI algorithm.
 $\mathcal{P}_{\textrm{FEI}}$ ranges from 0 to 1, and a value closer to 1 indicates that the $B_{\textrm{tag}}$ candidate is more likely to be correctly reconstructed.
+The loose requirement $\mathcal{P}_{\textrm{FEI}} > 0.001$ is intended to suppress background while limiting signal loss at the skimming stage.
 
 \section{Particle Selections}
 \label{sec:particle_selection}
