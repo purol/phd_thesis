@@ -546,7 +546,7 @@ The details of the correction for the $M_{n\bar{n}}$ distribution are discussed 
 
 \subsection{Signal Monte Carlo samples}
 \label{subsec:signal_MC}
-For the signal samples, $B\rightarrow K\nu\bar{\nu}$, $B\rightarrow K^{*}\nu\bar{\nu}$, and the remaining $B\rightarrow X_s\nu\bar{\nu}$ samples are produced separately.
+Separate signal MC samples are generated for three components: $B\to K\nu\bar{\nu}$, $B\to K^{*}\nu\bar{\nu}$, and $B\to X_s\nu\bar{\nu}$ excluding the $K$ and $K^{*}$ modes.
 
 For the $B\rightarrow K \nu \bar{\nu}$ sample, the following parameters are used in Eq.~\ref{eq:Knunu_formfactor}~\cite{Buras:2014fpa}:
 \begin{equation}
@@ -589,7 +589,7 @@ For the $B\rightarrow K^{*}\nu \bar{\nu}$ sample, the following parameters are u
   \end{aligned}
 \end{equation}
 
-For the remaining $B\rightarrow X_{s} \nu \bar{\nu}$ sample, Eq.~\ref{eq:Xsamp} is used to simulate the $q^{2}$ distribution. 
+For the $B\to X_s\nu\bar{\nu}$ component excluding the $K$ and $K^{*}$ modes, Eq.~\ref{eq:Xsamp} is used to simulate the $q^{2}$ distribution. 
 However, this equation does not determine the mass of $X_{s}$.
 Therefore, the Fermi motion model~\cite{Ali:1996bm} is adopted to produce the $B\rightarrow X_{s} \nu \bar{\nu}$ sample.
 In the Fermi motion model, inside the $B$ meson, $b$ quark and spectator quark have four-momenta $p$ and $p_{\textrm{spectator}}$, respectively.
@@ -653,24 +653,26 @@ When combining $B^{+}B^{-}$ and $B^{0}\bar{B}^{0}$ samples, we use the following
   \end{aligned}
 \end{equation}
 where $f^{+-}=0.5113^{+0.0073}_{-0.0108}$, $f^{00}=0.4861^{+0.0074}_{-0.0080}$~\cite{HeavyFlavorAveragingGroupHFLAV:2024ctg}, $N_{\Upsilon(4S)}$ is the number of $\Upsilon(4S)$ events, $N_{B^{+}B^{-}}$ is the number of $B^{+}B^{-}$ pairs, and $N_{B^{0}\bar{B}^{0}}$ is the number of $B^{0}\bar{B}^{0}$ pairs.
-Also, when combining the $B\rightarrow K\nu\bar{\nu}$, $B\rightarrow K^{*}\nu\bar{\nu}$, and remaining $B\rightarrow X_s\nu\bar{\nu}$ samples, we use $BR(B^{+}\rightarrow K^{+}\nu \bar{\nu}) = 5.044 \times 10^{-6}$, $BR(B^{0}\rightarrow K^{*0}\nu \bar{\nu}) = 9.19 \times 10^{-6}$, and $BR(B\rightarrow X_{s}\nu \bar{\nu}) = 2.9 \times 10^{-5}$~\cite{Buras:2014fpa,Parrott:2022zte}, with the following relation~\cite{Buras:2014fpa}:
+To combine the three signal components, we use $BR(B^{+}\to K^{+}\nu\bar{\nu}) = 5.044\times10^{-6}$, $BR(B^{0}\to K^{*0}\nu\bar{\nu}) = 9.19\times10^{-6}$, and $BR(B\to X_s\nu\bar{\nu}) = 2.9\times10^{-5}$ ~\cite{Buras:2014fpa,Parrott:2022zte}.
+The branching ratios for the charged and neutral exclusive modes are related by~\cite{Buras:2014fpa}:
 \begin{equation}
   \begin{aligned}
       \frac{BR(B^{+}\rightarrow K^{(*)+}\nu \bar{\nu})}{BR(B^{0}\rightarrow K^{(*)0}\nu \bar{\nu})} = \frac{\tau_{B^{+}}}{\tau_{B^{0}}},
   \end{aligned}
 \end{equation}
 where $\tau_{B^{+}}$ and $\tau_{B^{0}}$ are the lifetimes of the $B^{+}$ and $B^{0}$ mesons, respectively.
-Consequently, the following remaining branching ratios are used:
+For the component excluding the $K$ and $K^{*}$ modes, the branching ratios are obtained by subtracting these exclusive contributions from the inclusive prediction.
+We denote this component by the subscript $X_{s}\neq K,K^{*}$:
 \begin{equation}
 \begin{aligned}
-  BR(B^{+}\rightarrow X_s \nu \bar{\nu})_{\textrm{remain}} &= BR(B\rightarrow X_{s}\nu \bar{\nu}) - BR(B^{+}\rightarrow K^{+}\nu \bar{\nu}) - BR(B^{+}\rightarrow K^{*+}\nu \bar{\nu})\\
+  BR(B^{+}\rightarrow X_s \nu \bar{\nu})_{X_{s}\neq K,K^{*}} &= BR(B\rightarrow X_{s}\nu \bar{\nu}) - BR(B^{+}\rightarrow K^{+}\nu \bar{\nu}) - BR(B^{+}\rightarrow K^{*+}\nu \bar{\nu})\\
   &= 2.9 \times 10^{-5} - 5.044 \times 10^{-6} - 9.91 \times 10^{-6}\\
   &= 1.405 \times 10^{-5},
 \end{aligned}
 \end{equation}
 \begin{equation}
 \begin{aligned}
-  BR(B^{0}\rightarrow X_s \nu \bar{\nu})_{\textrm{remain}} &= BR(B\rightarrow X_{s}\nu \bar{\nu}) - BR(B^{0}\rightarrow K^{0}\nu \bar{\nu}) - BR(B^{0}\rightarrow K^{*0}\nu \bar{\nu})\\
+  BR(B^{0}\rightarrow X_s \nu \bar{\nu})_{X_{s}\neq K,K^{*}} &= BR(B\rightarrow X_{s}\nu \bar{\nu}) - BR(B^{0}\rightarrow K^{0}\nu \bar{\nu}) - BR(B^{0}\rightarrow K^{*0}\nu \bar{\nu})\\
   &= 2.9 \times 10^{-5} - 3.69 \times 10^{-6} - 9.19 \times 10^{-6}\\
   &= 1.513 \times 10^{-5}.
 \end{aligned}
