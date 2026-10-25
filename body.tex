@@ -777,7 +777,7 @@ For the signal side, A $K_S^0$ candidate is reconstructed from two oppositely ch
 The vertex fit~\cite{Krohn:2019dlq} is required to converge for these two tracks.
 The \texttt{significance\allowbreak Of\allowbreak Distance} variable for the $K_S^0$ candidate, defined as the distance from the IP to the decay vertex divided by its uncertainty, is required to be greater than 50.
 This significance of distance criterion is applied to suppress the background from the pion tracks near IP.
-The invariant mass of $K_{S}^{0}$ should be within $10~\textrm{MeV}/c^{2}$ of the nominal $K_{S}^{0}$ mass~\cite{ParticleDataGroup:2024cfk}, $|dM| < 10~\textrm{MeV}/c^{2}$.
+The invariant mass of $K_{S}^{0}$ should be within $10~\textrm{MeV}/c^{2}$ of the nominal $K_{S}^{0}$ mass~\cite{ParticleDataGroup:2024cfk}, $|\Delta M| < 10~\textrm{MeV}/c^{2}$.
 
 For the $\pi^{0}$ candidates, photon candidates are required.
 The standard photon selection used in the Belle II experiment is applied.
@@ -808,7 +808,7 @@ The corresponding variable distributions are shown in Appendix~\ref{sec:particle
     \multicolumn{1}{c}{$K^{\pm}$} & \multicolumn{1}{c}{$dr < 0.5~\textrm{cm}$, $\left| dz \right| < 2~\textrm{cm}$, $\texttt{nCDCHits} > 20$, $\texttt{nPXDHits} > 0$, $\texttt{kaonID} > 0.6$} \\
     \hline
     \multirow{2}{1.5cm}{\centering $K_{S}^{0}$} & \multicolumn{1}{c}{reconstructed from two oppositely charged tracks} \\
-    & \multicolumn{1}{c}{$\texttt{significanceOfDistance} > 50$, $|dM| < 10~\textrm{MeV}/c^{2}$}\\
+    & \multicolumn{1}{c}{$\texttt{significanceOfDistance} > 50$, $|\Delta M| < 10~\textrm{MeV}/c^{2}$}\\
     \hline
     \multirow{2}{1.5cm}{\centering $\gamma$} & \multicolumn{1}{c}{$\texttt{clusterNHits} > 1.5$, within the CDC acceptance region} \\
     & \multicolumn{1}{c}{$E > 80~\textrm{MeV}$ (forward), $E > 30~\textrm{MeV}$ (barrel), $E > 60~\textrm{MeV}$ (backward)}\\
@@ -1863,7 +1863,7 @@ However, the following additional procedures are applied at the reconstruction s
   \item Reconstruct $J/\psi(\rightarrow\mu^{+}\mu^{-})$. Selection criteria are
   \begin{itemize}
     \item $\mu$: $dr < 2~\textrm{cm}$, $\left| dz \right| < 4~\textrm{cm}$, and $\texttt{muonID} > 0.1$
-    \item$J/\psi$: reconstructed from two muons, with the requirement $\left|dM\right|<0.05~\textrm{GeV}/c^{2}$.
+    \item$J/\psi$: reconstructed from two muons, with the requirement $\left|\Delta M\right|<0.05~\textrm{GeV}/c^{2}$.
   \end{itemize}
   \item Reconstruct $B_{\textrm{sig}}(\rightarrow X_{s}J/\psi)$. Selection criteria are
   \begin{itemize}
@@ -2027,14 +2027,14 @@ Table~\ref{tab:cutflow_Jpsi_1} shows the cut flow for $B\rightarrow X_{s} J/\psi
     \label{tab:cutflow_Jpsi_1}
 \end{sidewaystable}
 
-Figure~\ref{fig:Jpsi_plot} shows the distributions of the $J/\psi$ mass difference $dM$, $M_{\textrm{bc}}$, and $\Delta E$.
+Figure~\ref{fig:Jpsi_plot} shows the distributions of the $J/\psi$ mass difference $\Delta M$, $M_{\textrm{bc}}$, and $\Delta E$.
 These distributions are obtained after the BCS of the $\Upsilon(4S)$ candidates.
 \begin{figure}
     \centering
-    \subfloat[][$dM$ of $J/\psi$]{\includegraphics[width=0.3\textwidth]{./picture/XsJpsi/Plot_dM_Jpsi.png}}
+    \subfloat[][$\Delta M$ of $J/\psi$]{\includegraphics[width=0.3\textwidth]{./picture/XsJpsi/Plot_dM_Jpsi.png}}
     \subfloat[][$M_{\textrm{bc}}$ of $B_{\textrm{sig}}$]{\includegraphics[width=0.3\textwidth]{./picture/XsJpsi/Plot_Mbc_Jpsi.png}}
     \subfloat[][$\Delta E$ of $B_{\textrm{sig}}$]{\includegraphics[width=0.3\textwidth]{./picture/XsJpsi/Plot_delE_Jpsi.png}}
-    \caption{Distributions of variables for $B\rightarrow X_{s} J/\psi$ analysis. $dM$ distribution is for $J/\psi$ which is a granddaughter of $\Upsilon(4S)$ candidates. The $M_{\textrm{bc}}$ and $\Delta E$ distributions are for $B_{sig}$ that is a daughter of $\Upsilon(4S)$ candidates. These plots are made after BCS of $\Upsilon(4S)$.}
+    \caption{Distributions of variables for $B\rightarrow X_{s} J/\psi$ analysis. $\Delta M$ distribution is for $J/\psi$ which is a granddaughter of $\Upsilon(4S)$ candidates. The $M_{\textrm{bc}}$ and $\Delta E$ distributions are for $B_{sig}$ that is a daughter of $\Upsilon(4S)$ candidates. These plots are made after BCS of $\Upsilon(4S)$.}
     \label{fig:Jpsi_plot}
 \end{figure}
 
