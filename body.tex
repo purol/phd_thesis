@@ -794,6 +794,7 @@ The opening angle between the two photons should be $\Delta\theta_{\gamma \gamma
 To suppress combinatorial background, the momentum should satisfy $p_{\pi^{0}} > 0.4~\textrm{GeV}/c$.
 
 Table~\ref{tab:particle_selection} shows the summary of particle selection criteria used for the signal side reconstruction.
+The corresponding variable distributions are shown in Appendix~\ref{sec:particle_selection_distributions}.
 \begin{table}[h]
 \caption{Particle selection criteria for signal side reconstruction.}
     \centering
@@ -4111,6 +4112,166 @@ Figure~\ref{fig:CLs_projection} shows the projected $CL_{s}$ results for $50~\te
 
 \clearpage
 \appendix
+
+\chapter{Particle selection variable distributions}
+\label{sec:particle_selection_distributions}
+This appendix presents the distributions of the variables used for the particle selections described in Section~\ref{sec:particle_selection}, obtained from the signal MC sample.
+MC truth information is used to distinguish correctly reconstructed (true) candidates from incorrectly reconstructed (fake) candidates.
+For each distribution, the selection requirement on the plotted variable is omitted, while all other particle selection requirements are applied.
+
+\begin{figure}[htbp]
+    \centering
+    \subfloat[][Invariant mass]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/08_KSzero_M_stack.png}
+    }
+    \hfill
+    \subfloat[][\texttt{significanceOfDistance}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/09_KSzero_significanceOfDistance_stack.png}
+    }
+    \caption{
+        Distributions of the variables used to select $K_S^0$
+        candidates in the signal MC sample.
+        The blue and orange hatched histograms represent true and
+        fake candidates, respectively.
+        In each panel, the selection requirement on the plotted variable
+        is omitted, while all other particle selection requirements
+        are applied.
+    }
+    \label{fig:particle_selection_ks}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \subfloat[][$dr$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/10_pion_dr_stack.png}
+    }
+    \hfill
+    \subfloat[][$dz$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/11_pion_dz_stack.png}
+    }\\
+    \subfloat[][\texttt{nCDCHits}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/12_pion_nCDCHits_stack.png}
+    }
+    \hfill
+    \subfloat[][\texttt{nPXDHits}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/13_pion_nPXDHits_stack.png}
+    }\\
+    \subfloat[][\texttt{pionID}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/14_pion_pionID_stack.png}
+    }
+    \caption{
+        Distributions of the variables used to select charged pion
+        candidates in the signal MC sample.
+        The blue and orange hatched histograms represent true and
+        fake candidates, respectively.
+        In each panel, the selection requirement on the plotted variable
+        is omitted, while all other particle selection requirements
+        are applied.
+    }
+    \label{fig:particle_selection_pion}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \subfloat[][$dr$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/15_kaon_dr_stack.png}
+    }
+    \hfill
+    \subfloat[][$dz$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/16_kaon_dz_stack.png}
+    }\\
+    \subfloat[][\texttt{nCDCHits}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/17_kaon_nCDCHits_stack.png}
+    }
+    \hfill
+    \subfloat[][\texttt{nPXDHits}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/18_kaon_nPXDHits_stack.png}
+    }\\
+    \subfloat[][\texttt{kaonID}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/19_kaon_kaonID_stack.png}
+    }
+    \caption{
+        Distributions of the variables used to select charged kaon
+        candidates in the signal MC sample.
+        The blue and orange hatched histograms represent true and
+        fake candidates, respectively.
+        In each panel, the selection requirement on the plotted variable
+        is omitted, while all other particle selection requirements
+        are applied.
+    }
+    \label{fig:particle_selection_kaon}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \subfloat[][\texttt{clusterNHits}]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/05_gamma_clusterNHits_stack.png}
+    }
+    \hfill
+    \subfloat[][Polar angle]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/06_gamma_theta_stack.png}
+    }\\
+    \subfloat[][Energy]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/07_gamma_E_stack.png}
+    }
+    \caption{
+        Distributions of the variables used to select photon
+        candidates in the signal MC sample.
+        The blue and orange hatched histograms represent true and
+        fake candidates, respectively.
+        In each panel, the selection requirement on the plotted variable
+        is omitted, while all other particle selection requirements
+        are applied.
+    }
+    \label{fig:particle_selection_gamma}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \subfloat[][$M_{\gamma\gamma}$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/01_pizero_InvM_stack.png}
+    }
+    \hfill
+    \subfloat[][$\Delta\phi_{\gamma\gamma}$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/02_pizero_daughterDiffOf__bo0__cm1__cmphi__bc_stack.png}
+    }\\
+    \subfloat[][$\Delta\theta_{\gamma\gamma}$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/03_pizero_daughterAngle__bo0__cm1__bc_stack.png}
+    }
+    \hfill
+    \subfloat[][$p_{\pi^0}$]{
+        \includegraphics[width=0.47\textwidth]
+        {./picture/particle_selections/04_pizero_p_stack.png}
+    }
+    \caption{
+        Distributions of the variables used to select $\pi^0$
+        candidates in the signal MC sample.
+        The blue and orange hatched histograms represent true and
+        fake candidates, respectively.
+        In each panel, the selection requirement on the plotted variable
+        is omitted, while all other particle selection requirements
+        are applied.
+    }
+    \label{fig:particle_selection_pi0}
+\end{figure}
 
 \chapter{FastBDT inputs}
 \label{sec:FastBDT_inputs}
