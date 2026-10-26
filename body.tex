@@ -1316,12 +1316,12 @@ Figure~\ref{fig:FastBDToutputs} shows the FastBDT output distribution for the tr
     \label{fig:FastBDToutputs}
 \end{figure}
 
-The cut criterion on the FastBDT output is determined by the figure of merit~(FOM):
+We scan the FastBDT output threshold and evaluate the figure of merit~(FOM):
 \begin{equation}
     \textrm{FOM} = \frac{S}{\sqrt{S+B}},
 \end{equation}
 where $S$ and $B$ are the numbers of signal and background events, respectively.
-Figure~\ref{fig:FOMplot} shows the FOM value as a function of the FastBDT cut.
+Figure~\ref{fig:FOMplot} shows the FOM as a function of the threshold for three regions of the reconstructed $X_{s}$ mass.
 \begin{figure}
 \centering
 \subfloat[][$0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^2$]{\includegraphics[width=0.32\textwidth]{./picture/FBDT_output/FOM_K.png}}
@@ -1330,10 +1330,10 @@ Figure~\ref{fig:FOMplot} shows the FOM value as a function of the FastBDT cut.
 \caption{FOM distribution for (a)~$0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^2$, (b)~$0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}/c^2$, and (c)~$1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^2$. The FOMs are maximized near $\textrm{FBDT}>0.996$, $\textrm{FBDT}>0.973$, and $\textrm{FBDT}>0.975$, respectively.}
 \label{fig:FOMplot}
 \end{figure}
-The signal yield extraction will be performed using the FastBDT output variable.
-Consequently, we do not apply the FastBDT cut which maximizes FOM values.
-Instead, we apply a loose requirement on the FastBDT output,
-$\mathcal{O}_{\textrm{BDT}} > 0.86$, and use the signal-depleted region to estimate the background yields.
+The signal yield will be extracted from a fit to the FastBDT output distribution.
+We therefore apply a loose requirement, $\mathcal{O}_{\textrm{BDT}} > 0.86$, rather than the threshold that maximizes the FOM.
+This retains the background-dominated interval between 0.86 and the FOM-maximizing threshold in each mass region.
+Including this interval in the fit helps constrain the background yields in the more signal-rich region at higher $\mathcal{O}_{\textrm{BDT}}$ values.
 
 \section{Summary}
 Table~\ref{tab:cutflow} shows the cut flow described in Section~\ref{sec:selection}.
