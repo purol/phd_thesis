@@ -1,0 +1,3691 @@
+PDF PAGE 1
+Nuclear Physics B149 (1979) 413-496 
+© North-Holland Publishing Company 
+EVENT SHAPES IN e+e- ANNIHILATION * 
+Geoffrey C . FOX and Stephen WOLFRAM 
+California Institute of Technology, Pasadena, California 91125, USA 
+Received 25 September 1978 
+(Revised 20 November 1978) 
+We present a complete set of rotationally invariant observables (HI) which characteri­
+zes the 'shapes' of final states in c + e - annihilation. They are infrared stable when calcu­
+lated in QCD perturbation theory. We compare the 'shapes' of final states from the pro­
+cesses e + e - --+ qq , e + e - --+ qq (G) and from the three-gluon decays of heavy vector me­
+sons. We also consider the production and decay of heavy quarks and leptons. Using a 
+realistic model for the development of hadron jets , we find that for c.m. energies above 
+about 10 GeV, these processes may be clearly distinguished by their distributions in 
+the HI' We indicate how our analysis may be extended to deep inelastic lepton-hadron 
+interactions and hadron-hadron collisions involving large transverse' momenta. 
+1. Introduction 
+Quantum chromodynamics (QCD) provides an increasingly successful theory for 
+strong interactions. One of its most striking predictions is the existence of gluons. 
+Perhaps the most direct way in which to detect these new fundamental particles is 
+to observe the jets of hadrons resulting from their production in e + e - annihilation. 
+Experiments have shown that at high energies, final states in e + e - -+ hadrons usually 
+consist predominantly of two jets of hadrons [1] presumably coming from the 
+quark and antiquark resulting from the process of fig. 1. QCD explains this basic 
+two-jet structure [2] but indicates that one of the final quarks should sometimes 
+emit a gluon (G) as in fig. 2 [3] . Such processes would tend to lead to final states 
+containing three jets. In addition, QCD suggests that resonances containing heavy 
+quark pairs (for example, the 1/1 and T; denoted generically by n should decay pre-
+J . dominantly into three gluons (fig. 3), again leading to three-jet final states [4]. It is, 
+therefore, important to identify events in which three hadron jets are produced. 
+A number of observables which characterize the 'shapes' of final states in e + e-
+* Work supported in part by the US Department of Energy under Contract No. EY76-C-03-0068. 
+A summary of parts of this work is contained in ref. [31]. 
+413 
+
+PDF PAGE 2
+414 G.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 
++ - -e e -QQ 
+Fig. 1. The lowest-order diagram for the process e + e - .... qq. 
+~~~ /!_~ G 
+e Q 
++ 
+Fig. 2. The lowest-order diagrams for the process e + e - .... qqG , where G is a vector gluon. 
+PRODUCTION AND DECAY OF HEA VY 00 
+RESONANCE ~ 
+~: 
+~~ G 
+Fig. 3. The lowest-order diagram for the production and decay into three gluons of a vector 
+meson (t) containing a pair of heavy quarks (Q). 
+annihilation have been proposed for this purpose [5,6]. There is no natural axis 
+defined in the final state in e + e -annihilation. An axis may, however, be found by 
+demanding that it minimize some observable. Such a minimization has been the basis 
+of previous experimental (sphericity) and theoretical (spherocity, thrust, acoplanarity) 
+observables designed to measure the structure of final states in e + e - annihilation. 
+For the observables of theoretical interest, the minimization ·has turned out to be 
+inconvenient to implement [24]. Moreover, this procedure may induce spurious jet 
+structure. The minimization would probably be satisfactory if all events had a two-
+jet structure; according to QeD, however, more than 30% of the events in non­
+resonant e+e- annihilation at c.m. energies around 20 GeV should consist of three 
+or more jets, so that methods based on fmding an optimal two-jet axis appear sus­
+pect. The problem of minimization can, however, be circumvented by measuring 
+an observable which characterizes the 'shapes' of final states, but whose value does 
+not depend on the axis used to evaluate it. A set of such observables exists, given 
+by (the Yf1(n) are the usual spherical harmonics, and P1(cos cfJ) the Legendre poly­
+nOmials) 
+
+PDF PAGE 3
+c.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 415 
+(Ll) 
+where the indices i andj run over the hadrons which are produced in the event, and 
+!Pij is the angle between particles i and j. When the first form for the HI is used, one 
+must choose a particular set of axes to evaluate the angles (n i) of the momenta of 
+the final-state particles, but the values of the HI deduced will be independent of the 
+choice. Note that the HI constitute a complete set of shape parameters in a way that 
+is made precise in sect. 2. Energy-momentum conservation requires that Ho ~ 1, 
+HI = o. The process e+e- """* qq gives HI = 1 for even /, and HI = 0 for odd /, since 
+the final quark momenta are collinear. 
+The processes e + e - """* qqG and e + e - """* ~ """* GGG give final states for which there 
+are many possible kinematic configurations, corresponding to a range of possible 
+'shapes'. These processes therefore lead to distributions in the HI which are very 
+different from the delta function due to e+e- """* qq . For example, the process 
+e+ e- """* ~"""* GGG yields a da/dH2 which is nearly flat over the range 0.25 .;;;,. H2 .;;;,. 1 
+allowed by kinematics, while e+e- """* qq gives only H2 = 1. The fragmentation of 
+the quarks and gluons into hadrons serves to distort the distributions of 'shapes', 
+but at sufficiently high energies 6/s ~ 10 GeV), hadronic final states resulting from 
+each of the three subprocesses of figs. 1-3 should be clearly distinguished by mea­
+suring their distributions in HI/Ho. 
+The multi-jet final states resulting from decays of pairs both of heavy mesons 
+carrying new flavors and of heavy leptons may also be identified by measurements 
+of their 'shapes' using the HI. 
+This paper is organized as follows. In sect. 2, we discuss various mathematical 
+aspects of the HI, define the 'correlation function' F(x) and give examples of 
+the HI for simple shapes. We also present some generalizations of the HI. In sect. 3, 
+we discuss the defmition of jets in QeD and give arguments for the infrared finite­
+ness of the HI calculated from perturbation theory. Sect. 4 describes our results for 
+the processes e+e- """* qq, e+e- """* qqG, e+e- """* ~"""* GGG and for the production 
+and decay of heavy quarks and leptons. In sect. 5, we present results for realistic 
+hadronic fmal states formed by the various quark-gluon subprocesses discussed in 
+sect. 4. Sect. 6 contains a brief discussion of a class of shape parameters which 
+exploit the correlation between the direction of the incoming beam axis and the 
+configuration of the final state. Sect. 7 considers the extension of our HI analysis 
+to deep inelastic lepton-hadron interactions and in sect. 8 we give a very brief dis­
+cussion of two-dimensional analogues of the HI. These are relevant to processes in 
+which a natural plane is defined; the most important applications appear to be 
+large P 1 hadron reactions and deep inelastic lepton-hadron scattering. The appendix 
+summarizes the kinematics for three-jet production. 
+
+PDF PAGE 4
+416 C.C. Fox, S. Wolfram / Event shapes in e+e- annihilation ' 
+2. The harmonic moments HI and the correlation function F 
+2.1. Properties of the HI 
+Consider a sphere placed symmetrically around an e + e - annihilation event. Mark 
+the point at which each produced particle pierces the sphere, and assign to it a weight 
+equal to the magnitude of the momentum of the particle divided by the total center 
+of mass energy. A convenient analogy to this system is a set of point masses placed 
+on the surface of a sphere at each of the points (.Qa marked, and with magnitudes 
+(mj) equal to the weights previolisly assigned. Momentum conservation for the par­
+ticle event will cause the center of mass of the resulting body to be at its geometrical 
+center and energy conservation requires its total mass to be one. Now, correspon­
+ding to eq. (1.1), define 
++1 
+HI == ~ :6 I ~ Ylm(.Qj) mjl2 = ~ mjml'l (cos <l>jj) , 2/+ 1 m= - I I 1,/ 
+(2.l) 
+so that the values of the HI for the mass distribution will be the same as those for 
+the particle event from which it was derived. In this section it will usually be conve­
+nient to work with continuous distributions of mass on the surface of the sphere, 
+rather than with sets of point masses, as above. Many of our results will also apply to 
+the limiting case of point masses. 
+For continuous distributions of mass p(.Q), let 
+(2.2) 
+= :6 I J p(.Q) D~o(.Q) d.Q12 . 
+m 
+The HI provide a characterization of the mass distribution independent of the set of 
+axes used to determine them. Each HI is, in fact, simply a sum of the absolute 
+squares of the 2/ + 1 order-/ multipole moments of the mass distribution. Note that, 
+unlike multipole moments, the HI [p] are not linear functionals of p: 
+HI [PI + P2] -=1= HI [p 1] + HI [P2]' (A restricted linear superposition principle does, 
+however, hold. See subsect. 4.6.) Note also that 0 ~HI/Ho ~ 1. 
+To prove that the HI as defined in eq. (2.2) are indeed rotational invariants (inde­
+pendent of choice of axes), define the multipole moments 
+Then 
+4n "5: m 2 
+HI = 2/ + 1 ;: IAI I . 
+(2.3) 
+(2.4) 
+
+PDF PAGE 5
+G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 417 
+Now apply a rotation R to the coordinate axes. The multipole moments with respect 
+to the new set of axes are 
+so that 
+= L{ D~m'(R - I)Jp(D)Ylm ' (D)dD, 
+m 
+= 6 [ L{ D~m'(R-I)Jp(D) Y;n'(D)dD] 
+m m 
+x [4. D~"m(R) J p(D) Y;n" * (D) dD] 
+m 
+= L{ 4. bm'm" [Jp(D) ylm'(D) dD] [Jp(D) Y;n"* (D) dD] 
+m m 
+21 + 1 
+= -- HI · 41T 
+(2.5) 
+(2.6) 
+This completes the proof of the rotational invariance of the HI, which was, in fact, 
+already manifest in the second definition of HI in eq. (1.1). 
+Unlike multipole moments, the HI do not contain all the information necessary 
+to reconstruct the mass distribution p(D). Information on the 'relative phases' of 
+multipole moments of different orders has been lost. The relative amounts which 
+multipole moments of a particular I but different m contribute to HI cannot be deter­
+mined. For example , the two distributions [yg(D)+ Y~(D)] and [yg(D) 
++ Y~(QD)] (Q is any non-trivial rotation) will have the same HI. Use of the observ­
+abIes discussed in subsect. 2.7 would, however, serve to remove this ambiguity . 
+2.2. The correlation function F 
+Although the HI do not uniquely determine p(D), they do determine the 
+'density correlation function' * 
+F(x = cos f3) = 2 Jp(ri) p*(nR (ex, f3, 'Y)) dn , 
+* This is similar to the 'rotation function' used in crystallography (7) . 
+(2.7) 
+
+PDF PAGE 6
+418 C.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+where nand R are now both operators in the rotation group. The integral is over all 
+possible rotations n, parametrized by three Euler angles. p(n) is the 'value of pat 
+the point reached by applying the rotation operator .Q to the z-axis of the chosen 
+coordinate system. p (DR) is the value of p at the point reached by applying first 
+R, then n, to the z-axis. p(n) is given in terms of the multi pole moments defined 
+in eq. (2.3) by 
+- _ (2/+1)1/2 m I -
+p(.Q) - 6 -4- Al Dmo(.Q), 
+I,m rr (2.8) 
+so that 
+( ' )1/2 - - 21 + 1 'I' - l' -p(DR) = 6 -- At D ' ,,(.Q)D "o(R) . l',m' 4rr m m m (2.9) 
+Substituting these forms into the definition (2.7), one obtains 
+~ v'(21 + 1)(21' + 1) J ' -F(x=cos{3)= L..I Am(A~ )*DI (.Q) 
+I,m ,l',m',m" 2rr I I mO 
+I' * ... I'· 
+XDm'm,,(.Q)D m"O (R(ex, (3, r)) dD. (2.10) 
+= 6 4rr 1A7' 12 D~o(R(ex, (3, r)) 
+I 
+= 6 (21 + 1) HrPl (cos (3). 
+I 
+F(x) is clearly a rotational invariant: any rotation of the coordinate axes may be 
+absorbed into a redefinition of the integration measure in eq. (2.7). Note that eq. 
+(2.10) shows that f~lF(x) dx = 2Ho = 2. 
+Since the PI(x) form a complete set of functions of x, all the information which 
+the HI carry is, in fact, contained in the 'density correlation function' F(x) 
+which may be calculated from them. 
+2.3. The geometrical construction for F 
+The form (2.7) leads to a simple geometrical picture for F(x). Select a point P on 
+the sphere. Draw around that point a circle C which sub tends an angle (3 with P at 
+the center of the sphere, as illustrated in fig. 4. Then find the integral of p(.Q) 
+around the circumference of the circle C, and multiply the result by the value of 
+p(.Q) at P. F(cos (3) is now obtained by integrating over all possible points P on the 
+sphere. 
+As a first example of this procedure, take the mass on the surface of the sphere 
+to be contained completely within two small circular caps (A,A') centered at anti­
+podal points (an analogy to a 2-jet event). This mass distribution is shown in fig. 6. 
+.. 
+
+PDF PAGE 7
+C.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+CIRCLE OF ANGLE 13 IN 
+GEOMETRICAL CONSTRUCTION FOR F(x) 
+Fig. 4. Definition of the circle C used in the geometrical construction for the 'correlation 
+function' F(x) . 
+GEOMETRICAL CONSTRUCTION FOR F(x) 
+FOR PA IR OF CAPS 
+Fig. 5. Circles used in the geometrical construction for the 'correlation function' F(x) of a 
+mass distribution consisting of two antipodal caps. 
+CAPS of ong Ie A 
+419 
+Fig. 6. Mass distribution consisting of two antipodal caps with finite density subtending half-angles 
+A at the center of the sphere. 
+
+PDF PAGE 8
+420 c.c. Fox , S. Wolfram / Event shapes in e+e- annihilation 
+Unless P lies within one of these caps, it can give no contribution to F(x), since 
+pen) = 0 elsewhere. Choose P to be in one of the caps of finite density: If {3 is small, 
+then C (the circle centered at P used to evaluate F(x)) will be within the p * 0 
+region which surrounds the point P chosen, and for those values of (3, F(x) will 
+therefore be non-zero. If {3 is larger, then C will lie in the region between A and A', 
+where p = O. For these values of (3, F(x) = O. Finally, if (3 is nearly n, then C will lie 
+within the cap A' around the point antipodal to P on the sphere, so that F(;c) will 
+again be non-zero. The three circles used in this estimation of F(x) are shown in 
+fig. 5. We have now found the form of F(;c) for a mass distribution consisting of two 
+small caps centered at antipodal points : F(x) will be large for x around ±1 and will 
+fall rapidly to zero away from these points. 
+The same procedure may be used to find F(x) for a uniform mass distribution 
+('spherical' event). In this case, the circle C at angle (3 around any point on the sphere 
+will contribute to F(x) an amount 2n, independent of (3, so that F(x) = constant. 
+The form of F(;c) for a uniform distribution of mass may also be found in other 
+ways. pen) = 1/4n corresponds to a total mass 1 distributed uniformly on the sur­
+face of the sphere. Substituting this form for pen) into eq. (2.7), one finds F(x) = 1. 
+The constant value of F(x) for a uniform mass distribution found by the geometri­
+cal method is thus determined to be 1. This result may also be obtained using the 
+expression (2.10) for F(x) in terms of the HI. For a uniform mass distribution(with 
+unit total mass), Ho = 1 and HI = 0 for I > 1. The formula (2.10) then gives F(x) = Po 
+(cos (3) = 1. . 
+2.4. Typical forms of F(x) and the HI for continuous mass distributions 
+In this subsection, we consider some examples of the forms of F(;c) and the HI 
+for various continuous mass distribution. The case of point masses (particle events) 
+has several subtleties, and is discussed in subsect. 2.5. 
+As a first example, we choose the two-cap mass distribution introduced in sub­
+sect. 2.3. We take the density in the caps to be constant, and the total mass con­
+tained within them to be 1. For this mass distribution 
+(I odd) , 
+[ sin2A dPII J2 
+= (l - cosA)/(/+l) dx x=cos A 
+(I even) , (2.11 ) 
+(1-+00) , 
+where A is half the angle subtended by the cap at the center of the sphere (see fig. 6). 
+As for any mass distribution which is invariant under an inversion about the center 
+--
+
+PDF PAGE 9
+G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 421 
+-- caps 
+HL FOR ____ circles 'with angle A 
+Fig. 7. The shape parameters HI for mass distributions consisting of caps and circles with angles 
+A, as illustrated in figs. 6 and 8, respectively. Note that the inversion symmetry of both confi­
+gurations leads to HI = 0 for odd I. The values of the HI only for I an even integer are, in fact, 
+plotted in the figure; the points are joined for ease of reading. 
+of the sphere, the HI in this case are zero for all odd values of I. The HI for a selection 
+of values of A. are given in fig. 7. For comparison, the HI for circular line masses sub­
+tending the same angles (see fig. 8) are also given (dashed lines). The points in fig. 7 
+have been joined by smooth curves for ease of reading, but it should be noted that 
+only the HI for even integer values of 1 are, in fact, plotted. The forms of F(x) for 
+CIRCLES of ongle A 
+Fig. 8. Mass distribution consisting of two antipodal circular line masses sub tending half-angles A 
+at the center of the sphere. 
+
+PDF PAGE 10
+422 C.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+F(x ) FOR CAPS of ongle >-. 
+12 
+10 
+8 
+F(x) 
+4 
+2 
+- I - .8 -.6 -.4 ·- .2. o 
+x 
+Fig. 9. The 'correlation function ' F(x) for mass distributions consisting of antipodal caps sub­
+tending half-angles A at the center of the sphere (see fig. 6). A = 90° corresponds to a uniform 
+distribution of mass on the sphere, while A = 0° represents two point masses placed at antipo­
+dal points . 
+caps of various sizes A (fig. 6) are plotted in fig. 9. As expected on the basis of the 
+geometrical construction described above, F(x) = 0 for Ix I .;;;; COS(2A), since in this 
+case the circle C can never pass through a region of finite density. For A> 45° , F(x) 
+is therefore never zero. To show the rate of convergence of the series expression for 
+F(x) (see below), the value of IF(O)I has been plotted in fig. 10 as a function of the 
+maximum I included in the sum (2.1 0), for various cap sizes. 
+The cap mass distribution is analogous to an event consisting of two hadron jets. 
+A loose analogy to a three-hadron jet event is provided by a band of finite density 
+centered on the equator of the sphere, with angular thickness 2A > 0 (see fig. 11). 
+If A = 0, this mass distribution reduces to a line mass around the equator of the 
+sphere. In this case 
+HI = 0 , (/ odd) , 
+_ 2_((/-1)!!)2 
+- IPI(O)I - (//2)!21/2 (l even) , (2.12) 
+--I ' 
+where, once again, the inversion symmetry of this mass distribution causes all the 
+--
+
+PDF PAGE 11
+.' 
+C.C. Fox , S. Wolfram / Event shapes in e+e- annihilation 
+F (O I I 
+0. 1 
+CONVERGENCE OF SERIE S FOR IF (OII 
+for co ps of ang le A 
+0.01 L---~2L---~4----~6----~8----~1~0----~ 
+.L mol. 
+423 
+Fig. 10. Example of the convergence of the series (2.10) for the 'correlation function' F(x). The 
+value of IF(O) I for caps with half-angle ~ (see fig. 6) is plotted as a function of the value ([max) 
+of I at which the series has been truncated . Only points for which Imax is an even integer are, in 
+fact, plotted in the figure; they are joined for ease of reading. The exact value of IF(O) I is zero 
+for caps with ~ " 45° , and is 1 for ~ = 90° (corresponding to a uniform mass distribution). 
+BAND of angle A 
+Fig. 11. Mass distribution consisting of an equatorial band of finite density subtending an angle 
+2~ at the center of the sphere. 
+
+PDF PAGE 12
+424 c.c. Fox , S. Wolfram / Event shapes in e+e- annihilation 
+GEOMETRI CAL CONSTRU CTION 
+FOR F ( x) FOR A BAND 
+Fig. 12. Typical circles used in the geometrical construction for the 'correlation function ' F(x) 
+for an equatorial band of mass. 
+HI for odd I to vanish. If 'A =1= 0, then 
+1 sin A 
+HI = ~ [J PI(Z) dz] 2 = 0 , 
+sm - sin A 
+(I odd) , 
+[ COS2'A dPl I J2 
+= 1(1 + 1) sin 'A ~ . ' x =sm A 
+(I even) , (2.13) 
+-[3' (1-+00). 
+The geometrical construction described above gives some indication of the form 
+of F(x) for an equatorial mass band . A circle of any size centered in the band will 
+always lie within the band for some fraction of its circumference (see fig. 12). F(x) 
+will, therefore , never be zero. Circles with small angular radii ~(=COS-lX) will usually 
+lie completely inside the band so that F(x) will be large for x close to one. For 
+smaller x (larger circle radii), much of the circles' circumferences will be outside the 
+band of finite density, so that F(x) will then be smaller. Finally, when x approaches 
+- 1, the circles centered at one point on the band will lie in the antipodal region of 
+the band. For an equatorial band of mass, therefore, F(;.:) will be large for x near 
+±1, and smaller, but not zero, in between . As the thickness 'A of the band decreases, 
+so the widths of the peaks in F(x) around x = ±1 will decrease . The exact form of 
+F(x) for equatorial mass bands of various thicknesses are shown in fig. 13. 
+In the case 'A = 0° , corresponding to a line mass around the equator of the sphere , 
+the series (2.10) for F(x) may be summed exactly: 
+(2.14) 
+.. 
+
+PDF PAGE 13
+G.c. Fox , S. Wolfram / Event shapes in e+e- annihilation 
+F(x) FOR BANDS of angle A 
+5 
+4 
+F (x) 
+3 
+2 
+-.6 -.4 -.2 o .2 .4 
+x 
+.6 .8 
+425 
+Fig. 13. The 'correl ation function' F(x) for mass distributions consisting of equatorial bands 
+of finite density subtendin g a half-angle A at the cente r of the sphere (see fig. 11). A = 90° corre­
+sponds to a uniform distribution of mass on the sphere. A = 0° corre spond s to an equatorial line 
+mass, for which F(x) may be obtained in closed form (eq. (2.14)). 
+This result may be understood on the basis of the geometrical construction for Ff?c) 
+described above. Consider any point on the equator (all are equivalent). The mass 
+density measured with respect to this point is given by 
+da(D.) = [s(a) + S(a - 7T)] d(c~s (J)da , 
+27T Sin (J (2.15) 
+where (J is the polar angle defined in subsect. 2.3 (cos (J = x) and a is an azimuthal 
+angle. Integrating over the angle a, and summing over all possible points chosen on 
+the equator, one finds F(x) = 2/( 7T sin (J), which is eq. (2.15). 
+The curve for A = 90° in fig. 13. corresponds to a uniform distribu tion of mass 
+on the sphere. This case is analogous to a phase-space (isotropic) distribution of par­
+ticles. 
+We now discuss the behavior of the HI at large I and the convergence of the series 
+for Ff?c). For piecewise differentiable density functions with azimuthal symmetry , 
+p(x), the formula (2.2) for the HI may be integrated by parts to give 
+JdP(X) 2 
+HI = I [p(x)fl(x)] - ~ fl(x) dxl , 
+1 
+fl(x) = J PI(y) dy =~ Pi1(x) (2.16) 
+x 
+(I-HO) , 
+
+PDF PAGE 14
+426 G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+where a suitable sum over the continuous pieces of p(x) is understood. Hence in 
+most cases, 
+(I ~ 00) . (2.17) 
+This may be seen explicitly from the expressions (2.11) and (2.13) for the HI for 
+cap and band mass distributions. For mass distributions with special symmetries, 
+the HI may decrease fasten than 1-3. For example, if p(x) ~ xn in each hemisphere, 
+then HI _1- 3- 2n for large I. Reasonably smooth mass distributions, therefore, give 
+rise to a series for F(x) whose terms decrease like 1-2 or faster for large I, so that 
+the sum converges. In practice, this asymptotic behavior does not set in until very 
+large values of 1 are reached . 
+2.5. F(x) and the HI for point mass distributions 
+To begin this subsection, we discuss the values of the HI for a few point mass dis· 
+tributions . The results are summarized in table 1. In the 'triangle' configuration, three 
+equal point masses are taken to lie at the vertices of an equilateral triangle contained 
+within the sphere. Note that this mass distribution is not invariant under inversions, 
+so that the HI for it are non-zero even for odd values of I. Notice also that the values 
+of HI do not always decrease smoothly with I; they are slightly enhanced when 1 is a 
+multiple of the periodicity of the mass distribution. 
+The most distinctive feature of the HI for point mass distributions is their beha­
+vior at large I. In subsect. 2.4, we showed that the HI for continuous mass distribu­
+tions decrease at least as fast as 1/13 as 1 ~ 00. On the other hand, the HI for point 
+Table 1 
+Values of the HI for some simple point mass distributions 
+Mass distribu tion 
+Uniform Two Equatorial Triangle Square 
+antipodal line 
+points 
+Ho 1 1 1 1 1 
+HI 0 0 0 0 0 
+H2 0 1 0.25 0.25 0.25 
+H3 0 0 0 0.63 0 
+H4 0 1 0.14 0.14 0.69 
+Hs 0 0 0 0.27 0 
+H6 0 1 0.10 0.55 0.34 
+H7 0 0 0 0.18 0 
+Hs 0 1 0.08 0.28 0.64 
+.' 
+. , 
+
+PDF PAGE 15
+C.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 427 
+mass distributions tend to a constant for large I. The fact that the HI do not decrease 
+with I for point mass distributions is evidenced by the case of two-jet events, for 
+which H 21 = 1, H 21+ 1 = O. For a poin t mass distribution 
+p(.Q) = 6 mio(.Q - .Qi) , 
+i 
+so that the corresponding F(x) as defined by eq. (2.7) is 
+F(x) = 2~ mimj ° (cos ct>ij - x) , 
+1,/ 
+(2.18) 
+(2.19) 
+where ct>ij is the angle between the masses i andj. For particle events, the mi in (2.19) 
+are replaced by Ipil!Ys. There will be a contribution to the sum in (2.19) from the 
+case i;' j of 
+(2.20) 
+The behavior of the HI for large I is most conveniently studied using the second 
+form in the basic definition (2.1). As I tends to infinity, only the terms where cos ct>ij 
+= ±1 survive; the other contributions decrease like l/Y/. The HI, therefore, tend to 
+a non-zero limit as 1-+ 00 given by 
+lim'[H21 +H21+tl =26 m; , 
+1-+00 i 
+(2.21a) 
+lim [H21 - H21+tl = 2 6mimj' , (2.21b) 
+1-+00 i,j' 
+where in (2.21 b), we sum over all pairs of particles i and i' which are back-to-back 
+(cos ct>jj' = - 1). For two-jet events, the two sums in (2.21a,b) are equal so that 
+H21 = 1, H 21+ 1 = O. In most cases, the sum in (2.21 b) is zero and we find that HI 
+tends to the same limit for odd and even I. Note that the value of this limit is just 
+one half the coefficient of 0(1 - x) in F(x) . This is evident from the Legendre 
+expansion (2.10) for F(x). 
+2.6. Energy correlation functions and their relation to F(x) 
+For particle events, we define the two-detector energy correlation function 
+F (a a )=~ Ipltlpb 
+2 l' 2 I II I ' al a2 s 
+(2.22) 
+where Ip Ii are the total three -momenta (or energies, if all the particles are massless) 
+incident on detectors covering the regions ai of total solid angle lail. We form the 
+rotationally invariant observable F2 by averaging F2 over all possible positions for 
+
+PDF PAGE 16
+428 G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+the detectors, while maintaining their relative orientation. In the limit I OJ 1-+ 0, F 2 
+becomes a function only of the angle ~ between the two point detectors, and is 
+identical to F(cos m. Hence the HI are simply the coefficients in the Legendre expan­
+sion for F2 in the limit 10jl-+ 0 *. The set of HI and F(x) provides the same informa­
+tion about the shape of events, but the information is differently arranged in the two 
+cases. However, while the HI are infrared stable and therefore computable in QeD 
+perturbation theory for finite I, the limit of the HI as 1-+ 00 is not. Since F(x) probes 
+this limit through the sum (2.10), it too is not infrared stable. This failing of F(x) 
+will be discussed in more detail in sub sect. 3.4. 
+It is possible to regain results for F 2 in the case 10jl =f. 0 from F(;c) by integra­
+ting it over x with a suitable weighting function. For example, if the OJ are caps of 
+angular radius [) with centers an angle X apart, then 
+(2.23) 
+where the flex) are defined in eq. (2.16). This series converges for finite [) even 
+though the HI do not decrease with I. On comparing eq. (2.23) with eq. (2.10), 
+one sees that the series for F 2 (01, 02) has an extra 1/13 convergence factor com­
+pared to that for F(x). From eq. (2.23) it is possible to relate the mean value of F2 
+over events to the mean values of the HI. However, the distributions of events in 
+HI and in F2 are not related. We shall discuss the distribution Cl/o) do/dF 2 in a 
+later publication [29]. 
+2.7. Generalizations of the HI 
+The HI form a complete set of rotationally invariant shape parameters bilinear 
+in the density function p. One can find further rotationally invariant shape param­
+eters only by considering higher powers of p, or equivalently, the multipole moments 
+Aim defined in eq. (2.3). To find shape parameters of degree n in p, one must com­
+bine the n spherical tensors A;?j in such a way as to form a scalar under the rota-
+I 
+tion group. This may be done using 3j symbols. For example, the degree 3 analogue 
+* As discussed in sub sect. 2.4, one must, in practice, know the values of the HI up to rather high 
+I in order to obtain a good approximation to F(x). Note that the mean F(x) has been com-
+puted directly for the process e + e - .... qq (G) in ref. [28], and all the processes discussed in this 
+paper in ref. [29]. In these references, the form of <F(x» for detectors at a fixed angle to the beam 
+a1lis have also been calculated. The resulting correlation functions may be expressed as a Le-
+gendre expansion analogous to (2.10), in terms 'of the non-rotationally-invariant observables 
+
+PDF PAGE 17
+I ". 
+.. 
+C.C. Fox, S. Wolfram I Event shapes in e+e- annihilation 429 
+(2.24) 
+In this formalism the HI are given by the only scalar (spin-O) combination of two 
+spherical tensors: 
+(-li..j2T+I HI == T?112 = 41T L; (11 
+m l,m2 m] m2 
+(2.25) 
+where, of course, the result is only non-zero if 11 = 12 = I. The formalism may easily 
+be used to construct higher degree shape parameters, but for n > 3 there is more 
+than one way of combining n spherical tensors to give a scalar. 
+The complete set of T~ ... In appear rather powerful since they determine pen) 
+up to an arbitrary overall rotation. (This is easy to show for the two-dimensional 
+analogues of the TFl .. . 12 which are generalizations of the CI observables discussed 
+in sect. 8.) 
+It turns out that observables formed from combinations of various Tl1121 pro­
+vide a test for planes of particles in e + e- annihilation events *: the observables 
+vanish for events in which all the particles are coplanar, but have a non-zero value 
+for isotropic events. They, therefore, offer the possibility of a direct discrimination 
+between events arising from the production of three quarks and gluons (e.g., e + e­
+-+ ~ -+ GGG) and pure phase-space events. The~e observables are discussed in more 
+detail in ref. [17]. 
+3. Infrared stability 
+Graphs in which gluons or quarks may be soft, or may become collinear, receive 
+divergent contributions from these kinematic configurations. The Kinoshita-Lee­
+Nauenberg (KLN) theorem guarantees, however, that in the total cross section such 
+divergences cancel, leaving a finite result [8]. The divergences encountered in the 
+calculation of the moments of the HI, 
+fHPda (HP)=_1 - (3.1) 
+I fda' 
+* The simplest example of this class of observables is 
+where Pi is a unit vector along the momentum Pi of particle i. 
+
+PDF PAGE 18
+430 G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+are very similar to those involved in the calculation of the total cross section. It 
+seems very probable, therefore, that they should cancel in the same way. 
+In eq. (3.1), we are implicitly calculating the moments of the HI for final states 
+consisting of free quarks and gluons. We discuss the procedure in detail in subsect. 
+3.2. In reality, one must calculate the HI for final states consisting of hadrons . We 
+discuss this in subsect. 3.3. Our discussion there will require precise definition of a 
+jet, and since this problem provides a useful introduction, we shall consider it first. 
+3.1. Jets 
+A typical quark or gluon jet is shown schematically in fig. 14. Such a jet would 
+be indistinguishable from a single particle by a detector with energy resolution grea­
+ter than € and angular resolution greater than 8. (€ and 8 are normalized so that a 
+detector which only counts the total cross section and cannot distinguish any details 
+of the final state has € = 8 = 1.) To order gO (g is the QeD coupling constant) the 
+only diagram for production of two jets by a virtual photon is that of fig. 15. To 
+order g2 , there are two types of diagram which lead to two-jet fmal states. Examples 
+are given in figs. 16a, b. For the diagram of fig. 16a to contribute to the 2-jet cross 
+section, either the gluon or quark must have an energy ~e.E, or they must be trave­
+ling in the same direction to within 8. If these conditions are not satisfied, then the 
+detector will be able to tell that three, rather than two, particles were produced, and 
+the event will be classified as a three-jet one. In order to regularize the calculation of 
+diagrams such as those in fig. 16, one must assign the gluon a fictitious mass, 11. Then 
+the probability corresponding to diagrams like fig. 16b will contain terms of the form 
+[log I1]P,u, 0 ~P,u ~ 2. Diagrams like fig. 16a will contain terms of the form 
+[log 8]PIi [log €]PE [log I1]P,u, 0 ~ Pli + PE + P,u ~ 2. 
+If 8 and € are both taken to be one, that is, if the detector is never able to dis­
+tinguish a 'three-jet' event, so that it measures only the total cross section, then the 
+KLN theorem guarantees that it will measure a finite cross section to any order in g2 . 
+A TYPICAL JET 
+~ .... -----
+-:::-:J: 
+. ----
+Fig. 14. Schematic form of a typical quark or gluon jet. Particles within the jet must either have 
+an energy less than a fraction E of the energy of the primary particle, or must travel at an angle 
+less than Ii with respect to it. 
+
+PDF PAGE 19
+G.c. Fox, S. Wolfram / Event shapes in e+e- anllihilation 431 
+BORN TERM FOR Y"-qq(G) 
+« q 
+Fig. 15. The lowest order diagram for the process 'Y * ... qq. 
+Specifically, to order g2 , the terms in [log J.l]Pj.t in the loop and tree graphs will can­
+cel, so long as 0 = e = 1. It turns out that the cancellation of J.l-dependent terms occurs, 
+at every order in g2 , even if 0, e =1= 1 [25]. (This result was verified explicitly to 
+0(g2) in ref. [2] and essentially to O(g4) in ref. [9].) This means that the cross sec­
+tion for production of two or three jets at O(g2) is free of divergences, as long as e and 
+o are both finite. If either of e and 0 is set to zero, then a divergent cross section 
+will be obtained. The cross section would be for production of, say, a quark, with 
+no associated gluons. Since any quark produced will always radiate some gluons, such 
+a cross section is not physically meaningful. 
+The cross section at O(g2) for inclusive production of a quark from a virtual pho­
+ton is shown in fig. 17, as a function of the fractional energy x, of the quark. For 
+the quark to have its maximum energy (x = 1), the kinematics of the process (see the 
+appendix) require no gluons, of any energy, to have been produced. However, pro­
+cesses like that in fig. 16b can occur, and give rise to a divergent cross section just at 
+x = 1. That is, they contribute terms to the differential cross section like -co(l - x), 
+where c is a positive constant which diverges when J.l = O. The integral of da/dx 
+shown in fig. 17 over x from 0 to 1 is rendered finite by the presence of the 0 func­
+tion at x = 1 (to see this, one must first regularize by taking J.l =1= 0; the relevant formu­
+las are given in sect. 4). This corresponds to the total cross section at O(g2), which is 
+known to be finite from the KLN theorem. 
+0(g2) CONTRIBUTIONS TO y"-qq(G) 
+':/;i~ --~I q 
+(a) 
+(b) 
+Fig. 16. Examples of terms at O(g2) in the amplitude squared for the process 'Y * ... qq (G). The 
+first diagram will contribute either to the two- or three-jet cross section, depending on the mo­
+mentum of the gluon, while the second will contribute only to two-jet production. 
+
+PDF PAGE 20
+432 G.c. Fox, S. Wolfram / Event shapes in e+e - annihilation 
+dO' 
+dx 
+(arbitrary 
+units) 
+.2 
+e + e - -q + ANYTHING 
+TO ORDER g2 
+.4 .6 
+, 
+r-,2 JETS -., 
+3 JETS' , 
+.8 
+, , , 
+I 
+I , , 
+I 
+, , , , , , 
+_E __ 
+-c8( I- x) 
+Fig. 17. The differential cross section for the proce ss e + e - -> q + anything calculated to order 
+i, as a function of the fractional energy, x, of the quark. The final state is considered to con­
+tain two jets ifx > 1 - e, and to contain three jets if the quark hasx < 1 - e. Only the process 
+e + e - -> qqG (fig. 16a) contributes to 3-jet production, but both e + e - -> qqG (fig. 16a) and 
+e + e - -> qq (figs. 15 and 16b) can give rise to two-jet final states. The infrared divergences in the 
+cross sections for these processes cancel when the total two-jet produ ction cross section is com­
+puted. 
+Let us now introduce the energy resolution e. Quarks with x > 1 - e will be 
+assumed to belong to 2-jet events, while those with e < x < 1 - e will be dis­
+tinguished as belonging to three-jet events. If e is taken to be 0, then all of the 
+sharply rising 3-particle production cross section will be included in the 3-jet 
+cross section, while the negative delta function associated with the two-par­
+ticle production process will not be included. Clearly, with this choice for e, 
+the '3-jet' production cross section will be infinite. As discussed above, how­
+ever, such a choice for e is not physically sensible. If a finite value for e is 
+chosen, then the two- and three-jet configurations will be defined as indicated 
+in fig. 17, and their cross sections will be separately finite. 
+The above discussion is incomplete because it ignores divergences associated 
+with collinear quarks and gluons. In fact, one must only include in the 3-jet sample 
+events in which all the quarks and gluons are separated by angles greater than O. 
+(Only if the quarks are taken to be massless does the collinear quark and gluon 
+configuration lead to a divergence but collinear gluon pairs inevitably give diver-
+.' 
+
+PDF PAGE 21
+G.c. Fox, S. Wolfram / Event shapes in e+e-annihilation 
+gent contributions.) Instead of making cuts in both angle and energy, one may 
+cut only in kT or H2 in order to isolate three-jet events. 
+433 
+The conclusion of this discussion is, therefore, that, while it is sensible to ask 
+for the total cross section to any order in g2 , it is not sensible to ask for the total 
+probability that, say, two jets are produced to that order, unless one has speci­
+fied reasonable values for the resolution parameters € and 0 which delineate two­
+and three-jet production. 
+3.2. Moments of the HI for final states of quarks and gluons 
+Now let us return to the evaluation of the (Hi>. We shall begin by ignoring 
+the fact that the quarks and gluons produced by the virtual photon will eventually 
+be combined into hadrons . At first we simply calculate (Hi> for final states consis­
+ting of free quarks and gluons. To do this, we must evaluate the expression (3.1), 
+where the integral is over all possible kinematic configurations for the final state, 
+and in HI a sum is done over all the particles in each final-state configuration. The 
+numerator of (3.1) may be written as 
+~ f do p L.J - - --HI dx 1 ... dxn . 
+diagrams dx 1 .. · dx n 
+(3.2) 
+First consider evaluating this for Ho . Clearly, in every kinematic configuration,H o 
+will simply be 1. Then (3.2) reduces to an expression for the total cross section, 
+which is known to be finite. Now consider evaluating (H2 >. For the result to be 
+sensible, it must be independent of the gluon mass (infrared cut-off) p, when the 
+integral over all kinematic configurations (0 = € = 1) is done. To order g2 , one may 
+construct H2 explicitly, and check that the integral (3.2) is independent of p. This 
+is done in sect. 4. The integral is found to divide into two parts. The first is identical 
+to the total cross section, while the second contains a weighting function which 
+vanishes in all kinematic configurations for which divergences occur in the differen­
+tial cross section *. Note that the particularly simple fqrm for H2 in the case of 
+3-particle final states (see eq. (4.9)) will not persist in higher orders: only at O(g2) 
+is the divergent term encountered in the calculation of the moments of H2 exactly 
+the total cross section . 
+Perturbation theory can only be valid if successive terms in the perturbation 
+expansion are, on average, progressively smaller. In QED, the breakdown of the per­
+turbation expansion in the infrared region is well-known. The same phenomenon 
+occurs in QCD. If the main contribution to the expectation value of an observable 
+comes from a kinematic region close to an infrared divergence, then its value de­
+duced from perturbation theory must be suspect. The parameter which governs the 
+applicability of perturbation theory to the process e + e - ~ qqG is presumably 
+* Divergences in differential cross sections are typically of the form [log klt/kl' where kl is the 
+transverse momentum between two of the final quarks or gluons. Cancellations occur between 
+processes in which k 1 is strictly zero and those in which it is small. The difference of the HI 
+between these two configurations is O(kr), and so gives no infrared divergences when the inte­
+gral over kl is performed. 
+
+PDF PAGE 22
+434 C.C. Fox, S. Wolfram / Event shapes in e+e - annihilation 
+~ (s )/(1 - X 1)( 1 - X 2), where X 1 (X 2) are the fractional energies of the q(V and 
+as(s) is the QCD (running) coupling constant evaluated at the c.m. energy under 
+consideration . As Xl, X2 -+ 1, this parameter becomes large and the qqG final state 
+becomes indistinguishable from qq with Xl = X2 = 1. When the parameter is large, 
+higher orders in the perturbation expansion will be no less important than the low 
+orders under consideration. The results for the total cross section and (as we shall 
+argue below) for the moments of the HI are finite at each order in the perturbation 
+expansion. However, the actual finite numerical values may be modified significantly 
+by the inclusion of higher orders . It is believed that this phenomenon does not occur 
+for the total cross section. Thisis exemplified by the O(g2) contribution to the total 
+cross section, which is smaller than the lowest-order term by a factor of as(s)/rr . 
+Some moments of the cross section will, while remaining finite, probe kinematic 
+regions close to infrared divergences to a greater extent than the total cross section. 
+These moments should remain finite, but may well receive numerically important 
+contributions from higher-order effects. This phenomenon occurs for some of the 
+high-order moments of, for example, H2 , in the process e + e - -+ qqG (see subsect 
+4.4). 
+Cancellations of J.L-dependent terms in the total cross section come when a tree 
+graph at one order ing 2 gives rise to (almost) the same final-state kinematic confi­
+guration as loop graphs of the same order. So long as an observable does not distin­
+guish between the canceling graphs (that is, it gives them all the same weight in an 
+integral of the type (3.2», the integrals for its moments should experience the 
+same cancellations of J.L-dependent terms as occur in the integral for the total cross 
+section. The HI have this property. The decomposition of the integral for (H2 ) men­
+tioned above is one consequence. In a divergent kinematic configuration, different 
+graphs are treated the same, just as in the calculation of the total cross section. 
+Any variable which is proportional to the energies of the final particles will have 
+the same value for kinematic configurations which differ simply by the addition of 
+a gluon of indefinitely low energy. However, one must also demand that the vari­
+ables do not distinguish between configurations containing a single particle and two 
+(or more) nearly collinear particles with the same total energy [5,6]. The HI fulflll 
+both requirements. It, therefore, seems very reasonable to expect that the infrared 
+divergences associated with the calculation of their moments to every order in g2 
+will cancel in the manner described above. The same cancellation should occur for 
+the moments of 'spherocity' but not for those of 'sphericity', since the latter is 
+not linear in the momenta of nearly collinear final particles *. 
+* 
+spherocity = (~)2 min[ 6 Ipill 61Pil ]2 , 
+n i i 
+sphericity = ~ min [6 Ipi12/6 lPil2 ] , 
+i i 
+where the pi are the momenta of the particles i transverse to the jet axis which is defined by 
+demanding tnat the values of the variables be minimal. See ref. [6] for discussions of other 
+variables. 
+.. 
+
+PDF PAGE 23
+C.C. Fox, S. Wolfram / Event shapes in e+e - annihilation 435 
+The linearity in momenta of the HI is advantageous at the hadron as well as the 
+quark and gluon level. For example, the values of the HI are essentially unaffected 
+by decays with small internal transverse momenta ; they have the same value whether 
+the parent particles or their decay products are measured. 
+3.3. Moments of the HI for hadronic final states 
+Further problems appear when one attempts to calculate the moments of the 
+HI (or 'spherocity', 'thrust' and so on) for genuine processes involving the produc­
+tion ofhadrons rather than of quarks and gluons. For example, at O(g2), one must 
+decide whether a quark and soft gluon will fragment into hadrons as a quark or like 
+a quark and a gluon. This means that in order to estimate the production of hadrons, 
+one must divide up the O(g2) cross section into 2- and 3-jets parts by using sensible 
+values for the parameters 8 and € which distinguish the two. Then, in the two-jet 
+region, we assume that it is a two-quark state which fragments to hadrons, while 
+in the three-jet region, the gluon as well as the two quarks are taken to fragment 
+separately into hadrons . 
+It is as if the formation of the final hadron state provides a measuring apparatus 
+with finite resolution for the subprocess involving quarks and gluons. The' confi­
+guration of the final hadron state is unaffected by small changes in the energies 
+and momenta of the quarks and gluon which generate them. Only a large deviation 
+in the energies of the quarks from those of the process e + e - -+ qq is reflected by 
+the appearance of three hadron jets in the fmal state ; smaller deviations are beyond 
+the 'resolution' of the hadrons in the final state. The 'resolution' of the hadrons 
+will be determined by the model for their production by the 'fragmentation' of 
+quarks and gluons. To be exact, this fragmentation should be taken to depend 
+on the total c.m. energy, Ys. Such s dependence, which involves mixing between 
+quark and gluon fragmentation functions , is believed to be given by simple renor­
+malization group equations. However, the necessary formalism has so far been deve­
+loped only for Single-hadron inclusive distributions (10] *. In order to make realis­
+tic estimates for the moments of HI, we require a model for the generation of a 
+complete hadronic final state. For this purpose, we use the model developed by 
+Field and Feynman (18], despite the fact that it exhibits exact scaling at asympto­
+tic energies. Fortunately, the model turned out to be adequate, and our final results 
+are essentially independent of the arbitrary cut-offs (€, 8) between two- and three­
+jet events. 
+3.4. The infrared instability of F(x) 
+From the formula (2.20), one finds that the coefficient of the 8(1 - x) term in 
+F(x) is 2 "£IE1 Is, which is not infrared stable against collinear divergences. Since 
+* The s dependence of the fragmentation is partly accounted for by our inclusion of O(g2) pro­
+cesses. The remaining s dependence has contributions both at O(g2) (whose form depends 
+on the separation of two- and three-jet events) and from higher-order processes. 
+
+PDF PAGE 24
+436 C.C. Fox, S. Wolfram / Event shapes in e+e - annihilation 
+f ~l F(x) dx = 2, this divergent contribution must be absorbed by a compel!sating 
+divergence at other values of x. The presence of divergences in F(x) is to be expec­
+ted, since events containing two particles which are arbitrarily close in angle will 
+be weighted differently in the computation of F(x) from those containing a single 
+particle which carries the sum of their energies, because the two particles cannot 
+pass through the same point detector. It is clear that to the lowest order in g2 for any 
+process, there will be no infrared divergences in F(x), and that in the next order, 
+divergences will appear only at those values of x for which the lowest-order F(x) 
+is non-zero (e.g., for e + e - ~ qq(G) to O(g2), divergences appear only at x = ± 1). 
+In higher orders, divergences will occur at all values of x. 
+The energy correlation F2(01, 02) defined by eq. (2.22) is formally infrared 
+stable so long as the 10il are non-zero *. However, as the angular size {j of the 
+detectors tends to zero, F2 (0 I , 02) will become infrared unstable. For final 
+states consisting of free quarks and gluons,F 2 (01, 02) might serve as a satisfac­
+tory measure. However, for genuine hadronic final states, the formation of the 
+final state from quarks and gluons introduces a finite angular resolution, whose 
+size cannot at present be deduced directly from QeD. Unless {j is very large, the 
+unknown resolution associated with the formation of hadrons will be the most 
+important quantity in determining F 2 , thereby rendering it useless. If one choo­
+ses a large value of {j, very little information will be obtained unless the integra­
+tion over the areas 10il is performed using a non-trivial weight function, in which 
+case essentially the HI will be obtained. 
+4. Results for idealized jets 
+In this section, we present our results on the cross sections and HI moments 
+for the production of free quarks and gluons by a virtual photon. Sect. 5 discusses 
+the results obtained using a realistic model for the fragmentation of the quarks and 
+gluons into hadrons. 
+We consider first the cross section for the process e + e - ~ qqG, which proceeds 
+(in lowest order) through the diagrams of fig. 18. Defining (see the appendix) 
+IPql = 1x IYs, 
+IPql = 1X2Ys, 
+IpGI = 1X3Ys, 
+(4.1) 
+* Note that although <F2(01, 02» can be obtained from <F(x» by smearing inx, the distributions 
+of events in F(x) and F2(0l> 02) are not related in any simple way. 
+.' 
+
+PDF PAGE 25
+C.C. Fox , S. Wolfram / Event shapes in e+e -annihilation 
+~
+q 
+y G 
+e q 
+Fig. 18. The lowest-order diagrams for the process e + e - ... qqG. 
+~---_/ /e'~~--~ 
+Fig. 19. The lowest-order diagram for the process e + e - ... qq. 
+437 
+where ys is the total c.m. energy (the virtual photon mass), and taking a finite gluon 
+mass J.1 as a regularizer , one finds that the differential cross section for this process 
+(summed over the colors of the final particles) is given by * 
+do 2Cis --- = 00 - ----,-----
+dx 1 dx2 31T (l-xl)(1 - X2) 
+Here 00 is the lowest-order cross section for the process e + e - -+ qq shown in fig. '19, 
+and Cis = g2 j41T is the QeD coupling constant. 
+The cross section for e+e- -+ qq at order g2 resulting from the interference of 
+the diagrams of fig. 20 with the lowest-order diagram (fig. 19.) is [2] 
+4CiS { 1 2 S 3 S 7 1 2} = 00 - 8(l-xd8(l-X2) - -log -+ -log- - -+-1T 31T 2 J.12 2 J.12 4 6 
+(4.3) 
+(Note that each 'wave-function renormalization' diagram occurs only once in the 
+product of figs. 19 and 20.) 
+Integrating the differential cross sections (4 .2) and (4.3) over the final particles' 
+phase space, one finds that the total cross section for e+e- annihilation into free 
+* Note that , for simplicity, we always take the initial e+ and e- to be unpolarized. 
+
+PDF PAGE 26
+438 C.C. Fox, S. Wolfram / Event shapes in e+e - annihilation 
+q 
++ ~ 
+q 
++ ~ 
+Fig. 20. Contributions to th e process e + e - .... qq at order g2 . 
+quarks and gluons to order g2 is finite and independent of /.1. It is given by [26] 
+a = ao (1 + '; + O(g4)) . (4.4) 
+In the case of this total cross section, there are good arguments based on the renor­
+malization group [11] which suggest that the relevant coupling constant in (4.4) is 
+~(s) given by * 
+121T 
+~(s) ==- -(3-3 ---2F- )- I-og(s/ A 2) . (4.5) 
+(JIe take F= 4 and A = 0.5 GeV, but our results are not sensitive to these choices.) 
+We assume that the as appearing in the differential cross sections (4.2) and (4.3) 
+should also be the as(s) given in eq. (4.5) . 
+4.2. Decays of heavy quark resonances 
+It seems reasonable to guess that the decay of a heavy QQ resonance ~ with 
+JP = 1 - into hadrons will be initiated by its decay to three gluons, as in fig. 21 
+[4] . We assume that the quarks Q and Q behave as if free at the time of the 
+annihilation. Then the differential cross section for the decay ~ ~ GGG is 
+(4.6) 
+where x 3 = 2 - Xl - X 2 ' The cross section (4.6) is identical to that for the decay of 
+positronium into three photons [13] . Note that it is finite throughout the physical 
+region. (It is the only mechanism for ~ ~ GGG at O(g6), so that if the total cross 
+* Note, however, that the A 2 which appears in this formula may well differ considerable from 
+the values deduced from measurements of other processes, or from the 'true' A 2 [12]. 
+
+PDF PAGE 27
+-----------~~~~-
+c.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 439 
+GGG DECAY OF HEAVY QQ RESONANCE 
+Fig. 21. The lowest-order diagram for the decay of a heavy vector meson (t) containing a pair 
+of heavy quarks (Q) into three gluons. 
+section for t"""* GGG at O(g6) is to be finite, then so must the cross section for the 
+process of fig. 21 be.) 
+The process t """* 'Y. """* qq illustrated in fig. 22 may also contribute to the hadro­
+nic decay of the t. The ratio of the total decay rates of the t due to the diagrams of 
+figs. 22 and 21 may be estimated as (eQ is the charge of the Q quark) 
+B == r(t"""* 'Y. """* qq) 
+r(t"""*GGG) 
+(4.7) 
+where we have assumed (without much justification) that the coupling constant rele­
+vant to the process of fig. 21 is O!s(mf). The sensitivity of eq. (4.7) to the value of o!s 
+makes an estimate of B for the T difficult. It seems likely, however, that 
+(4.8) 
+A number of t decays other than to GGG and qq may also be considered. The 
+main ones of interest are 
+The first of these processes might be interesting [14] because the gluon jets will have 
+higher energies than in t"""* GGG, and so presumably will be better collimated . The 
+qq DECAY OF HEAVY QQ RESONANCE ~ 
+q 
+Q 
+~ 
+Q q 
+Fig. 22. The lowest-order diagram for the electromagnetic decay of a heavy vector meson (r) 
+containing a pair of heavy quarks (Q) into a pair of light quarks (q). 
+
+PDF PAGE 28
+440 
+decay 
+G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+t -+ G (glueball) 
+'---).GG 
+should give somewhat different gluon energy and angular distributions than t -+ GGG, 
+but the effect is difficult to estimate reliably. 
+4.3. The HI moments 
+For a 2·jet event, H2 = 1. For a three-jet event (see the appendix for the defini­
+tions of I/>ij) 
+H2 = * :0 I :0xiY~(ni)12 
+m 
+= * [3(x 1 + x2 COS2 1/>12 + X3 COS2 1/>13) - 2F 
++ 3x ~ sin 2 I/> 12 [cos I/> 12 - cos I/> 13]2 
++ * [x2 sin2 1/>12 + x3 sin2 1/>13 F 
+= Hxi +x~ +x~ + 2x1X2P2 (cos 1/>12) 
++ 2x 2 X3P2(COS 1/>23) + 2X3X1P2(COS 1/>31)] 
+= 1 _ 6(1 - X 1)(1 - X 2)(1 - X 3 ) 
+X1 X 2 X 3 
+(4.9) 
+This formula realizes the claim made in sect. 3 that H2 may be divided into a con­
+stant term and a term which damps the divergence in the 3-jet differential cross sec· 
+tion (4.2). 
+To evaluate the moments of H2 for the process e+ e- -+ qqG, we write 
+Jda + J(Hf - 1) da 
+(Hf>=-------------­Jda 
+(4.10) 
+The f da is given to O(g2) by eq. (4.4). In the case P = 1, it is possible to evaluate 
+f (H2 - 1) da in closed form. Including the contribution from 2-jet events at O(g°), 
+the final result for (H2> to O(g2) is * 
+* Evaluation of (HI> for three-particle final states requires integration over the two phase-space 
+variables x 1 and x2' The integrals over x2 may always be done in terms of elementary functions, 
+but the integration over x 1 always involves dilogarithms [15]. Integration by parts reduces 
+the dilogarithm integrals to the canonical forms [16] 
+° J 10g(xl +x) ----- dx = Li2(- l) = _ ~1T2 , 
+1 
+or ° J
+IOg(l - X) . 12 
+x dx = LI2(l) = 61T • 
+1 
+.' 
+.. 
+
+PDF PAGE 29
+C.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 441 
+(4.11) 
+:=::01-I.4o: s 
+:=::0 1 - 2.0/log(s/ A 2 ) • 
+The coefficients (c) of O:s for some higher moments of H2 are given in table 2. Values 
+of the moments for various c.m. energies (y's) are also given there, using A = 0.5 
+GeV. Note the negative values obtained for some of the higher moments of H2 at 
+low y's. These unphysical results are signals of the breakdown of perturbation theory. 
+As higher moments of H2 are evaluated, so the region in the differential cross section 
+closer and closer to the 2-jet limit is probed. However, as discussed in subsect. 3.2, 
+the lowest order in the perturbation expansion is no longer a good estimate of the 
+differential cross section in this region. Results which depend critically on the beha­
+vior of the e + e - """* qqG cross section for kinematic configurations close to that for 
+e+ e- """* qq cannot, therefore, be determined reliably from an O(g2) estimate. These 
+difficulties in practice effect only the high-order moments of the HI for the process 
+e+ e- """* qqG at low s. The form of (1/0) do/dHl for hadrons resulting from this pro­
+cess will be entirely unaffected by these problems (see sect. 5). 
+The first moment (mean value) of H2 for the process ~"""* GGG is found to be 
+given by 
+103n 2 - 1008 
+<H2>= (2 ) :=::00.616. 16 n - 9 (4.12) 
+Higher moments of H2 for this process are given in table 3. The decrease of <Hf> 
+Table 2 
+Moments of H2 for the process e + e - .... qq (G) (the sum of e + e - .... qq and e + e - -+ qqG calcu­
+lated through O(g2» 
+P <H2 ) = 1 + cO<s(s) 
+p c .Js = 5 GeV 
+1 -1.4 0.54 
+2 -2.3 0.25 
+3 - 3.1 - 0.01 
+4 - 3.7 -0.21 
+5 - 4.3 - 0.40 
+.Js = 10 GeV 
+0.65 
+0.42 
+0.22 
+0.07 
+-0.08 
+.Js = 20 GeV 
+0.72 
+0.53 
+0.37 
+0.24 
+0.13 
+,Js -+ 00 
+1 
+1 
+The negative values of <H2 ), in some cases, are unphysical, and signal the inaccuracy of the 
+O(g2) terms in the perturbation series close to an infrared divergence. As the c.m. energy (.Js) 
+increases, the e + e - -+ qq result H2 = 1 is slowly attained. 
+
+PDF PAGE 30
+442 C.C. Fox, S. Wolfram / Event shapes in e+e- annihilation, 
+with P in this case is a consequence of the approximate flatness of (1/0) do/dH2 
+for ~ -+ GGG. «Hf> for ~ -+ GGG can never be negative, since in this case (1/0) 
+do/dH2 ~ 0 everywhere.) 
+In general, 0 ~H2 ~ 1. For a three-jet event, however, the value of H2 is more 
+tightly constrained. The form (4.9) for H2 is easily seen to be minimized for Xl = 
+x2 =x3 = ~ (the event is most spherical in this configuration), at which point 
+H2 = *. It is maximized in the collinear (,two-jet') configuration, for which H 2 = 1. 
+For a three-particle final state, therefore 
+(4.13) 
+In contrast, a two-jet event gives H2 = 1, while a spherical ('phase-space') event has 
+H2 =0. 
+For a two-jet event,H 3 = O. For a three-jet event 
+(4.14) 
+The integral f H3do contains no infrared divergences since the weight of the kine­
+matic configurations close to the 2-jet one which lead to divergences is zero. For 
+the process e + e - -+ qqG, we find 
+2a (H3 ) = ~(1980 - 2001T2) _s ~ 2.03 X 2as/31T , 31T 
+while for ~ -+ GGG 
+15(3391T2 - 3344) 
+(H3 ) = =:::0.215 . 144(1T2 - 9) 
+(4.15) 
+(4.16) 
+Notice that H3 = 0 both for a spherical and for a 2-jet event. Only for events with 
+non-trivial structure is it non-zero. Tables 4 and 5 give the values of some higher 
+moments of H3 for e+e- -+ qqG and for ~ -+ GGG. 
+Table 3 
+Moments of H2 for the process e + e - .... ~ .... GGG, where ~ is a heavy QQresonance 
+P {HP ) 2 
+1 0 .62 
+2 0.43 
+3 0.32 
+4 0.25 
+5 0.21 
+.' 
+
+PDF PAGE 31
+G.G. Fox, S. Wolfram / Event shapes in e+e- annihilation 443 
+Table 4 
+Moments of H3 for the process e + e - -+ qq (G) (the sum of e + e - -+ qq and e + e - -+ qqG calcula­
+ted through O(g2)) 
+p 
+1 
+2 
+3 
+4 
+5 
+(~) = cas(s) 
+C .Js = 5 GeV 
+0.43 0.14 
+0.11 0.04 
+0.043 0.014 
+0.020 0.006 
+0.010 0.003 
+For any three-jet process 
+0~H3~i· 
+.Js= 10GeV 
+0.11 
+0.03 
+0.011 
+0.005 
+0.002 
+.Js = 20 GeV 
+0.09 
+0.023 
+0.009 
+0.004 
+0.002 
+.Js -+ 00 
+o 
+o 
+o 
+o 
+o 
+(4.17) 
+The maximum value is attained when x I = X2 = x3 = ~ (the event is most 'spiky' in 
+this configuration). 
+For a 2-jet event, H4 = 1. There is no simple formula for H4 in a three-jet event * , 
+although it can be shown that in this case 
+1 ~H4 ~ ~::e 0.1406 (4.18) 
+where the minimum value is realized for x I = X 2 = X 3 = j. One finds 
+* In fact, one finds 
+This general pattern persists, and, for example, 
++ (1 - xI)(1 - x2)[(1 - XI)(10 1xi -288xI + 288) + (xl '" x2) 
++ x IX2(43(xi + x~) + 86x IX2 - 331(xl + x2) + 720) - 288] } . 
+(4.19) 
+
+PDF PAGE 32
+444 G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+Table 5 
+Moments of H3 for the process e + e - ~ t ~ GGG, where t is a heavy QQresonance 
+p (H3> 
+1 0.215 
+2 0.081 
+3 0.036 
+4 0.Ql8 
+5 0.009 
+where by e + e - ~ qq(G) we mean the sum of the processes e + e -~ qq and e + e -~ 
+qqG. 
+4.4. Differential cross sections in the HI 
+The differential cross sections (1/otod do/dHl for the processes e+e- ~ qq(G) 
+and ~ ~ GGG are shown in fig. 23 for I = 2, 3 and 4. Note that (apart from the ys 
+dependence of <Xs(s», all these results are exactly scale invariant (do not depend on 
+the value of ys). (The cross section for e+ e- ~ qqG is proportional to <Xs(s). ys = 
+20 GeV was chosen to evaluate as(s) for fig. 23. Results for other values of ys may 
+be obtained by a trivial rescaling.) The differential cross sections for e + e -~ qqG 
+shown in fig. 23 exhibit infrared divergences, but as discussed above, these divergen­
+ces cancel when the moments of the HI are evaluated. Notice the sharp cut-offs in 
+the differential cross sections at the boundaries of the physical region for three-jet 
+processes (H2 = 0.25, H3 = 0.625, H4 =::: 0.1046). 
+As will be discussed in sect. 5, the fragmentation of the quarks and gluons into 
+hadrons serves to make considerable modifications to the (1/0) do/dHl. At very high 
+energies, however, such modifications become less important, and at asymptotic 
+energies, the free quark and gluon results of fig. 23 are regained. 
+We have calculated only to order g2 . In higher orders, processes in which more 
+than three jets are produced will occur, and the two- and three-jet production cross 
+sections will be modified. As discussed above, these higher-order effects are clearly 
+important for those moments of the HI which probe close to the region of infrared 
+divergence; in some cases, they are even necessary to obtain positive results. Events 
+involving more than three jets will also undoubtedly populate ranges of the HI out­
+side those allowed for three-jet events by kinematics. Except in these circumstances, 
+we expect O(g4) and higher corrections to be small. 
+4.5. Production of heavy quark and lepton pairs 
+The production and weak decay of pairs of heavy mesons (D, B, ... ) carrying new 
+flavors will give rise to events whose shapes are distinct from those of the two- and 
+
+PDF PAGE 33
+G.c. Fox , S. Wolfram / Event shapes in e+ e- annihilation 445 
+0.1 
+HL DISTRI BUT IONS FOR 
+FREE QUARKS AND GLUONS 
+-- e+e- .... qqG 
+--- e+ e- .... ~- GGG 
+/-........ I - __ 
+I -_ 
+I 
+I 
+I 
+I 
+I 
+I 
+---- --................ , 
+0.0'0.0 0.2 0.4 0.6 0.8 1.0 
+H4 
+0.1 
+r--------
+I 
+I 
+I 
+I 
+I 
+o. 0 10~. 0::--'---:::0'"". 2:-'-'---:::0'-:.4,.--'---:::0'-::. 6-'---:::0.-;;;8-'---;-'1. 0 
+H2 
+100 
+Fig. 23. The distributions in H 2, 1I3 and H4 for the processes e + e - -+ qqG and e + e - -+ ~ -+ GGG. 
+e + e - -+ qq gives H2 = 1, H3 = 0 and H4 = 1. The distribution s for e + e - -+ ~ -+ GGG are norma ­
+lized to give unit total cross section. Of course, e + e - -+ qqG yields an infinite total cross section, 
+due to its divergence at H2 -+ 1 (H 3 -+ 0, H4 -+ I). When added to the cross section for e+e- -+ qq 
+calculated through O(g2), it gives a finite tot al cross section of (I + OI.s(s)/rr) ao for the complete 
+process e + e - -+ qq(G). The curves in this figure have been calculated using";s = 20 GeV. Results 
+for other values of ";s may be obtained by a trivial rescaling. 
+
+PDF PAGE 34
+446 C.C. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+3-JET DECAY OF HEAVY MESON M 
+u 
+~' 
+Fig. 24. Diagram for the weak decay of a heavy meson (M) through the decay of the heavy 
+quark (Q) into three light quarks. 
+three-jet configurations discussed above. Three basic mechanisms for the weak decay 
+of a heavy meson may be considered. The first, illustrated in fig. 24, involves the 
+standard weak decay of the heavy quark Q into q'ud. If a V-A (Qq') coupling is 
+assumed, then the differential cross section for the decay in the fractional energies 
+is 
+1 do 2 
+- -dx = 2x 1 (3 - 2x d , 
+o 1 
+(4.20) 
+just as in muon decay. The second mechanism, shown in fig. 25, involves the pro­
+cess Q -+ qG *. Note that in these first two mechanisms for heavy meson dec~y, 
+we have considered only the weak decay of the heavy quark Q. The 'spectator' quark 
+if will carry only a small fraction of the energy of the decaying meson, and so will 
+not usually generate a jet. A third mechanism for heavy meson decay may also envi­
+saged. It is illustrated in fig. 26, and involves the exchange of a W between the heavy 
+quark Q and the 'spectator' q. The importance of this third mechanism in strange 
+particle decays is presently unknown ; it is probably slightly more effective than the 
+mechanism of fig. 24. 
+* The importance of such a mechanism is governed by the difference of the masses of the pos­
+sible quarks in the loop. It may well be dominant in strange particle decays, but is probably 
+unimportant in charm particle decays, since it is inevitably suppressed by sin 0 c relative to the 
+processes of figs. 24 and 26, and leads to non-strange final states in D meson decay. It could, 
+therefore, account for the 'non-leptonic enhancement' observed in strange, but not charm, 
+particle decays. In addition to the process of fig. 25, Qq mesons might decay to GG by exchang­
+ing a W just before the annihilation of the Q and q. This would be suppressed relative to Q -+qG 
+by O<s' and is therefore probably safely ignored. 
+
+PDF PAGE 35
+G.c. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+2-JET DECAY OF HEAVY MESON M 
+~ 
+q 
+Fig. 25. Diagram for the weak decay of a heavy meson (M) through the decay of the heavy 
+quark (Q) into a gluon and a light quark . 
+447 
+It is also possible that the mixing angles between heavy quarks are so arranged 
+that the decay of a heavy quark involves many stages, each consisting of a decay to 
+a quark of slightly lower mass. The cascades generated in this way would lead to 
+values of the HI very close to zero . The observation of jet structures resulting from 
+the processes of figs. 24-26 would provide definitive evidence as to the mechanism 
+of weak decays of possible very massive mesons carrying new flavors. The rates of 
+these decay modes are modified by O(O's) radiative corrections, but the energies of 
+the extra final-state particles tend to be very small, so that they should not generate 
+extra jets *. The radiative corrections to the first decay mode (fig. 24 may be com­
+puted from corrections to p. decay and from eq. (4.4) (color averaging decouples 
+the radiative corrections to the produced quark pair). One finds that for a V-A coup­
+ling, r ~ r(1 - (O's/31T)(21T2 - 31 )), giving a 15% correction for mQ = 5 GeV. For 
+the second mechanism (fig. 25), the correction due to the O(O's) process 
+Q~q'G 
+~qq 
+(the lowest-order vacuum polarization insertion to the gluon propagator must also 
+2-JET DECAY OF HEA VY MESON M 
+Fig. 26. Diagram for the weak decay of a heavy meson (M) in which the heavy quark (Q) under­
+goes a weak interaction with the spectator quark to produce a pair of light quarks. 
+* The renormalization group equation aIlows a summation of the leading logarithmic QeD cor­
+rections to weak decay rates to all orders in O<s' However, the structure of the final states is 
+governed by emissions at large angles, which are best estimated by explicit O(g2) calculations . 
+
+PDF PAGE 36
+448 C.c. Fox , S. Wolfram / Event shapes in e+ e- annihilation 
+PRODUCT ION AND DECAY 
+OF PA IR OF HE AVY 
+ME SONS M 
+y 
+Fig. 27. Mechanism for the production and weak decay of heavy meson (M) pairs (containing 
+heavy quarks Q) in e + e - annihilation. 
+be included, and renormalized off the gluon mass shell) simply contributes to replac­
+ing ~ by as(m~). Note that the qq pair in this process usually have a small invariant 
+mass (hence small opening angle) and so act as one jet. The rate for the third decay 
+mode (fig. 26) becomes roughly r...., r(I + a s/9rr), about a 1 % correction for mQ = 
+5 GeV. 
+The basic mechanism for the inclusive production and decay of new heavy 
+mesons (M) in e + e - annihilation is shown schematically in fig. 27. The hadronic 
+shower associated with the primary vertex in fig. 27 will occur on time-scales of 
+_10- 24 s. The end-products of the showers will be M mesons with small momenta 
+at least near the MM threshold, which will typically live _10 - 16 s before undergoin g 
+weak decays. The two sources of hadrons in these events act at very different times, 
+and so will be effectively decoupled. At very high energies, the decay products of 
+the M mesons will carry a negligible fraction of the total energy of the event ; most 
+will be radiated in the hadronic shower. At such energies, therefore , processes like 
+fig. 28 will appear as two-jet events. Just above the threshold for MM production , 
+HEA VY LEPT ON DECAY 
+L 
+w 
+Fig. 28. Diagram for the weak decay of a (sequential) heavy lepton (L). 
+
+PDF PAGE 37
+G. C. Fox, S. Wolfram I Event shapes in e+ e- annihilation 449 
+the events should, however, be very different from two-jet ones. We assume that no 
+hadronic shower is generated, and that all the particles in the event come from the 
+weak decay of the M meson. Since these have spin 0, there should be no conelation 
+between the decays of the M and M produced in a particular event. Making the appro­
+ximation that the decays of M and M are to free quarks (or gluons) and assuming 
+independent decays at rest through the mechanism of fig. 24, we find that 
+(H2>=e~9-61T2):::::<0.28, (H3>=0.12 , (H4 >=0 .21. (4.21) 
+The distributions (1/0) do / dHl are shown in fig. 29. If the decay mechanisms of fig. 
+25 or fig. 26 are assumed, we find that 
+=0, 
+(l even) , 
+(l odd) , 
+(4.22) 
+where ~ is the angle between the pairs of final particles from the two mesons. The 
+stationary points of the Legendre polynomials in eq. (4.22) are responsible for the 
+spectacular peaks apparent in the HI distributions for these events. The expression 
+(4.22) for HI yields 
+(HI> = !, (l even and I ;;;' 2) , 
+(4.23) 
+upon integration over cos ~. Note that the independence of the decays of the two 
+mesons causes the HI for the complete process to be proportional to an average of 
+the (HI> for the two decays. In the notation of sect. 2, the (HI> for the complete 
+process become (for I > ° and normalizing the densities Pi(rl.) so that their sum 
+gives Ho = 1) 
+(HI> = j 6 I j [Pl (rl.) y;n(rl.) + P2(rl.) y;n(R~rl.)] drl.12 dR~ 
+m 
++2 Re 6, [jPl (rl.)y;n*(rl.) drl. jP2(rl.') y;n'(rl.')drl.'d~m'(R~)dRd 
+mm 
+= !(H/> + (Hi». (4.24) 
+The (HI> for systems which are randomly rotated with respect to each other there­
+fore obey a linear superposition principle . 
+Some of the weak decays of heavy mesons should produce leptons . Electrons 
+and muons will appear as 'jets' containing only one particle, while heavy leptons 
+produced in the decays will decay mostly to hadron jets. 
+Heavy lepton (L) pairs may also be produced directly in e+e- annihilation. If 
+they carry new conserved quantum numbers, then their decays should proceed domi­
+nantly through the diagram of fig. 28. (We shall not discuss other possible quantum 
+
+PDF PAGE 38
+0" 
+450 c.c. Fox. S. Wolfram / Event shapes in e+ e- annihilation 
+HL / HO DISTRIBUTIONS 
+FOR FREE QUARKS AND GLUONS 
+-- Heavy quark pair production 
+wilh 3-jel decays 
+--- Heavy quark pair production 
+wilh 2-jel decays 
+.......... Heavy lepton pair production 
+0.01 
+0.0 0.2 0.4 0.6 0.8 1.0 
+H2/ HO 
+10 1000 
+I I H4 1\ ~ 
+.... ·1\ II 
+: ", II 
+". / I 100 '- -' ":'"-- 1 
+1 dO" H3 I 
+I 0" d(H3/HO) ( __ Co. is al zero) 
+dO" 1 
+d(H4/H O) 1 10 
+1~-II' -.. 
+" I" IJ 
+0.1 .. 
+0.01 0.0 0.2 0.4 0.6 0.1 0.8 1.0 0.0 0.8 
+H4/HO 
+Fig. 29. The distributions in H2• H3 and H4 for the production and decay of heavy quarks and 
+leptons, through the mechanisms of figs. 24-26. (The decay schemes of figs. 25 and 26 both 
+give rise to final states containing two jets . In the approximation of free final quarks and gIuons, 
+these two, therefore, give the same results.) 
+1.0 
+number assignments and will assume a V-A L-vL coupling.) Experimentally, the total 
+visible energy in such events will be significantly less than the total c.m. energy 
+because of the presence of the neutrino. (In an apparatus with complete acceptance, 
+the missing energy will probably, in fact, be the best method for identifying these 
+events.) In a free-quark model for the final state, the average fraction of the total 
+.' 
+
+PDF PAGE 39
+Table 6 
+Average values of the HI for the processes discussed in sect. 4 
++- + - -+qq(G) t-+GGG e e -+qq e e 
+(HI> c (HI> 
+0 1 0 1 
+1 0 0 0 
+2 1 -1.4 0.62 
+3 0 0.43 0.22 
+4 1 -2.1 0.49 
+5 0 0.83 0.29 
+6 1 -2.7 0.44 
+7 0 1.2 0.33 
+8 1 -3.2 0.41 
+9 0 1.5 0.34 
+10 1 -3.6 0.40 
++ -e e 
+(HI> 
+1 
+0 
+0.28 
+0.13 
+0.21 
+0.16 
+0.20 
+0.18 
+0.19 
+0.18 
+0.19 
+.' 
++ - qG-u 
+__________________________ ~~--------------------0 
+e + e- -+ LL -+ qq(v) qq(v) ~ -+ MM-+ qqqqqq e e - -+ MM -+ { --q qqqq 
+(HI> 
+1 
+0 
+0.50 
+0 
+0.50 
+0 
+0.50 
+0 
+0.50 
+0 
+0.50 
+C . x 
+(HIIHo> s" 
+1 ~ 
+0.11 ~ 
+0.35 ::! 
+---0.23 t>:l 
+0.30 ~ 
+0.26 ;:; 
+;:,-
+Q28 ~ 
+0.26 ~ 
+Q28 ~ 
+0.27 ~ 
+0.27 "1 
+'" ~ 
+~ 
+s: 
+--------------------------------------------------------------------~--------~------------------------------~ 
+For e+e- -+ qq(G) (the sum of e+e- -+ qq and e+e- -+ qqG calculated through O(g2), the coefficient c of ~s(s) is given. The (}II> are related to this S' 
+by (HI> = 1 + cO:s(s) (I even) and (HI> = cO:s(s) (I odd). ~ 
+~ 
+V> 
+
+PDF PAGE 40
+452 G.C. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+energy visible is (Ho> = 0.5. We then find 
+(HdHo> c:=. 0.11 , 
+(H3/HO> c:=. 0.23 , 
+(H2/Ho> c:=. 0.35 , 
+(H4/HO> c:=. 0.30 . 
+(4.25) 
+Note that even at very high energies, heavy lepton production events should retain 
+their four-jet structure although for large VS the pairs of jets will be boosted to 
+small opening angles in the e + e- c.m.s., thereby changing the (HI> for the events. 
+The differential cross-sections (1/0) do/d(Hr/Ho) for idealized (free quark) heavy 
+lepton production events are shown in fig. 29 
+4.6. The HI for large I 
+The (HI> for I from 0 to 10 are given in table 6 for each of the processes discussed 
+above (e+e- -+ qq, e+e- -+ qq(G), e+e- -+ ~ -+ GGG, e+e- -+ MM -+ qqqqqq, 
+e+e- -+ MM -+ qGqG (or qqqq) and e+ e- -+ LL -+ (vV) qqqq). For e+e- -+ qq(G) , 
+the coefficient c of O:s in (HI> = 1 + cO:s (l even), (HI> = cO:s (I odd) is given. (As dis­
+cussed above, these means are calculated from the complete O(g2) cross section for 
+e + e -annihilation, which includes one-loop diagram contributions to e + e --+ qq 
+as well as the process e+e- -+ qqG.) From the formula (2.21) , it is possible to com­
+pute the limits of the (HI> as 1-+ 00 . As discussed in sub sect. 3.4, they are only finite 
+at the lowest order in g2 for each process. In that case, one finds · 
+(H~(e+e - -+qq>=! * , 
++ - 3 f 2 1 do (H~(e e -+GGG>=4 Xl --- dx l dx2 
+odx l dx2 
+131T2 - 127 
+= 4(1T2 -9) c:=.0.3751 , 
+(H~(e+e- -+ MM -+ qqqqqq) = ~~ c:=. 0.l833 , 
+(H~(e+ e- -+ LL -+ (vv) qqqq) /Ho> = l~ c:=. 0.2667 , 
+(H~(e+e - -+ MM -+ qGqG) > = * * . 
+(4.26) 
+It is clear from table 6 that these limits are, in fact, approached very quickly as I 
+increases (to within 5% at I = 5). For e+e- -+ qq(G) , the HI approach a limit at large 
+I, but this limit is not infrared finite and diverges as the artificial gluon mass is 
+taken to zero . This behavior is evident in table 6. 
+The distributions (1 /0) do/dHl are shown in fig. 30 for I up to 9. Spikes in the 
+* See eq. (2.21) for a more precise result in this case. 
+.' 
+
+PDF PAGE 41
+I dO' 
+Hl / Ho DISTRI BUTIONS FOR FREE QUARKS AND GLUONS 
+--e+e- - qq( G) 
+--- e+e- - ~ <- GGG 
+--- e+e- - MM - qqq qqq 
+- '-:- e+e- - M~-fqG ~G 
+\qq qq 
+e+e- - Ll - qq (v) qq (v) 
+10"-,-,-,-,-, -,,-,-,-,,- ,-,-,--,--,-,-,-,-,-, ,, 10 
+II H,jHo 
+. \ 
+/<T~~ 
+If- i / r , ~ ... -:-..::-if: ' . -
+' ! I \ /; , 
+.' \ 
+Ol~ \ \ 
+\ 
+\ 
+\ 
+H,jHo 
+(_ . - is ot zero) 
+,,{\~ .... 
+. ",\-..:\:---, 
+\. '. '. I 
+\ \ 
+I 
+1 
+1 
+0·?c\1 I I I I I I 
+'\ H4/ HO , 
+0P~ I I 1 I . i I , I 
+.' 
+r'\I . ~ 
+i / ~{\" ) 
+. if 1\1 ;---'.:--- . ~. 
+0"01 d (H l/ Ho ) 
+I if . \> --I-- !."-' .: I . -_ I : ' 
+!. I i \ I '" /! \ 
+/ ' I . , I ' , 
+• 1 \ l--·". ~ i \ '. I, v , , 
+Ii i \ ! \ 
+Oll-'~ i' . 
+. i \ \ 
+! i \ \ Ii' . 
+0.011 . ' \ \ 
+M ~ M M M M ~ M M M W 
+0.1 
+0.01 1 I I I I \ ! ! I ! I " I 
+M ~ M M M M ~ M M M W 
+HdH o HdH o 
+Fig. 30. The distributions (l/a) da/d(H/ /Ho) for various pro cesses in the free quark and gJuon approxim ation. 
+o n 
+6J 
+->< 
+~ 
+~ 
+S;; 
+i:! ::: 
+---t>:I 
+" ~ ... 
+! 
+~ 
+s· 
+~ 
+'" 1 
+'" ;:,: 
+;:,: 
+s: s: S· ;:,: 
+"'" v. 
+V> 
+
+PDF PAGE 42
+454 C.c. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+distributions occur when the formula for HI is stationary with respect to variations 
+of the parameters which specify the configuration of the final state. For produc­
+tion and decay of pairs of heavy quarks into a total of four final particles , the for­
+mula (4.22) shows that HI is stationary with respect to the angle ~ between the 
+directions of the decays when the value of HI corresponds to a stationary point in 
+PI(~)' The minima are determined from the minima of the Legendre polynomials, 
+by Min [H2z1 =! (1 + P21(0)). In our model, six-particle final states resulting from 
+the production and decay of pairs of heavy quarks or leptons are specified by the 
+values of four parameters. Spikes in the HI distribution for six-particle final states 
+will occur only if the value of HI is stationary with respect to variations in all four 
+parameters. This does not occur for I ~ 10. 
+The forms of the HI for three-particle final states are stationary with respect 
+to the values of x I and x 2 which specify the final-state configuration at values of 
+x I and x 2 within the physical region. For I < 5, the only stationary point is at 
+Xl = X2 = x3 =~, and yields the minimum (maximum) value of HI for even (odd) I. 
+For I ~ 5, other stationary points develop within the physical region, and spikes 
+appear in the HI distributions at the values of HI corresponding to these stationary 
+points. The maximum (minimum) values of HI for odd (even) I always occur when 
+x I = X 2 (or x 2 = X 3, or x 3 = X I)' Many stationary points develop along these lines 
+for high I; it is always the one nearest to (but not on) the edge of the physical 
+which yields the extremal value of HI' For example, Hs is stationary when x I = 
+X2 = i, 0.560,~, 0.758,1, at whichH s = 0, 0.606, 0.273, 0.337, 0, respectively. 
+The first of these stationary points is at the edge of the physical region, where Hs 
+goes smoothly to zero. The stationary point at x I = X2 ~ 0.560 is one of three 
+absolute maxima placed symmetrically on the lines Xl = x2, X2 = X3 and x3 = Xl' 
+There is a local minimum between these three peaks at x I = x2 = x3 = j . Finally, at 
+Xl = X2 ~ 0.758 there is a saddle point between the peaks at x2 = x3 ~ 0.560 and 
+X3 = x I ~ 0.560. 
+5. Results for realistic jets 
+5.1. The model for jet development 
+At present, QeD can give little guidance as to the way in which quarks and gluons 
+'fragment' into hadrons. We use the explicit model for the development of hadronic 
+jets due to Field and Feynman [18]. The basic assumption of this model is that 
+hadrons are emitted from a 'fragmenting' quark or gluon independently and with 
+limited transverse momenta. Strong and electromagnetically decaying hadrons such 
+as the p, w, 1), 1)', ... are taken to be among those produced, and their decays are 
+treated exactly. The fragmentation of a particular type of quark or gluon is specified 
+by giving the probability function f(1 - Z I), where Z I is the fraction of the jet's total 
+momentum that is carried off by the first hadron emitted. If one chooses 
+f(1 - z) = (p + 1)(1 - z f , (5.1) 
+-' 
+
+PDF PAGE 43
+G. C. Fox, S. Wolfram / Event shapes in e+ e- annihilation 455 
+then the distribution of the fractional momenta (z) of all hadrons in the jet is given 
+approximately by 
+D(z) = (p + 1)(1 -z)P/ z . (5.2) 
+A precise treatment requires the inclusion of transverse momenta and the possibility 
+of producing many species of hadrons [18]. Field and Feynman adjusted the forms 
+of f(z) so as to agree with experimental estimates of D(z) for quark fragmentation . 
+Their final choice was 
+fquarks (1 - z) = 0.12 + 2.64(1 - z)2 . (5.3) 
+We also need the corresponding function for gluons. In the absence of good experi­
+mental constraints, we use the simple form of eq. (5.1). We usually take p = 4, but 
+we also present some results using p = 2 and p = 10. 
+Our calculations of the expected distributions in the HI for genuine hadronic 
+events require a model for the complete structure of a hadron jet , rather than just 
+one-particle momentum distributions D(z). In using the complete jets provided by 
+the Field·Feynman model [18], we are relying more heavily on its basic assumptions 
+(especially independent emission) than do predictions for one-particle dist~ibutions. 
+Limited experimental tests [19] on the detailed structure of jets predicted by the 
+model have, however, proved successful. When further experimental data become 
+available, the model for jet development must be refined accordingly. 
+The parameters in the Field-Feynman model were determined by fitting data 
+from various reactions at comparatively low Q2 assuming that all events contained 
+only the minimum number of jets (two for e+e- annihilation). In reality, some of 
+the events will have contained extra jets. On the other hand, we use the model to 
+simulate the fragmentation of a single jet, and sometimes include explicitly the frag­
+mentation of the extra jets. It therefore appears that the contribution of extra jets 
+has been counted twice. However, our results show that for the low Q2 at which the 
+jet-model parameters were determined, the distributions ofhadrons produced in 
+two jets and in three jets of the same total energy are almost identical, so it seems 
+that roughly the correct parameters to describe single-jet fragmentation at high 
+energies were found. 
+Note that the Field-Feynman jet model gives rise to hadron transverse and longi­
+tudinal momentum (z) distributions which asymptotically become independent 
+of the total jet energy, in contradiction to the predictions of QCD. In addition, as 
+discussed in sect. 3, it does not include the 'mixing' of jets generated from quarks and 
+from gluons implied by QCD. 
+The present formulation of the Field-Feynman jet model does not conserve energy 
+and momen tum exactly, as discussed in detail in ref. [18]. The violations are worst 
+for low jet energies, and the model becomes un.reliable for jets with energies below 
+about 2 Ge V. This inadequacy of the model for small jet energies prevents any use­
+ful comparison of its predictions with existing data on hadron production in e + e­
+annihilation. Moreover, there is some inconsistency between the data from different 
+experiments [1]. 
+
+PDF PAGE 44
+456 C.c. Fox , S. Wolfram / Event shapes in e+ e- annihilation 
+100 
+dO" 
+Ojol dz 
+SINGLE HADRON MOMENTUM 
+DISTRIBUTIONS SUMMED OVER 
+CHARGED AND NEUTRAL PARTICLES 
+I: Hadron momenlum/(./S/2l 
+·· .. ·······e+e--qq 
+- - e+e- -qq{G} 
+---- e+e- - ~ - GGG 
+..IS ~ 3 GeV 
+100 
+10 
+..IS ~ 6 GeV 
+0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 O.B 
+I 
+10 \ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+..IS ~ 10 GeV 
+\ 
+\ 
+\ 
+0.0 0.2 0.4 0.6 0.8 
+..IS ~ 40 GeV 
+100 
+10 
+0.8 
+1.0 
+t\ 
+1\ 
+'. \ 
+100' \\ 
+I dO" 
+O"to,dz 
+10 
+0.0 
+1000 
+\ 
+~ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+..IS ~ 20 GeV 
+\ 
+\ 
+0.2 0.4 0.6 0.8 
+..IS ~ 200 GeV 
+0.6 0.8 
+1.0 
+1.0 
+1.0 
+Fig. 31. Distributions in fractional momentum (z) for single hadrons produced by e + e - .... qq, 
+e + e - .... qq (G) and e + e - .... ~ .... GGG as a function of the c.m. ener gy .Js. 
+
+PDF PAGE 45
+'. 
+G.C. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+5.2. Momentum distributions and multiplicities for two- and three-jet processes 
+In this and subsects. 5.3,5.4 , we discuss hadronic final states arising from the 
+three basic processes 
+457 
+e+e-~qq, e+e - ~qq(G), e+e - ~~~GGG. (5.4) 
+Of course, the process e+e- ~ qqG cannot be observed in isolation, but only in 
+combination with e+e- ~ qq. We denote the combined processes by e+ e- ~ 
+qq(G). As discussed in sect. 3, the method of combination is not entirely unambi­
+guous. Events arising from the process e + e - ~ qqG are divided into two classes accord­
+ing to whether the value of H2 calculated for the quarks and gluons is above or below 
+a cut-off H~. The events below the cut-off are considered as true three-jet events, 
+and the fragmentations of the quark, antiquark and gluon into hadrons are treated 
+separately. Events above the cut-off are taken to contain two, rather than three, 
+jets and to be indistinguishable from e + e - ~ qq . The total cross section is only finite 
+when these events are combined with the genuine e+e- ~ qq term. We simply gener· 
+ate two-jet (quark and antiquark) final states for the combined e+e- ~ qqG (H2 > 
+H~) and qq (H2 = 1) terms. An example may make this prescription clearer. For VS 
+= 20 Ge V, the cross section for e + e - ~ qqG for H2 < 0.8 is 0.41 times the point 
+cross section. In the same units, the total e+e- cross section to order g2 is 
+1 + as(s)/n ~ 1.06. At this energy, therefore, the ratio of three- to two-jet final states 
+is 0.41 : 0.65. We shall usually take H~ = 0.8, although, as we shall discuss below, 
+this choice is unreasonable in certain cases. 
+Fig. 31 shows the single-hadron fractional momentum (z) distribu tions (longitu­
+dinal plus transverse momentum) for hadronic final states resulting from the three 
+basic processes e+e- ~ qq , e+e- ~ qq(G) and e+e- ~ ~ ~ GGG (~is a heavy vector 
+meson). Note that the turnover in the distributions at small z moves closer to zero as 
+VS increases. The presence of such a turnover is a consequence of the finite trans­
+verse momenta (kT ) of the hadrons in the jets. The Field-Feynman model is such that 
+(kT ) and (z) are roughly constant with energy, so that as VS increases, the transverse 
+momenta of the hadrons become insignificant compared to their longitudinal momen· 
+ta, and the turnover disappears. At very high energies, the hadron momentum distri­
+butions tend to a limit given for gluon jets by eq. (5.2) and for quark jets by ref. 
+[18]. Notice that at all energies, the z distributions for hadrons from the process 
+e+ e- ~ ~ ~ GGG are significantly steeper than those from the processes e+e- ~ qq 
+and e+e- ~ qq(G) , while results for the latter two processes never differ by more 
+than about 20%. The model we use predicts that even at VS = 3 GeV, the process 
+~ ~ GGG should give a steeper hadron z distribution than e+ e- ~ qq. One would, 
+therefore, expect a difference between the z distributions in l/I decays and in the sur­
+rounding continuum . This prediction seems difficult to avoid as it also occurs in sim­
+pler models not involving the generation of complete hadronic final states, but formu­
+lated solely in terms of fragmentation functions into single hadrons. It is, therefor e, 
+surprising that the experimental single-hadron distributions seem identical on and 
+
+PDF PAGE 46
+458 G.C. Fox , S. Wolfram / Event shapes in e+ e- annihilation 
+70 
+60 
+50 
+<n) 
+40 
+30 
+20 
+10 
+MEAN MULTIPLI CITY (CHARGED AND NEUTRAL) 
+.... ~.~ 
+,. . 
+/ 
+e+e--~- GGG/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+I 
+/ 
+/ 
+/ 
+/ e+e--qq(GI 
+/ / ....... . 
+/ ... 
+/ .... 
+// ..... ·e ~·~·~ ~qq 
+/ ..... 
+/ .......... . 
+02 5 10 20 50 100 200 
+./S (GeV) 
+Fig. 32. The mean multiplicity of hadrons from the proc esses e + e - -+ qq, e + e --+ qq (G) and 
+e + e - -+ 1> -+ GGG as a fun ction of .Js. 
+off the 1/1 resonance [1]. Nevertheless, the correct inclusion of scaling violations in 
+the fragmentation functions (which is complicated by the need to consider k1 ) 
+could remove the discrepancy . 
+Fig. 32 shows the mean hadron multiplicity due to the processes e+e- -? qq, 
+e+e- -? qq(G) and e+e- -? ~ -? GGG as a function of the c.m. energy Ys. At suffi­
+ciently high energies (ys ;:::: 20 GeV), the multiplicities rise like log s, with coefficients 
+given by the heights of the rapidity plateaus for the various processes (or equivalent­
+ly, the limits of (z/a) da/dz as z -? 0). Our choice for the gluon fragmentation func­
+tion (eq. (5.2» leads to a higher rapidity plateau (hence , higher hadron multiplicity) 
+for gluon jets than for quark jets at high energies. At low energies, however, the 
+rapidity plateau is not fully developed, and it is a matter of detailed calculation to 
+determine whether quark or gluon jets have higher hadron multiplicities. We find, 
+in fact, that below ys ~ 6 GeV, the process e+e- -? GGG gives a lower mean hadron 
+mUltiplicity than e + e --? qq. The details are sensitive to the gluon fragmen tation 
+function. For example, in the T region (ys ~ 10 GeV), we find 
+(n)e+e - -+qq ~ 11.5 , 
+(5.5) 
+
+PDF PAGE 47
+---'---
+0-'0 1 
+I 
+0"101 
+CoCo Fox , So Wolfram / Event shapes in e+ e- annihilation 
+H2 DISTRIBUTIONS FOR REALIS TIC EVENTS 
+e+e - - qq 
+--e+e- - Qq(Gl Pc =0 
+---- e+e - - ~ - GGG 
+--e+e- - Qq(Gl} ___ e+e- _ GGG Free qua rks and gluons 
+.rs · 3 GeV .rs·6 GeV 
+0.1 0.1 
+0.06.0 0.2 0.4 0.6 0.8 1.0 0.0 1 ';;-~ci?--"---n';;~n';;:--'----nT~ 0.0 0.2 0.4 0.6 0.8 1.0 
+H2 H2 
+.rs. 10 GeV ./5·20 GeV 
+.\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ \ 
+\ 0"101 \ 
+\ \ 
+\ \ 
+\ \ 
+\ \ 
+\ \ 
+\ \ 
+\ \ \ \ \ 
+\ \ 
+0.0 6.". 0,--'-'0~.2,-J----n0';;.4-'-'0"". 6;:-"----n0~. 8-'-~1.0 0'Ob.7i.0:-'-'0n'.?'2 --"---nO~.4:-'-'0n'.6;;--,nO". 8~~'.0 
+H2 H2 
+10r-,---,----,-,- -,----,-----,-,-----,----, 
+dO' 
+dH2 
+0.1 
+/-----... 
+,~ 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+0.0 1 ';;-~"""LL_;t;-'-n';,______t-----;;:o~ 0.0 0.2 0.4 0.6 1.0 
+H2 
+0.1 
+.rs. 200 GeV 
+iF===----r-A 
+I I 
+I I 
+I I 
+I I 
+I I 
+I 
+I 
+I 
+O.OIl,;-----"---c~-'--,6----'-n';,------'-----;;:O-'---;--: 0.0 0.2 0.4 0.6 0.8 1.0 
+H2 
+459 
+F~0-330 T~e $s!:ibut~ns (l /OtoV ~o/dH2 for hadronic events resultin~ from the processes. 
+e e ---> qq, e e ---> qq(G) and e e ---> t ---> GGG, at various com. energIes, .Js. All hadrons In 
+the simulated events were used, no momentum cut (Pc) being imposed. On some of the graphs 
+for high values of .Js, we also show the distributions obtained for final states of free quarks and 
+gluons (see fig. 23). The parameter H~ defined in subsect. Sol was taken to be 0.8 at all energies 
+except.Js = 200 GeV, for which H~ = 0.95 was used. 
+
+PDF PAGE 48
+460 G. C. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+H3 DISTRIBUTIONS FOR REALISTIC EVENTS 
+....... e+e-- q~ 
+--e+e--Qq{Gl Pc =0 
+---- e+e --~-GGG 
+--e+e- - qq (Gl} Free Quarks and gluons 
+--- e+e- - GGG 
+10 10 
+Utot //---_ .... """ 
+--L 
+0""'01 
+Utot 
+I 
+I 
+I 
+I 
+I 
+I 
+0.1 I 
+0.01 
+0.0 
+100 
+10 
+\ \ 
+\ , 
+I 
+0.2 0.4 0.6 
+H3 
+ft~IOGeV 
+ft~40 GeV 
+" :... \ 
+-\.. 
+0.1 
+\------, 
+\ I 
+\ I 
+\ 
+\ 
+I 
+I 
+0.8 1.0 
+0.8 1.0 
+I 
+0"10' 
+I 
+0""101 
+0.01 
+0.0 
+100 
+10 
+0.1 
+0.2 0.4 0.6 0.8 
+H3 
+ft~ 20 GeV 
+0.4 0.6 0.8 
+H3 
+ft' 200 GeV 
+~ 
+:::.' '"..:;;:---,\: -, 
+\ I 
+\ I 
+\ I 
+\ I 
+I 
+1.0 
+1.0 
+Fig. 34. The distributions O/OtoV do/dH 3 for hadronic events resulting from the processes 
+e + e - ..... qq, e + e - ..... qq (G) and e e - ..... t ..... GGG, at various c.m. energies, ";s. See fig. 33 for 
+other details. 
+.' 
+I 
+
+PDF PAGE 49
+", 
+G.c. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+0"'0 1 
+0.1 
+0.01 
+0.0 
+~ dO" 
+0"'01 dH4 
+0.1 
+~ 
+0"101 
+r\ 
+! \ 
+I 
+I 
+I 
+0.2 
+\ 
+\ 
+H4 DI STRIBUTI ONS FOR REA LIS TI C EVENT S 
+e+e- - qq 
+--e+ e- - qQ(Gl Pc =0 
+----e+e- - ~ - GGG 
+--e+e- - QQ (Gl) Free Quarks and gluons 
+--- e+e- - GGG 
+JS ~ 3 GeV 
+0.1 
+0.01 
+0.4 0.6 0.8 1.0 0.0 
+H4 
+JS~ 10 GeV 
+~ 
+0"101 
+I dO" 
+0'"'01 d H4 
+0.1 
+0.2 0.4 0.6 
+H4 
+JS ~ 20 GeV 
+(-;'>...... 
+1/· ~~..::.-.:::.. 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+0.8 
+"'-\ ' .......... 
+\ "­
+\ 
+\ 
+\ 
+I 
+I 
+I 
+I 
+1.0 
+0.06.0 0.2 0.4 0.6 0.8 1.0 0.01.'r:-~7¢o~--r:;;-...,~~", .... ~ 0.0 0.2 0.4 0.6 0.8 1.0 
+H4 H4 
+Fig. 35. The distributions O/Otot) do/dH 4 for hadronic events resulting from the processes 
+e+e- .... qq, e+e- .... qq(G) and e+e- .... r .... GGG, at various c.m. energies,.js. See fig. 33 for 
+other details. 
+461 
+
+PDF PAGE 50
+462 G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation, 
+Table 7 
+Average values of the HI for realistic hadronic events resulting from the processes e + e - .... qq, 
+e + e - .... qq (G) (combination of e + e - .... qq and e + e - .... qqG calculated through O(g2» and 
+e + e - .... r .... GGG, for various c.m. energies v's 
+v's Pc (H2> 
+- "A 
+(GeV) (GeV) qq qq(G) GGG 
+3 0 0.33 0.39 0.49 
+6 0 0.33 0.25 
+10 0 0.44 0.29 0.18 
+10 0 zD(z) - (1 - z)2 0.44 0.28 0.27 
+10 0 zD(z) - (1 _ z)10 0.44 0.31 0.13 
+10 0.5 0.58 0.44 0.34 
+10 0.5 charged only 0.65 0.53 0.47 
+20 0 0.64 0.31 0.26 
+20 0.5 0.74 0.48 0.37 
+20 0.5 charged only 0.73 0.51 0.40 
+20 0.5 H~ = 0.9 0.74 0.57 0.37 
+20 0.5 Eri. = 0.6 0.74 0.36 0.37 
+20 0.5 z~(z) - (1 - z)2 0.74 0.47 0.46 
+20 0.5 zD(z) - (1 _ z)10 0.74 0.49 0.25 
+20 1 0.88 0.68 0.61 
+40 0 0.77 0.47 0.38 
+40 0.5 0.85 0.54 0.46 
+40 0.5 H~ = 0.9 0.85 0.64 0.46 
+40 1 0.93 0.60 0.59 
+200 0 0.95 0.58 0.55 
+1.0 1.0 0.62 
+v's Pc (H3> 
+(GeV) (GeV) " 
+qq qq(G) GGG 
+3 0 0.32 0.39 0.50 
+6 0 0.15 0.18 
+10 0 0.08 0.12 0.11 
+10 0 zD(z) - (1 - z)2 0.08 0.12 0.12 
+10 0 zD(z) - (1 _ z)10 0.08 0.14 0.13 
+10 0.5 0.03 0.14 0.13 
+10 0.5 charged only 0.32 0.37 0.40 
+20 0 0.03 0.10 0.08 
+20 0.5 0.03 0.14 0.13 
+20 0.5 charged only 0.18 0.23 0.21 
+20 0.5 H C = 0.9 0.03 0.10 0.13 
+20 0.5 H~ = 0.6 0.03 0.19 0.13 
+20 0.5 zD(z) - (1 _ z)2 0:03 0.14 0.15 
+20 0.5 zD(z) - (1 _ z)10 0.03 0.14 0.12 
+20 1 0.06 0.23 0.27 
+40 0 0.008 0.12 0.10 
+
+PDF PAGE 51
+G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 463 
+Table 7 (continued) 
+.Js Pc (H4) 
+... 
+(GeV) (GeV) qq qq(G) GGG 
+40 0.5 0.007 0.14 0.13 
+40 0.5 H~ = 0.9 0.007 0.09 0.13 
+40 1 0.Q1 0.17 0.19 
+200 0 0.003 0.16 0.17 
+0 0 0.21 
+3 0 0.33 0.40 0.49 
+6 0 0.23 0.20 
+10 0 0.27 0.17 0.12 
+10 0 zD(z) - (1 - z)2 0.27 0.17 0.17 
+10 0 zD(z) - (1 - z)lO 0.27 0.19 0.13 
+10 0.5 0.37 0.27 0.24 
+10 0.5 charged only 0.48 0.42 0.42 
+20 0 0.44 0.22 0.13 
+20 0.5 0.53 0.28 0.19 
+20 0.5 charged only 0.54 0.34 0.26 
+20 0.5 H C = 0.9 0.53 0.36 0.19 
+20 0.5 H~ = 0.6 0.53 0.20 0.19 
+20 0.5 zD(z) - (1 - z)2 0.53 0.29 0.27 
+20 0.5 zD(z) - (1 _ z)10 0.53 0.29 0.14 
+20 1 0.70 0.46 0.39 
+40 0 0.61 0.27 0.21 
+40 0.5 0.70 0.35 0.26 
+40 0.5 ~=0.9 0.70 0.35 0.26 
+40 1 0.81 0.46 0.38 
+200 0 0.91 0.44 0.39 
+1.0 1.0 0.50 
+In some cases, a momentum cut Pc has been applied so that only hadrons with momenta above 
+the cut are used in the calculation of the HI for each event. 'Charged only' means that for that 
+case, the (H/) were computed using only the charged hadrons in the final state. H~ is a parameter 
+which divides e+e- -+ qq(G) processes into two and three-jet events. D(z) is the gluon fragmen­
+tation function discussed in sub sect. 5.1. The defaults are discussed in sect. 5. 
+if we use our standard choice of (1 - z)4 for the gluon fragmentation function. If 
+we take instead (1 - z)2 or (1 - Z )10, then the mean multipliCity for ~ -+ GGG 
+becomes 12.8 or 11.2, respectively. 
+5.3. Shapes of two- and three-jet events 
+We now discuss the H, distributions for realistic hadronic events resulting from 
+the processes e + e - -+ qq, e + e - -+ qq(G) and e + e - -+ ~ -+ GGG. It should be empha­
+sized that, if QeD is correct, then the pure two-jet process e + e - -+ qq should never 
+be observed; only the combination of two- and three-jet processes which we denote 
+
+PDF PAGE 52
+464 G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+by e+e- -+ qq(G) should be present. (Of course, higher-order processes involving 
+the production of more than three jets should also occur, but we do not expect 
+their inclusion to modify our results appreciably.) 
+Note that the HI could also be used to distinguish the approximate two-jet struc­
+ture expected from QeD from purely isotropic production of particles [17]. For an 
+exactly isotropic event, HI = 0 for all I ~ 1. 
+Figs. 33-35 show the distributions (I/atot) da/dH 2 , (I/atot) da/dH 3 and 
+(l/atot) da/dH 4 for simulated hadronic events resulting from e+e- -+ qq, e+e--+ 
+qq(G) and e+ e- -+ ~ -+ GGG, at various center of mass energiesYs. Table 7 gives 
+(H2), (H3 ) and (H4) for these and other cases. Perhaps the most striking feature of 
+these figures and the table is the large difference between the results for realistic 
+hadronic fmal states, and those obtained using the free quark and gluon approxima­
+tion (fig. 23 and table 6). We believe that large modification of free quark and gluon 
+results for realistic final states is not a phenomenon peculiar to the HI; rather, it will 
+occur for all the other shape parameters previously investigated [5,6]. As we shall 
+discuss in subsect. 5.4, use of only the higher momentum hadrons in each event 
+leads to HI distributions which are closer to the free quark and gluon approximations. 
+As discussed above, the model for jet fragmentation which we use is unreliable 
+for total jet energies below about 2 GeV. Our results for three-jet production at ys 
+= 6 GeV should, therefore, not be taken too seriously while at ys = 3 GeV, even the 
+results for two-jet production should be considered somewhat suspect. However, we 
+expect the similarity between the HI distributions for the various processes at these 
+energies to survive the use of a more adequate model. 
+At ys = 10 GeV, the H2 distribution for hadronic events resulting from the pro­
+cess e + e- -+ ~ -+ GGG is very different from that due to e + e- -+ qq or e + e- -+ 
+qq(G). We find that at this energy (see table 7) 
+(H2 )e+e--?qq ::::<0.44, 
+(5.6) 
+(H2 )e+e--?t-?GGG ::::< 0.18. 
+A difference between the H2 distributions and (H2) on and off resonance in the T 
+region should, therefore, be easily measurable, and would provide an important test 
+of the mechanism for the decays of heavy vector mesons. We usually take D(z) ~ 
+(1 - z)4 /z for the gluon fragmentation function. Fig. 36 shows the dependence of 
+the H2 distribution at ys = 10 GeV from e+ e- -+ qq(G) and e +e- -+ ~ -+ GGG on 
+the form of the gluon fragmentation function D(z). We consider the choices D(z) 
+~ (I - z)2 /z, D(z) ~ {l - z)4 /z (standard choice) and D(z) ~ (1 - z )10 /z. Very 
+little change is effected in the H2 distribution for e + e- -+ qq(G), but the H2 distri­
+bution for e+e- -+ ~ -+ GGG changes appreciably when different forms for the gluon 
+fragmentation function are used. Since, however, the single-hadron momentum dis­
+tributions from T decay should allow the gluori fragmentation function to be deter-
+
+PDF PAGE 53
+". 
+C.C. Fox , S. Wolfram / Event shapes in e+e- annihilation 
+0.1 
+0.010 .0 0.2 
+DEPENDENCE OF H2 DISTRIBUTIONS ON GLUON 
+FRAGMENTATION FUNCTION 
+--zO(z) ex (l-z)4 "Standard" choice 
+---zO(z) ex (I-dO 
+······· ···zO(z) ex (l-z)2 
+e+e--qq(G) 
+../S=IOGeV, Pc=O 
+--~::t-.. 
+:.... 
+" ~ 
+~ 
+0.4 0.6 
+H2 
+~'" 
+\~ 
+".\ .... , 
+\\ ".\ 
+0.8 
+, , 
+\ 
+\ 
+\ 
+1.0 0.0 0.2 
+465 
+0 .8 1.0 
+Fig. 36. The distributions (l/atot) da/dH 2 for hadronic events resulting from the processes 
+e+e- .... qq(G) and e+e- .... !" .... GGG for three possible forms of the gluon fragmentation func­
+tion D(z). 
+mined, the form of the H2 distribution for the decay remains an important test of 
+its basic mechanism. Note that, as discussed in sect. 4, even on the T resonance, 
+there should be qq (in reality qq(G)) as well as GGG final states. The contribution 
+of the former must be subtracted before a study of the process e + e - ~ ~ ~ GGG 
+may be made. We do not expect the change to be very large. 
+As shown by fig. 35 and table 7, the differences between the H4 distributions and 
+their means also provide a good method for identifying the possible two- and three­
+jet processes at v's = 10 GeV. H2 and H4 are particularly effective at discriminating 
+between e + e - ~ ~ ~ GGG and e + e - ~ qq(G). On the other hand, the H 3 distribu­
+tions at v's = lOGe V for the processes e + e - ~ qq(G) and e + e - ~ ~ ~ GGG are rat­
+her similar, but are very different from those for e + e - ~ qq. 
+For v's = 20 GeV, the H2 , H3 and H4 distributions from e+ e- ~ qq, e+ e- ~ 
+qq(G) and e+e- ~ ~ ~ GGG events are all very different. Once again, the H3 distri­
+bution is the best measure of any contributions from pure e + e - ~ qq processes, 
+while the H4 and especially H2 distributions exhibit the largest differences between 
+the processes e + e - ~ ~ ~ GGG and e + e - ~ qq(G) expected on and off heavy vector 
+meson resonances. 
+
+PDF PAGE 54
+466 C.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+At v's = 40 GeV, the H2 distributions for e+e- -+ ~ -+ GGG and e+e:- -+ qq(G) 
+show marked similarity to the distributions obtained for these processes in the appro­
+ximation of free final quarks and gluons. Note the appearance of a kink in (l/atot) 
+da/dH2 for e+e- -+ qq(G) events around H2 = 0.6. Below the kink, most events of 
+this type will have three-jet final states, while above, most will give only two jets. 
+The distribution inH2 for pure e+e- -+ qq events is, of course, very similar to that 
+for e+e- -+ qq(G) when H2 ~ 0.6. The H3 and H4 distributions at v's = 40 GeV 
+bear less resemblance to the free quark and gluon results than the H2 distribution, 
+but they still offer ample discrimination between events of different types. 
+It is interesting that v's ~ 30 GeV is required for even the H2 distribution for rea­
+listic hadron final states to be similar to the free quark and gluon approximation. 
+This phenomenon should be universal to all parametrizations of the 'shapes' of 
+final hadron ~tates. Previous estimates of its importance for spherocity and thrust 
+based on very simple models for quark and gluon fragmentation [6] were probably 
+too optimistic. Nevertheless, it seems likely that our results for realistic hadronic 
+events do not depend significantly on the details of the model for quark and gluon 
+fragmentation used, and so remain firm predictions of QeD. 
+Finally, at v's = 200 Ge V, all the distributions are very close to the free quark 
+and gluon predictions. The cross sections for the simulated hadronic events drop 
+away very quickly at the boundaries of the kinematic region for the quark-gluon 
+subprocesses (H2 = 0.25, H3 = 0.625, H4 ~ 0.141). Four-jet events may give impor­
+tant contributions to the cross sectioris outside the physical regions for three-par­
+ticle subprocesses. 
+In the H2 distribution for e+ e- -+ qq(G) events at v's = 200 GeV, a dip around 
+H2 ~ 0.9 is clearly visible. This dip signals the boundary between two- and three­
+jet processes, and is an artifact of our model. It has no physical significance. 
+As discussed above, it is necessary to separate e+e- -+ qq(G) processes into two­
+and three-jet events in order to treat their fragmentation into hadrons. This sepa­
+ration is achieved by dividing the events according to the value of H2 correspon­
+ding to the fragmenting quarks and gluons. For H2 > H~, e+e- -+ qq(G) events 
+are treated as being of the form e + e --+ qq, while for H2 < H~ the event is assumed 
+to contain three jets, and the fragmentations of the q, q and G into hadrons are 
+treated separately. The magnitude of the two-jet contribution is determined by 
+demanding that the sum of the two- and three-jet pieces reproduce the correct total 
+cross section for e + e --+ qq(G) to O(g2). For most of the distributions shown in 
+figs. 33-35 we used H~ = 0.8, but at v's = 200 GeV, we took instead H~ = 0.95. 
+The value of H~ should be chosen so that e + e --+ qqG processes with H 2 > H~ are 
+indistinguishable from e + e --+ qq ones as far as their fragmentation to hadrons is 
+concerned. H~ may be thought of as a parameter which determines the 'resolu­
+tion' of the final hadron state to different configurations of the quarks and gluons 
+produced in the primary interaction. The closer H~ is to one, the lower the energy 
+(and angle) of the gluon in the process e+e- -+ qqG must be for the hadronic final 
+state not to reflect its presence, and to consist only of two jets. The choice of the 
+
+PDF PAGE 55
+", 
+G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 467 
+'resolution parameter' H~ for the hadronic final state depends on the model for quark 
+and gluon fragmentation used. Even in the context of a particular model, its value 
+must, at present, essentially be guessed. We have simply tried to choose it so that 
+our results are not obviously unphysical. The signal for too small a choice of H~ is the 
+appearance of separated peaks in (l/atot) da/dH 2 corresponding to two- and three-jet 
+events. In this case, the 'resolution ' of the simulated hadron final state is really finer 
+than the division into two- and three-jet processes chosen; the hadron final state can 
+DEPENDENCE OF H2IHo DISTRIBUTIONS 
+FOR REALISTIC EVENTS ON H~ 
+e+e- - qq IG) 
+3 J et processes hove H2 (Free quorks and gluons) < H 2 
+2 Jet H2 > H2 
+I dO" 
+O"tot d(H2! HO) 
+0.1 
+./S = 20 GeV 
+Pc = 0.5 GeV 
+0.010 .0 0.2 0.4 0.6 0 .8 1.0 
+I dO" 
+O"tat d(H 2/ HO) 
+0. 1 
+./S = 40 GeV 
+Pc = 0.5 GeV 
+/. " .-
+H ~ =0.9./ 
+/ 
+/ 
+/"/0.8 
+/ 
+/ 
+/ 
+I dO" 
+O"tot d(H2/ HO) 
+0.1 
+H2 /H O 
+.IS = 200 GeV 
+Pc = 0 
+.' 
+, 
+t~=0.8 
+0.01 L.:_.L....-::'7....J....-='".,-----J'-:-::'::--'--::'::;,..-l----:-'. 0.0 0.2 0.4 . 0 .6 0.8 1.0 o.ob.o 0.2 0.4 0.6 0 .8 1.0 
+H2 / Ho H2 /H O 
+Fig. 37. The distributions (l/Otot) doldH2 for hadronic events resulting from the process 
+e + e - .... qq (G) for various choices of the parameter H~ which divides two- from three-jet final states. 
+
+PDF PAGE 56
+468 c.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+'see' the arbitrary division between configurations of the quarks and gll:lons which 
+are supposed to give two- and three-jet final states. If a very large value of H; is cho­
+sen then negative amounts of e + e - ~ qq have to be added in order to obtain the cor­
+rect total cross section for e+e- ~ qq(G) events, which seems undesirable. 
+In the Field-Feynman model for quark and gluon fragmentation, we find that, 
+for most values of ys, the choice H~ = 0.8 avoids the pathologies mentioned above. 
+At ys = 200 GeV, however, there is no value of H~ which avoids both of them. This 
+is undoubtedly a signal of the incompatibility of the Field-Feynman model with 
+QCD. Inclusion of the rise of (kT ) for the hadrons from quark and gluon fragmen­
+tation with increasing ys implied by QCD would probably serve to alleviate the dif­
+ficulty. We used H~ = 0.95 at ys = 200 GeV. Fig. 37 shows the dependence of 
+(1/0tot) do/dH 2 for e+e- ~ qq(G) events on the choice of H~.1t seems clear from 
+these results that H~ = 0.8 is adequate for predictions at c.m. energies ys which will 
+be attained by accelerators in the immediate future (ys :$ 40 GeV), and that at these 
+energies the dependence of the results on the value of the unknown parameter H~ 
+is very slight. 
+5.4. Results for incomplete final states 
+The HI distributions for realistic hadronic events presented in sect. 4 exhibited 
+rather large deviations from the free quark and gluon approximation, The discrepan­
+cy is, in part, due to the presence of many soft hadrons in the final state, and may 
+be decreased by using only those particles whose momenta are above some lower 
+cut-off Pc in the calculation of the HI *. For sufficiently large Pc, such a cut leaves 
+essentially only those hadrons moving along the jet direction, and removes the rough­
+ly isotropic background of low-momentum hadrons. The latter particles typically have 
+momenta comparable with the transverse momentum of the jet fragmentation. If 
+Pc is taken too large, however, then all the hadrons in a particular jet may be ignored, 
+and the resulting HI will once again not reflect the free quark and gluon results. We 
+shall consider Pc = 0.5 and 1 GeV. Of course, our previous results used all the had­
+rons in each event, corresponding to Pc = o. 
+Since we always work in the virtual photon rest frame, the three-momenta of all 
+particles in an event should sum to zero, so that, for each event, HI = O. In addition, 
+if all hadrons in an event are massless, then energy conservation requires that Ho ::: 1. 
+The non-zero masses of the final hadrons serve to decrease the value of Ho from one. 
+The effect is small, and in the results of sect. 4 we always removed it by dividing 
+HI by Ho for each event. We followed the same procedure when considering incom­
+plete final states. Here the deviation of Ho from 1 was, of course, much larger. The 
+* Note that the arguments for infrared stability of processes involving only quarks and gluons 
+discussed in sect. 3 do not apply when only charged particles or particles with momenta above 
+some lower cut-off Pc are considered . Cuts on hadronic final states cannot, however, be rela­
+ted directly to those on their quark-gluon parent states. 
+.. 
+
+PDF PAGE 57
+.. 
+100 
+I : a;- daid(Hv'HOl tot 
+G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+HI/HO DISTRIBUTIONS FOR PARTICLES WITH P > Pc 
+.......... Pc=o 
+--pc=0 .5 GeV 
+-·-pc=1 GeV 
+---Pc= 0.5 GeV (Charged particles only) 
+.jS =20 GeV 
+e+e--~-GGG 
+\ 
+l~\ 
+\. \ \~" 
+. , i . , 
+,jS=20 GeV 
+e+e-- qq (G) 
+, : \ , 
+~ i \' 
+''\ ~ ',,', 
+~. ; \. .....,-
+'~ '-,..... 1\. ', ." --
+469 
+0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0 
+HI/Ho HI/HO 
+Fig. 38. The distributions (l/atot) da/d(HdHo} for simulated hadronic final states computed 
+using only hadrons with momenta greater than Pc' The non-zero values of H 1/Ho even when 
+all hadrons in each event are included are a reflection of the fact that the model for jet frag­
+mentation used does not conserve momentum exactly. In one of the curves, only the charged 
+particles in each event have been used for the calculation of H l' 
+total momentum measured in an 'incomplete' event will also be non-zero, so that 
+HdHo oF O. Fig. 38 shows the distributions (l/Otot) do/d(HdHo) for e+e- ~ qq(G) 
+and e+ e- ~ t ~ GGG events at"";s = 20 GeV, with various choices for Pc. Pc = 0 cor­
+responds to measuring all particles in each event. That HdHo is not always zero even 
+in this case is a reflection of the fact that the model we use to generate final states 
+does not conserve momentum exactly. The narrowness of distribution in HdHo for 
+this case shows that the discrepancy is, in fact, very small. 
+Fig. 39 shows the H2/Ho distributions for hadronic events resulting from the 
+processes e+e- ~ qq, e+e- ~ qq(G) and e+e- ~ t ~ GGG computed using only 
+hadrons with momenta greater than Pc in each event. Note that larger values of Pc 
+improve the agreement between the results for realistic hadronic final states and 
+those obtained using the approximation of free quarks and gluons. However, if Pc is 
+increased significantly above 1 GeV at"";s = 20 GeV, the agreement begins to deterio­
+rate again; the apparent values of HI in some events are too small because all the 
+particles in a jet have momenta below the cut-off Pc' In no case does the use of a 
+momentum cut significantly improve the discrimination between different between 
+different types of hadronic events provided by the HI; it merely serves to make some 
+
+PDF PAGE 58
+470 G.G. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+DEPENDENCE OF H2/H o DISTRIBUTIONS 
+FOR REALISTIC EVENT S ON Pc 
+H2 calculated using only partic le s With momentum> Pc 
+··· e+e-- qq 
+--e+e- -qij IGI 
+---- e+e- -'- GGG 
+--e+e--qqIGI} ___ e+e--GGG Free quarks and gluons 
+"rs ~ 20 GeV 
+Pc ~ 0.5 GeV 
+/---
+I ~'-
+I 1---
+I I 
+! I 
+\ 
+\ 
+"rs ~ 10 GeV 
+Pc ~ O. 5 GeV 
+.<~, 
+"­"-"-"­"-\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+0.0 I 'A-.L.-""'--'.~,,-'---c&-L...,t;;-'--7. 0.0 0.2 0.4 0.6 0.8 1.0 
+H2/Ho 
+./S~ 20 GeV 
+Pc ~ I GeV 
+1== -=--=---:;--:::: 
+( 
+'­-","",- .. 
+\ 
+\ 
+\ 
+dO" 
+0"101 d(H2/ Ho) 
+, 
+I , 
+\ 
+\ 
+\ 
+I dO" 
+0"101 d(H2/Ho) 
+/ I 
+I I 
+I , 
+\ 
+I 
+I 
+I 
+0.1 
+I dO" 
+I 
+I 
+0.2 0.4 0.6 
+H2/Ho 
+ft~40 GeV 
+Pc ~ 0 .5 GeV 
+..... ------, 
+/ ,------" 
+I I 
+I I 
+I I 
+\ 
+\ , , , 
+\ 
+\ 
+\ 
+0.8 1.0 
+I dO" 
+0.1 
+I 
+I 
+0.0 I 'A--'--c,f;f-'--;f;,..--L-r;'';o--"-,<'o....L7, 0.0 0.2 0.4 0.6 0.8 1.0 
+H2/ Ho 
+"rs ~ 40 GeV 
+Pc ~ I GeV 
+0"101 d(H2/ Ho) : I , I 0"101 d(H2/H o) 
+0.1 
+I 
+I 
+I 
+I 1 0.1 
+0.0 I '::--'-"""=.J...J..-,J'o--'--=,=-'--=,,,.--'---:-' 0.0 0.2 0.4 0.6 0.8 1.0 0.0 I '-;;--'--c~LL-;f;,..--L--;;"'=-"-,~....L~ 
+0.0 0.2 0.4 0.6 0.8 1.0 
+H2/ Ho H2 / Ho 
+Fig. 39. The distributions (1/atot) da/d(H 2/HO) for simulated hadronic events calculated using 
+only hadrons with momenta greater than Pc. 
+
+PDF PAGE 59
+. , 
+I dCT 
+G.C. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+H.jHO DISTRIBUTIONS 
+CALCULATED USING CHARGED 
+PARTICLE COMPONENT ONLY 
+...... '·· e+e--qq 
+--e+e- - qq (G) Pc =-0.5 GeV/c 
+------ e+ e- - ~ - GGG 
+--e:e: - G,qGG1G1 ) Free quarks and qluons ---e e -
+.rs ~ 10 GeV .rs ~ 20 GeV 
+O.Ob.o 0.2 0.4 0.6 0.8 1.0 
+H2/Ho 
+0.2 0.4 0.6 0.8 1.0 
+H2/HO 
+100r-.,.-,-,---,--,--, -,-.,.-,-, 100,-,-,---,--,--,-,-.,.-,-,---, 
+.rs ~ 10 GeV .rs ~ 20 GeV 
+10 10 
+CTtot d (H3/Hol /~~. 
+I ; / 
+0.1 
+0.1 
+I 
+I 
+t 
+I 
+I 
+I 
+.rs ~ 10 GeV 
+...... :~" .. , .. 
+""""'''''''''''' , 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+0.01."--'--c,f."...L-,;'-;,--L--';.,,--c...,:,;;--'-.,-l 0.0 0.2 0.4 0.6 0.8 1.0 
+H4/ HO 
+.;s ~ 20 GeV 
+I dCT 
+CTtot d (H4/Hol 
+. ~\: 
+"" 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+0.01 .'-;;-~;;;;--'---;:;-';-'-;;';:-'--;~~"", 0.0 0.2 0.4 0.6 0.8 1.0 
+H4/HO 
+471 
+Fig, 40. The distributions (l/atot) da/d(H 2/Ho), (l/atot) da/d(H3/HO) and (I/atot) da/d(H4/ HO) 
+for simulated hadronic events calculated using only charged hadrons. 
+
+PDF PAGE 60
+472 G. C. Fox, S. Wolfram / Event shapes in e+ e- annihilation 
+of the distributions more similar to those obtained in the free quark and gluon 
+approximation. These trends are reflected in the values of (H2/Ho >, (H3/HO > and 
+(H4/HO> given in table 7. 
+In actual experiments, not all the hadrons in each event will usually be detected. 
+Some will be lost through imperfect angular acceptance, while others will simply 
+not trigger the detectors . Note that the rotational invariance of the HI renders them 
+independent of the orientation of events, so that their values should be insensitive 
+to gaps in angular acceptance. As an illustration of the consequences of these effects, 
+we show in fig. 40 the distributions in H2/Ho, H3/HO and H4/HO for hadronic 
+events at VS = 10 and 20 GeV calculated using only the charged hadrons in the 
+final state. The discrimination between different processes provided by the HI is 
+not unduly affected by this cut. The enhancement of events at larger HI if only 
+charged particles are considered is a consequence of the large apparent violations 
+of momentum conservation in this case. This phenomenon is reflected in the very 
+broad Hl/Ho distribution for these events shown in fig. 37. This artificial behaviour 
+can be removed by considering only events with (charged) multiplicity greater than 
+3. [17,29]. Many of the new generation of detectors can measure neutral particles, 
+and so will not encounter these problems. Of course , we cannot estimate the HI dis­
+tributions which should be observed by actual experiments; that would require a 
+knowledge of the details of the apparatus used. 
+. It is possible that cuts other than on hadron momenta may serve to 'clean up' 
+the HI distributions. For example, one might consider only events with a certain 
+range of total multiplicities. 
+5.5. Heavy quark and lepton production 
+In this subsection, we present results for realistic events involving the produc­
+tion and decay of pairs of heavy quarks and leptons. We use the models for these 
+processes discussed in subsect. 4.5, which are adequate only close to threshold. 
+Fig. 41 shows the fractional momentum (z) distributions for single hadrons from 
+events involving heavy quark or lepton production (at VS = 20 GeV). The distribu­
+tions are all very similar, but are much softer than those for events of the e+e--+ 
+qq(G) type. 
+Figs. 42- 44 show the distributions (l/Otot) do/d(HI/H o) for realistic hadronic 
+final states resulting from the production and decay of heavy quarks and leptons, 
+and table 8 gives the (HdHo> for these processes at various c.m. energies. The fact 
+that our models for heavy quark and lepton decay give rise to many jets of hadrons 
+means that higher c.m. energies than for two- or three-jet production are necessary 
+to obtain well-collimated jets, or for the HI distributions for realistic hadronic events 
+to approach the free quark and gluon approximation. The decays of heavy quark 
+and lepton pairs into four hadronic jets give similar H2/Ho and H4/HO distributions, 
+but the heavy lepton gives a significantly harder H3/HO distribution. The different 
+mechanisms for heavy quark decay give slightly different Hr/Ho distributions, even 
+at VS = 10 GeV, and it seems, therefore, that an analysis based on the HI should be 
+
+PDF PAGE 61
+C.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+SINGLE HADRON MOMENTUM DISTRIBUTIONS 
+IN HEAVY QUARK AND LEPTON 
+PRODUCTION EVENTS 
+I do-
+0;01 dz 
+10 
+0.0 
+z 0 Hadr on momenlum/(,(5/2l 
+,(5020 GeV 
+-- Heavy quark pair production 
+wilh q'qq decoys 
+--- Heavy quark pair production 
+wilh q'G decoys 
+- .- .- Heav y ~ork pair produclion 
+wilh q' q decoys . 
+_ .... ... Heavy lepton pair production 
+0 _ 0 e+e--qq(G l 
+..... {\ 
+':.N\ :. ~.\ 
+':. \\ ° 
+..... ,\\ \'\ 0, .... \ . 0, .... \ \ 0, . \ . '\ 
+\\ o'\, 
+. \ \. ''\ 
+\\ °' 0 
+"" 
+0.2 0.4 0.6 O.B 
+z 
+1.0 
+473 
+Fig. 41. Single hadron fractional momentum (z) distributions for simulated hadronic events 
+involving the production and decay of heavy quarks and leptons , according to the models dis­
+cussed in sub sect. 4.5. 
+able to give some indication as to the mechanism for the weak decay of mesons with 
+masses around 5 GeV. Mesons containing b quarks should have masses in this region, 
+and it seems probable that they will decay through weak interactions. 
+At ys = 20 GeV, the two-jet mechanisms for heavy quark decay give rise to 
+definitely harder H2 and H4 distributions than the three-jet mechanism. In addi­
+tion, because (in our model) quark jets are better collimated than gluon jets the 
+qq decay mode gives a harder H2 distribution than the qG mode. 
+Finally, at ys = 200 GeV, the distributions for realistic hadronic events 
+become very similar to those obtained in the free quark and gluon approximation 
+(fig. 30), although they remain somewhat softer at large HI' This is due to the large 
+number of jets produced in each event; even at ys = 200 GeV each jet does not 
+have sufficient energy to appear like a free quark or gluon. 
+5.6. The HI for large I 
+The forms of the HI distributions for high I in the free quark and gluon approxi­
+mation for the processes e+e- -? qq(G) and e+e- -? ~ -? GGG were presented in 
+fig. 23. The (HI) in these cases were given in table 6. In fig. 45, we plot the <HI) for 
+realistic hadronic events resulting from the processes e+e- -? qq, e+e- -? qq(G) and 
+e+e- -? ~ -? GGG for the range of c.m. energies which will be attained by the next 
+
+PDF PAGE 62
+474 C.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+..l 
+0-
+H2 DISTRIBUTIONS FOR REALISTIC 
+HEAVY QUARK AND LEPTON 
+PRODUCTION EVENTS 
+-- Heavy quark pair production 
+with q'qq decays 
+--- Heavy quark pa ir product ion 
+wit h q 'G decays 
+-.-.- Heavy quark pair production 
+with q' q decays 
+.......... Heavy lepton pair production 
+10 
+.. ./5= 20 GeV 
+:1/ ' .. ~~ /. 
+I! ''\\ 
+I .! .... '\ ".' . 
+do- U 
+"" \ "., . 
+d (H2/Hol '! .... , \. 
+' .. ~ \ 
+I '.\ . 
+I \ \ 
+.~ . 
+0.1 \ \ 
+\ \ , . , \ 
+0.01 
+0.0 0.2 0.4 0.6 0.8 
+HdHo 
+..l 
+0-
+1.0 
+./5 = 10 GeV 
+/ ... \. 
+: ~ \ : , . : ,\ 
+I' '\ 
+0.1 
+0.01 0.0 0.2 
+10 
+{\ 
+do-
+d(H2/Hol 
+0.010.0 0.2 
+,' .. , .... , ,' .. ,' . .\ , .... \ ," .. ,". , ,' .. ' .... , \'. . , 
+\ 
+0.4 0.6 
+H2/Ho ' 
+0.8 
+.rs = 200 GeV 
+.~ . 
+'~~ . ... "":''':::'e:----... ..... .... ..... ,'-
+'. \. 
+..... , \ 
+'. \ . 
+'. 1\ 
+I' 
+'. iI 
+\ 
+0.4 0.6 0.8 
+H2/Ho 
+1.0 
+1.0 
+Fig. 42. The distributions (l/otot) do/d(H 2/Ho} for simulated hadronic events involving the pro­
+duction and decay of heavy quark s and leptons . 
+generation of e + e- accelerators . It is clear that the power of the (HI) to discriminate 
+between the various processes diminishes as 1 increases. For large I, the HI reflect 
+only the small-scale angular structure of each event, which is determined more by 
+the structure of the hadron jets than by the nature of the subprocess. Note also that 
+the approach of the (HI) for realistic hadronic events to the (HI) obtained in the free 
+quark and gluon approximation is less rapid for high I. Little new information may 
+be gleaned from a measurement of the HI for high I, and we believe that an experi-
+
+PDF PAGE 63
+0' 
+C.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 
+H3 DISTRIBUTIONS FOR REALISTIC 
+HEAVY QUARK AND LEPTON 
+PRODUCTION EVENTS 
+-- Heavy quark pair production 
+with q'q q decays 
+--- Heovy quark pair production 
+with q' G decoys 
+-.-.- Heavy quark pair production 
+with q' q decays 
+.. , ....... Heavy lepton pair production 
+0.01 
+475 
+.;s = 10 GeV 
+0.0 0.2 0,4 0.6 0.8 1.0 
+H3/HO 
+100 100 
+.;s = 20 GeV ..rs = 200 GeV 
+10 I 10 
+:' ~ (,.,=~ near zero) 
+dO' .1 
+d(H 3/HO) \1 ..L dO' ·1 
+d (H3/HO) ! \1 0' 
+'1 
+\1 '1 
+\1 '1 
+" 
+0 ,1 i 0.1 
+\ 
+0 .01 0.0 0,2 0,4 0.6 0.8 1,0 0,0 '0.0 0,2 0,4 0.6 0.8 
+H3/HO H3/HO 
+Fig. 43. The distributions O/atot) da/d(H3/HO) for simulated hadronic events involving the pro­
+duction and decay of heavy quarks and leptons , 
+mental measurement of the distributions in H2 and H3 should be sufficient. The 
+(HI> clearly have less power to discriminate between different types of events than 
+do the complete distributions in the HI' 
+From the (HI> for realistic events, one may in principle construct an average 
+'correlation function' F(x) (see sect. 2), using the series formula (2.10). Fig. 46 
+shows the F(x) computed from the (HI> for realistic events of various types at 
+1.0 
+
+PDF PAGE 64
+476 G.C. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+.1 
+0" 
+H4 DISTRIBUTIONS FOR REALISTIC 
+HEAVY QUARK AND LEPTON 
+PRODUCTION EVENTS 
+dO" 
+-- Heavy quark pair production 
+with q'qq decoys 
+--- Heavy quark pair production 
+with q'G decays 
+-.-.- Heavy quark pair production 
+wi th q'q decays -
+.......... Heavy lepton pai r production 
+~ ./S = 20 GeV 
+\ 
+\ \. 
+\\ x·\ I···· 
+d(H4/ Ho l 1'\ 
+1'\ I ' .. 1·· . .\ 
+\ .... \ 
+0.1 I '· . 
+I .... ' \ 
+\ 
+\ 
+0.01 
+0.0 0.2 0.4 0.6 0.8 
+H4/ HO 
+1.0 
+../S = 10 GeV 
+0.1 
+0.01 
+0.0 0.2 0.4 0.6 0.8 
+H4/HO 
+10 
+JS = 200 GeV 
+.1 dO" 
+0" d(H4/ Hol 
+0.1 
+0.01 
+0.0 0.2 0.4 0.6 0.8 
+H4/ HO 
+1.0 
+1.0 
+Fig. 44. The distributions (l/Otot) do/d(H 4/Ho} for simulated hadronic events involving the pro­
+duction and decay of heavy quarks and leptons. 
+"';s = 10 GeV. For most of the curves, the series (2.10) was truncated at I = 10, but 
+for e+e- ~ qq events, we also show the form for F(x) obtained by truncating the 
+series at I = 5. The two results differ significantly, illustrating the very slow con­
+vergence of the series for F(x). Note that F(x) cannot be computed directly from 
+real events, as the formula (2.7) involves products of delta functions. Rather, one 
+must find the function F2 (defined in eq. (2.22» for some small, but finite, 
+
+PDF PAGE 65
+c.c. Fox , S. Wolfram / Event shapes in e + e- annihilation 
+.8 
+.6 
+.4 
+.2 
+.8 
+.6 
+.4 
+.2 
+.8 
+.6 
+.4 
+.2 
+.8 
+.6 
+.4 
+.2 
+( HI) AS A FUNCTION OF .jS 
+FOR REALISTIC EVENTS 
+~.15 
+~.os 
+.2 
+.IS 
+~ ~
+q 
+,f/ ~ .os 
+----e3G G 
+.2 
+.IS 
+A ::(G) .1 
+.os 
+~ 
+qq 
+10 20 30 4 0 
+.jS(GeV) 
+.2 
+.IS 
+.OS 
+qq(G) 
+qq 
+GGG 
+qq(G) 
+qq 
+GGG 
+qq(G) 
+q 
+GGG 
+qq(G) 
+qq 
+10 20 30 40 
+.jS(GeV) 
+477 
+Fig. 45. The mean values of the HI for realistic two- and three-jet events as a function of the c.m. 
+energy.../s over the range accessible to the next generation of e+e- accelerators. 
+
+PDF PAGE 66
+F(x) FOR REALISTIC EVENTS AT .;s = 10 GeV 
+.... ···· GGG } 
+--- qq Lma, ~ 10 
+--qq(G) 
+---qq Lma,~5 
+\ 
+I' 1\ 
+1\ 
+\ 
+\ 
+.... " ..... 
+' .... \ ; .. ,-' \ ~-/~ ....... -:::-, -
+-1.0 -0.8 -0.6 -0.4 -0.2 
+10 
+o 0.2 0.4 0.6 
+x 
+0 .8 1.0 
+Fig. 46. The form for the 'correlation function' F(x) calculated from the (HI> for realistic two­
+and three-jet events at"';s = 10 GeV using the series (2.10). The series was truncated at [= [max' 
+Table 8 
+Averages values of HJH o for realistic hadronic events resulting from heavy quark and lepton 
+production and decay by the various mechanisms discussed in subsect. 4.5 
+"';s (H2/Ho> 
+(GeV) 
+qqqqqq qGqG qqqq qq(v) qq(v) 
+10 0.12 0.13 0.16 0.16 
+20 0.12 0.18 0.23 0.16 
+200 0.26 0.43 0.45 0.32 
+0.28 0.50 0.50 0.35 
+"';s (H3/HO> 
+(GeV) A 
+\ 
+qqqqqq qGqG qqqq qq(v) qq(v) 
+10 0.11 0.10 0.09 0.14 
+20 0.06 0.05 0.04 0.10 
+200 0.10 0.001 0.001 0.19 
+0.1'3 0 0 0.23 
+"';s (H4/HO> 
+(GeV) "--
+qqqqqq qGqG qqqq qq(v) qq(v) 
+10 0.11 0.11 0.11 0.15 
+20 0.08 0.11 0.14 0.12 
+200 0.17 0.39 0.42 0.25 
+0.21 0.50 0.50 0.30 
+
+PDF PAGE 67
+G. C. Fox , S. Wolfram / Event shapes in e + e- annihilation 479 
+detector size IOj I. This indicates that although in principle the H, and F(x) contain 
+the same information (see subsect. 2.1), in practice they are not equivalent. 
+6. Harmonics about the beam axis 
+Most of this paper has been concerned with the analysis of the 'shapes' of final 
+states in e + e - annihilation using observables which do not require a definite axis for 
+their evaluation. The incoming beams provide, however, a natural axis for the analysis 
+of the 'shape' of the final state. Nevertheless, we shall see that there is often insuffi­
+cient correlation between the beam axis and the configuration of the final state to 
+make such an analysis useful. 
+Define 
+IPil B, == ~ ~ P,(cos exi) , 
+i yS 
+(6.1) 
+where exi is the angle that the final state particle i makes with the direction of the 
+incoming electron. Energy-momentum conservation requires 
+Bo =yHo = 1, 
+Bl = 0, 
+(6.2) 
+if all the particles are massless. If the incoming beams are unpolarized, then all parity­
+conserving processes give 
+(B,)=O, (l odd) , 
+and kinematics require that 
+P21(O) <, B21 <, 1 . 
+The process e + e - ~ qq illustrated in fig. 1 has 
+1 do 3 2 - = - (1 + cos ex;) 0 (x i - I) , o d(cos ex;) dxi 8 
+yielding 
+(B 2 )= /0 ' 
+(B, > = 0, (l > 2) . 
+(6.3) 
+(6.4) 
+(i = 1, 2) , (6.5) 
+(6.6) 
+Data on angular distributions of two-jet final states in e + e- annihilation are often 
+given in terms of the parameter A, defined by 
+1 do I 
+o d( cos exi) dx i jets 
+3 . 
+( ) (1 + A cos2 ex;) O(xi - 1), 2 A + 3 
+(i = 1,2). (6.7) 
+
+PDF PAGE 68
+480 G.C. Fox , S. Wolfram / Event shapes in e + e- annihilation 
+In this case, 
+(6.8) 
+(B1> = 0, (l> 2) , 
+so that A may be expressed in terms of the (B1> as 
+A = 15(B2 > 
+2 - 5(B2 > (6.9) 
+Note that for pairs of particles produced at rest, A = 0, so that (B2 > = O. This effect 
+may serve as a method for detecting the presence of heavy quark or lepton produc­
+tion near threshold (see below). 
+The differential cross section for e+e- -+ qq in B2 is given by 
+1 da V3(B 2 + 2) 
+a dE2 WI + 2B2 
+Kinematics require that for any process 
+(6.10) 
+-t';;; B2 ';;;1. (6.11) 
+The divergence in (1/a) da/dE 2 for e+e- -+ qq at the edge of the physical region 
+(B2 = -!) is introduced by the Jacobian of the transformation from cos ex to B2. 
+The differential cross section (6.10) is plotted in fig. 47. We also show there the 
+B2 DISTRIBUTION WITH RESPECT TO 
+BEAM AXIS FOR e+e--qq 
+3r--------,---------,--------, 
+_ . Free quarks 
+ft ••••• •• v'S~IOGeV} 
+., . Hadrans 
+II --- v'S~40 GeV 
+2 II 
+I dO" 1\ 
+0" dB2 \ t· ........ 
+\j 
+i\ " . . " ........ . 
+"­....... ......... ----- ..... . 
+o 0.5 
+B2 
+". 
+..... 
+\ 
+\ 
+1.0 
+Fig. 47. The distributions in the beam moment B2 for events arising from the process e + e - .... qq. 
+
+PDF PAGE 69
+G.c. Fox, S. Wolfram / Event shapes in e+e- annihilation 481 
+HEA VY LEPTON PRODUCTION 
+3r-------.--------r----~_, 
+B2 DISTRIBUTIONS 
+WITH RESPECT TO 
+BEAM AX I S FOR 
+HEAVY QUARK a LEPTON 
+PRODUCT ION EVENTS 
+HEAVY QUARK 
+PRODUCTION WITH TWO-JET DECAYS 
+3~------.--------.-------. 
+2 
+-0.5 o 
+- Free quarks and gluons 
+........ .;s<10 Gev} 
+Modrons 
+--- .;s·20 GeV 
+0.5 1.0 
+1.. dCT 
+CT dB2 
+- Free quarks 
+........ .;s<10 Gev} 
+___ .;s.20 GeV Hadrons 
+1.0 
+HEAVY QUARK 
+PRODUCTION WITH THREE-JET DECAYS 
+3r-------,--------,-------, 
+2 
+-0.5 o 
+- Free ~uarks 
+........ .;s<10 Gev} Hadrans --- ,/5·20 GeV 
+0.5 1.0 
+Fig. 48. The distributions in the beam moment B2 for events involving the production and decay 
+of heavy quarks and leptons. 
+forms for (1/0) do/dE2 resulting from the process e+e- -+ qq -+ hadrons, using the 
+model for quark fragmentation described in sect. 5. A significant sharpening of the 
+distribution may be observed for ys = 40 GeV as compared to ys = 10 GeV. The 
+mean values of B2 deduced from these distributions and for various other cases are 
+given in table 9. None differ by more than about 0.04 from the free quark approxi­
+mation value of O.l. 
+Fig. 48 shows the distributions (1/0) do/dE2 due to the production and decay 
+of heavy quarks and leptons, through the mechanisms discussed in sub sect. 4.5. 
+Clearly near the thresholds for these processes (B2 ) ~ O. The production and decay 
+of pairs of heavy spin-O mesons always give (B 2 ) = 0, but production and weak decays 
+of high-energy heavy leptons or quarks could yield non-zero values of (B 2 ). This 
+result is essentially unchanged by allowing the quarks and gluons generated in the 
+
+PDF PAGE 70
+482 G.C. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+Table 9 
+Average values of B2 /Bo for realistic hadronic events resulting from the process e + ~ - .... qq: 
+only hadrons with momenta larger than Pc are used in each computation of (B 2/B o ) 
+..js(GeV) 
+3 
+6 
+10 
+10 
+10 
+20 
+20 
+40 
+40 
+200 
+Pc = 0 
+Pc = 0 
+Pc = 0 
+Pc = 0.5 
+Pc = 0.5 (charged only) 
+Pc = 0 
+Pc = 0.5 (charged only) 
+Pc = 0 
+Pc = 0.5 
+Pc = 0 
+0.02 
+0.05 
+0.06 
+0.07 
+0.09 
+0.07 
+0.08 
+0.07 
+0.11 
+0.09 
+0.10 
+weak decays to fragment into hadrons. The distributions (1/0) do/dB2 for this case 
+are shown in fig. 48 for various values of ys, using the models described in subsect. 
+4.5. The approximately Gaussian shapes of many of the distributions are a simple 
+consequence of the central1imit theorem. Away from the kinematic boundary 
+B2 = -~, the probability that a given particle has a particular value of B2 is roughly 
+uniform in B2, and the values of B2 for each of the particles are essentially uncorre­
+lated. The B2 for the complete event is a sum of the B2 values for each of the par­
+ticles, so that, at least away from B2 = - ~, it will be approximately normally 
+distributed. The distribution is closer to Gaussian if 3-jet heavy quark decays are 
+assumed rather than 2-jet ones. The difference between the value of (B 2 ) for two-jet 
+(e+e- ~ qq ~ hadrons) events «B2) ~ 0.1) and for heavy quark or lepton produc­
+tion «B2) = ~ 0) may allow the two processes to be distinguished by a measurement 
+of (B2). (A similar method is proposed in ref. [20].) In addition, the distributions 
+(1/0) do/dB2 for the processes are somewhat different (see figs. 47 and 48). 
+For the process e+ e- ~ qq(G), one finds that * 
+( ) _ 1 2O:sj3(1 - X3)(Xi +x~ - 2(xi +X2)) B2 --+-10 3n 10Xix2X3 
+_ 1 3 O:s (s ) 
+-10 ---w;' (6.12) 
+* In this calculation we used the differential cross section for e + e - .... qqG [3] (1 = q, 2 = q): 
+do = a~ rXI(l + sin2 0 cos2 ci>i) + x~(l + sin2 0 cos2 ci>2~ • 
+dx 1 dx 2 d(cos 0) dci> 87T L (1 - xi)(1 - x2) J 
+Integration over angles gives a term identical to the total cross section for e + e - .... qqG (multi­
+plied by rtJ) plus the term given as the integrand in eq. (6.12). 
+
+PDF PAGE 71
+G.C. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+so that the angular distribution parameter defined in eq. (6.7) is given by 
+A~ 1 _ 4as(s) . 
+1T 
+For VS = 10 GeV, this gives 
+A~0 . 68 . 
+483 
+(6.13) 
+(6.14) 
+On comparing (B2) from eq. (6.14) with the results for e+e- -+ qq in table 9, it 
+becomes clear that it would be very difficult to distinguish between e + e - -+ qq 
+and e + e- -+ qq(G) events by a measurement of (B2 ). Whereas two- and three-jet 
+processes populate different regions in the H, (see, for example, fig. 30), both popu­
+late the complete range of B,. Hence, even a measurement of the distributions in 
+the B, will probably not be very effective at identifying two- and three-jet processes. 
+In fact, the B2 distributions for e + e- -+ qqG and e + e --+ qq are very similar. For the 
+former there is a slight depletion of events near the boundaries. The detailed results 
+depend sensitively however on the treatment of three-jet fragmentation. Note that, 
+because the photon has spin 1, (B1) = 0 for 1 > 2 even for three-jet processes. 
+The process e + e - -+ ~ -+ GGG is also amenable to analysis in terms of the BI . If 
+one assumes that the ~ is a pure s-wave state and contains no d-wave admixture, 
+then the helicity amplitudes for the Q and Q within the ~ are determined simply 
+by those of the virtual photon. It is, therefore, possible to compute the angular 
+distribution of the gluons produced in the process of fig. 3 with respect to the beam 
+axis. Using the results of ref. [30], we find that in this case 
+72 - 71T2 
+(B2) = 80(1T2 _ 9) ~ 0.042 , (6.15) 
+corresponding to 
+72 - 71T2 
+A = 2 ~ 0.35. 131T - 120 
+(6.16) 
+The distribution in B2 for e + e- -+ ~ -+ GOG is rather smooth, having no peak around 
+B2 = -!, and goes to zero as B2 -+ 1. 
+From the arguments made for the HI in sect. 3, it is clear that the moments of 
+the B, should also be infrared finite to all orders in QeD perturbation theory. Since 
+the angular distribution of energy produced in e + e -annihilation events is entirely 
+determined by (Bo) and (B 2 ), it too must be infrared finite to all orders in g2. The 
+average energy angular distribution for e + e --+ qq(G) to O(g2) is calculated in ref. 
+[27]. Because this may be expressed as a finite sum of B" it should be infrared 
+stable, unlike F(x), which is given only by an infinite sum of HI' Note, however, 
+that by considering only such an average angular distribution, one loses the infor­
+mation provided by the distribution of events in the B,. 
+
+PDF PAGE 72
+484 G.c. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+7. Application to deep inelastic scattering 
+In this section, we discuss the use of the HI in the analysis of three-jet effects in 
+deep inelastic lepton-nucleon (}..tN, eN and liN) interactions. We work mainly in the 
+rest frame of the incoming virtual photon (or W) and the target nucleon. The 'Y* 
+(or W*) is taken to have an energy II in the rest frame of the target nucleon, and an 
+invariant mass _Q2. Bjorken's x variable is defined as x = Q2/2mNII. 
+The lowest-order process in deep inelastic lepton-nucleon scattering is the absorp­
+tion of the virtual photon by a quark in the proton. The final state will contain two 
+jets of hadrons; one arising from the quark and one from the fragmentation of the 
+target nucleon. If the remnants of the target nucleon are treated as a single point 
+particle then two-jet final states from deep inelastic scattering give the same values 
+of the HI as two-jet final states in e + e - annihilation. (The HI are normalized so that 
+Ho = 1.) A cut may be made on the hadrons in the final state which ensures that few 
+of those considered were fragments of the target, rather than of the produced quark. 
+The requirement that all hadrons considered have momenta directed into the hemis­
+phere ahead of the virtual photon (or W) direction (that is, all have z > 0) seems 
+sufficient to veto most target fragments. In this case, only the fragments of the 
+outgoing quark should contribute to the values of the HI for the final state. Ignoring 
+the fragmentation of the quark into hadrons, one finds that in this case all the HI 
+are simply equal to i. Three-jet final states (which arise from the processes 'Y* q -+ 
+qG and 'Y. G -+ q<D will give a distribution of values of HI' Unfortunately, the z > 0 
+cut on final particles may not lead to infrared stable results, so that it may not be 
+possible to make reliable predictions for the HI distributions in this case. 
+A closer analogy to e + e - annihilation is obtained if all the particles in the final 
+state are considered. Let us assume that the fragments of the target may be treated 
+as a single massless particle (perhaps akin to a 'diquark'). Then in the free massless 
+quark approximation, the HI for two-jet final states will be the same as for qq final 
+states in e + e - annihilation; HI = 1 for even 1 and HI = 0 for odd I. This result holds 
+only in the 'Y*(W*) N rest frame. Note that because the HI are rotationally invariant, 
+their values are unaffected by the transverse momentum of the incoming quark or 
+gluon with respect to its parent nucleon. Three-jet final states will again give a distri­
+bution of values of HI' The distributions are qualitatively similar to those found in 
+sects. 4 and 5 for e + e - annihilation. The details of the distributions depend on the 
+momenta of the incoming and outgoing leptons (i.e., on Q2, x and which of W 1, 
+W2 or W3 is probed). The distributions also depend on the momentum distributions 
+of quarks and gluons in the nucleon. As x tends to one, the HI distributions tend to a 
+non-trivial limit with means that are typically, 
+(7.1) 
+very nearly equal to the e+ e- -+ qq(G) values quoted in table 6. Such a non-zero 
+limit should be contrasted with other QeD effects in deep inelastic scattering (for 
+example, the O(g2) contribution to R = aLlaT) which vanish like (1 - x) as x -+ 1. 
+
+PDF PAGE 73
+C.c. Fox, S. Wolfram / Event shapes in e + e- annihilation 485 
+For small values of x, the HI distributions become more peaked towards the two-jet 
+values, and, for example, at x = 0.1, 
+(7.2) 
+The dominant contribution to these results comes from the process r O q ~ q(G); 
+r O G ~ qq is insignificant. Only transverse photons give significant contributions 
+to the (HI)' 
+In deep inelastic scattering, the question of infrared stability is more complicated 
+than in e + e - annihilation because the initial quark state is no longer a color singlet. 
+As expected from the KLN theorem, infrared finite results are obtained only if all 
+processes at 0(g2) are added, including those containing extra particles in the initial 
+state (e.g., r 0 Gq ~ q). At 0(g2), only r 0 q ~ qG and r 0 G ~ qq can give 3-jet final 
+states. For odd I, the HI receive contributions only from 3-jet final states, and so 
+their values are unaffected by the existence of many possible two-jet processes, 
+while for even I the HI contain an extra term which gives the total cross section 
+upon integration over all possible final states. When this result is divided by the total 
+cross section in order to obtain (HI), the extra term becomes simply 1 + 0(g4). Thus, 
+to order g2 a knowledge of the total cross section is not necessary to obtain the (HI)' 
+In the results quoted above, we have assumed idealized jets, and have not included 
+fragmentation into hadrons . This can be treated by the methods described in sect. 5. 
+Note that the effects of hadron fragmentation will be characterized by the rON c.m. 
+energy y's = Qv'(1/x) - 1. As mentioned above, the HI distributions for three-jet 
+events become more distinct from the two-jet limit as x increases, but on the other 
+hand, the smearing effects of fragmentation to hadrons will become smaller as x 
+decreases (y's increases). The optimum value of x at which to observe three-jet pro­
+cesses should, therefore , be determined by a compromise between these two effects. 
+In sect. 8, we shall present an alternative method for analyzing event shapes in 
+deep inelastic scattering, which involves projecting the momenta in an event onto a 
+particular plane. Although this technique has certain advantages, it does not retain 
+the rotational invariance of the HI and the resulting insensitivity to transverse momen­
+tum of the incoming quark and gluon. We shall discuss both techniques in more 
+detail in a later publication . 
+Energy correlation functions (see subsect. 2.6) may also be useful in studies of 
+deep inelastic scattering events. 
+8. Shape parameters for projections of events onto planes 
+There is no natural plane defined in an e + e - annihilation event. In other proces­
+ses the directions of initial or final particles often define a plane, and it may be use­
+ful to analyze the 'shapes' of events projected onto this plane. For this purpose, 
+define a set of observables 
+CI = 16 IPilproj ei1t>i 12 = 61PilprojlPjlproj cos [/(¢>· _ ¢>-)] (8.1) 
+. . / . . S 1 / , 
+1 Vs 1,/ 
+
+PDF PAGE 74
+486 C.C. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+where the sum runs over all particles or pairs of particles in each event, and the 
+angles ¢i are measured with respect to an axis chosen in the plane, II. (IPilproj are 
+the magnitudes of the particles' momenta projected into the plane II.) The values 
+of the CI will be independent of the axis used, so long as it lies in II. 
+The occurrence of the y;n(n) in the definition (1.1) of the 'shape' parameters 
+HI is a consequence of the fact that these functions form bases for the irreducible 
+representations of the three-dimensional rotation group. It is the functions,e'lt> which 
+form bases for the representations (which are all trivial) of the two-dimensional rota­
+tion group, U(1), and so appear in the definition (8.1) of 'shape' parameters for two­
+dimensional projections of events. 
+To discuss the properties of the CI , let us consider a continuous distribution p(¢) 
+around a circle. In this case the CI are given by 
+21T 
+CI = I J p(¢) eikfJ d¢12 . (8.2) 
+o 
+The CI obtained using an axis rotated by an angle X from the original axis are then 
+given by 
+21T 
+(CI)' = IJ p(¢ + X) eil1>d¢12 = CI , (8.3) 
+o 
+thus proving the invariance of the CI under rotations in the plane n. If another plane 
+is chosen, then their values will clearly change. 
+If p(¢) is taken to be the amplitude of an electric current as a function of time, 
+with period 2rr, then CI is simply the power in the lth harmonic of the signal. 
+The correlation function for the CI may be defined in analogy to the function 
+F(x) (eq. (2.7)): 
+21T 
+R(X) = J p(¢ + X) p*(¢) d¢ . 
+o 
+Defining the Fourier coefficients for the function p(¢) as 
+al = ~ Jp(¢) eikfJd¢, 
+the correlation function becomes 
+R(X) = J...:6J e-ilx ei(I'-l)rJ>ala~d¢=J....:6 e- ilxCI . 
+2rr I,t I 2rr I 
+This is the analogue for R(X) of the series (2.10) for F(x). 
+(8.4) 
+(8.5) 
+(8.6) 
+If all particles in the final state of an event are included in the sum (8.1), then 
+C1 = 0, (8.7) 
+by momentum conservation. The value of Co depends on the plane chosen. It will, 
+
+PDF PAGE 75
+c.c. Fox, S. Wolfram / Event shapes in e + e- annihilation 487 
+therefore, usually be convenient to consider the observables CdCo. 
+As an example of the use of the C/, consider the process e+ e- -+ qq. Co will be 
+maximal if the q and q momenta lie in the plane (n). All the C/ will be zero if the 
+q and q momenta are perpendicular to n. Except in this case it is clear that 
+q/Co = 0 , 
+=1, 
+(/ odd), 
+(l even) . (8.8) 
+In general, if p(r/» consists of a set of N delta functions of equal weight at equally­
+spaced points around a circle, then 
+= 1 , 
+(l"4=AN), 
+(l=AN) , 
+where A is any integer. If per/»~ is uniform in r/>, then C/ = 0 for all I "4= O. 
+(8.9) 
+In deep inelastic lepton-nucleon scattering, the directions of the incoming and 
+outgoing lepton in the target nucleon rest frame define a plane (n). The hadronic 
+final state may be analyzed by projecting all the hadron momenta on to this plane, 
+and then evaluating the C/. VS is taken to be the c.m. energy in the 'Y·N collision. 
+For a two-jet production process, as illustrated in fig. 49 , the Ci/Co will be approxi ­
+mately 1 for even I and zero for odd I (assuming the fragments of the target to behave 
+roughly like a point particle). So long as the analysis is made in the nucleon rest frame, 
+'Fermi motion ' of the struck quark within the target nucleon will have little effect 
+on the values of the q for the event. A typical three-jet event is shown in fig. 50. 
+Such a process will give 1 > Ci/Co "4= 0 for all I > 1. The precise value will depend on 
+assumptions about the structure of the target fragments, and on the momentum dis­
+tribution of the primary quark or gluon within the nucleon. It will be infrared stable 
+(see sect. 3). 
+A much better analysis of deep inelastic lepton-nucleon scattering event may be 
+made using the C/ in the plane (n) orthogonal to the virtual photon (or W) direc-
+A 2 -JET EVENT IN DEEP-INELA STI C SCATTERING 
+.l 
+lorgel 
+frogment s_ 
+.t ' 
+® 
+q 
+Fig. 49. A typical two-jet event in deep inelastic scattering pictured in the target nucleon rest 
+frame. The momenta of the final hadrons are projected into the plane n shown for the calcu­
+lation of the q. 
+
+PDF PAGE 76
+488 C.C. Fox, S. Wolfram / Event shapes in e +e- annihilation 
+A 3-JET EVEN T IN DEEP-INELASTIC SCATTERING 
+.t' 
+lorgel 
+frogmenls __ @ 
+Fig. 50. A typical three-jet event in deep inelastic scattering pictured in the target nucleon rest 
+frame. The projections of the momenta of the final particles into the plane n used for the calcu­
+lations of the C/ are shown as dashed lines. 
+tion. This arrangement for a two-jet event is shown in fig. 51. Treating the target 
+fragments as a point particle, and using the free quark approximation, one finds that 
+C/ = 0 for alII in this case. 'Fermi motion' of the initial quark within the target 
+nucleon, the fragmentation of the outgoing quark into hadrons, and allowing for 
+realistic target fragments will all serve to modify this result. Note, however, that a 
+shower of hadrons which has cylindrical symmetry when projected on to IT will make 
+no contribution to the C/. The arrangement for a three-jet event is shown in fig. 52. 
+The target fragments will be directed approximately perpendicular to II, and so will 
+not contribute to the C/ for the event. The projections of the momenta of the out­
+going quark and gluon (in some events, outgoing q and q) on to II will be equal and 
+opposite, by momentum conservation. For three jet events, therefore, C1 !:::< 0 for 
+odd I and Cz/Co !:::< 1 for even I. In idealized three-jet events, 1 ~ 0 for even I, and 
+Cz = 0 for odd l. The shapes of the distributions in C21 are similar to those in 1 - H2 
+shown in fig. 23. (C21> is typically 0.06 Q s at x = 0.1, rising smoothly to about 0.15 
+A 2-JET EVENT IN DEEP-INELASTIC SCATTERING 
+.t .t' 
+Fig. 51. A typical two-jet event in deep-inelastic scattering. In this case, the plane n is taken ortho­
+gonal to the virtual photon (or W) direction, and the projections of the momenta of the final 
+hadrons on to n (shown dashed) are distributed roughly symmetrically about the 'Y * (W*) direc­
+tion, so that they give a small value of C/. 
+
+PDF PAGE 77
+C.C. Fox , S. Wolfram / Event shapes in e + e- annihilation 489 
+A 3 - J ET EVENT IN DEEP-IN ELA STI C SCATTER ING 
+.e .e' 
+Fig. 52. A typical thr ee-jet event in deep-inelastic scattering, with the plane n taken ortho gonal 
+to the virtual photon (or W) direction . 
+as for x = 0.8 . Once again, 'Y*G -+ qq and longitudinal photons make an insignificant 
+contribution. 
+The C/ may be computed by measuring the angles ¢i of the hadron momenta pro­
+jected on to the plane n with respect to any axis in n. However, in deep inelastic 
+scattering, a natural axis in n is defined by the projection of the incoming and out­
+going lepton (Q and Q') directions on to n. In this case, one may define a set of vari­
+ables analogous to the B/ (see sect. 6): 
+D - "IPilproj (I) / - L..J --- cos (X • . / I , 
+i yS 
+(8.10) 
+where (Xi is the angle which particle i makes with the fixed axis in the plane n. For 
+a two-jet event D/ ~ O. Three-jet events will have a distribution of values of D/; the 
+precise form depends on the detailed assumptions made about the inclusion of effects 
+associated with hadrons. Note that because the photon (or W) has spin 1, D/ = 0 for 
+I> 2. <Dt ) is simply the <Pi) summed over all hadrons in the event relative to the 
+projection of the lepton direction . 
+Previous authors have considered the possibility of detecting three-jet produc-
+tion in deep inelastic QN scattering by measuring the angular distribution of a single 
+particle in the final state [21]. The discussion given in sect. 3 indicates that this pro­
+cedure should not lead to infrared stable results, since processes involving the emis­
+sion of particles of indefinitely low energy are distinguished from those in which no 
+particles are emitted . To order g2, it turns out that the single-particle angular distribu­
+tions are infrared finite, but this property will not survive in higher orders . This sug­
+gests that only angular distributions weighted with momenta and summed over all 
+final particles as in the definition of the D/ should be considered. These will be infra­
+red stable . 
+We hope to discuss the use of the C/ and D/ in the analysis of final states from 
+deep inelastic lepton-nucleon scattering in a future publication. 
+The t; may also be useful in an analysis of the structure of final states in high­
+energy hadron-hadron (hh') collisions involving the production of jets of hadrons 
+with large transverse momenta (Pi) ' We shall work in the c.m.s. for the colliding 
+hadrons. We consider the C/ for a plane n orthogonal to the directions of the initial 
+
+PDF PAGE 78
+490 C.C. Fox , S. Wolfram I Event shapes in e + e- annihilation 
+A HADRON- HADRON COLLI SION IN VOLV IN G 
+LARGE Pl. JET PRODUC TI ON 
+h' 
+Fig. 53. A typical hadron-hadron collision involving the production of two high transverse 
+momentum jets of hadrons, shown projected on to the plane n orthogonal to the directions 
+of the incoming particles in their c.m.s. 
+hadrons, as illustrated in fig. 53. The fragments of the initial hadrons should form 
+a halo of particles around the hh' axis. Fig. 53 shows a typical event involving the 
+production of two jets of hadrons with high transverse momenta, as expected from 
+QeD models for large P 1 processes [22] . QCD also predicts that in some events, 
+three high transverse momentum hadron jets should be produced , arising, for exam­
+ple, from the subprocess qq -)0 qqG. Measurements of the CI could be used to disent­
+angle the different types of event. In an experiment with an azimuthally symmetric 
+trigger, the halo of low P 1 particles from the fragmentation of the beam and target 
+will be distributed symmetrically about the hh' axis. Because of their isotropy, these 
+unwanted particles will not contribute significantly to the values of the CI for an 
+event. Care must be taken if a trigger is used which requires a particle or a jet at a 
+particular azimuthal angle. In that case, the beam and target fragments tend to be 
+directed oppositely to the trigger particles, and will therefore affect the values of the 
+q [23]. The application of a transverse momentum cut on the particles used in the 
+calculation of the Cl would, however, remove their effect. (This cut is the two­
+dimensional analogue of the total momentum cut Pc discussed in sect. 5.4.) Final 
+states containing two high transverse momentum jets will give CIICo ~ 1 (l even) 
+and Cl ~ 0 (I odd), while those in which more jets are produced will give rise to a 
+wider distribution of Cl values. 
+It appears that the CI should provide a powerful tool for the analysis of high P 1 
+hadron events. QCD makes definite predictions for the distributions of events in the 
+Cl · 
+9. Conclusions 
+In this paper, we have presented several sets of observables for the analysis of the 
+'shapes' of final states in events of various processes. We have considered mainly 
+e + e- annihilation, for which no natural axis is defined in the final state. The HI 
+
+PDF PAGE 79
+c.c. Fox, S. Wolfram / Event shapes in e + e - annihilation 491 
+(defined in eq. (1.1)) appear to be the most suitable class of observables for this 
+case since they are rotational invariants whereas previous observables proposed 
+require minimization to find a preferred axis in each event. An axis must be chosen 
+to evaluate the HI, but their values are independent of the choice. In sect. 2, we 
+showed that the information on the 'shape' of an event contained in the HI may be 
+reexpressed in a generalized 'correlation function' F(x) for the relative density of 
+particles at different angles. F(cos m may be interpreted as an energy correlation 
+function between two detectors an angle ~ apart, in the limit that their areas tend 
+to zero (see subsect. 2.6). In sect. 3, we showed that to order g2 in QeD perturba­
+tion theory, the moments of the HI are infrared finite, and we gave arguments that 
+this result will survive the inclusion of higher-order effects. (F(x) is not, however, 
+infrared finite.) If the quarks and gluons produced in the primary interaction are 
+allowed to fragment into hadrons, then the resulting distributions in the HI are also 
+. infrared finite. The reason for this is that the fragmentation process acts somewhat 
+like a detector with finite energy (and angular) resolution and properly averages 
+over 2-jet events (qq) and 3-jet events (qqG) that are 'near' the two-jet kinematic 
+configuration. 
+For the process e+ e- ~ qq, HI = I for even I, and HI = 0 for odd I. Energy-mo­
+mentum conservation requires Ho ~ I and HI = O. For final states consisting of three 
+quarks and gluons, H2 and H3 are simple functions of the energies of the final par­
+ticles. We gave analytic expressions for <H2) and <H3) for the processes e + e- ~ S ~ 
+GGG, where S is a heavy vector meson containing a pair of heavy quarks, and 
+e + e - ~ qq(G). The latter process is defined to be a combination of e + e- ~ qq and 
+e + e -~ qqG. According to QeD, only this combination should be present. The fact 
+that <H2) and <H3) are finite for that case is an explicit demonstration of the infrared 
+stability of the HI to order g2 . 
+We used the Field-Feynman model for the fragmentation of quarks and gluons 
+into hadrons. We found that for c.m. energies above about VS = 10 GeV, the distri­
+butions of events in H2 and H3 allow good differentiation between the various mecha­
+nisms. The H2 distribution was particularly powerful at distinguishing the processes 
+e+e- ~ qq(G) and e+e- ~ S ~ GGG, while the H3 distribution should provide a 
+good measure of any pure e+e- ~ qq processes. At least VS ~ 30 GeVis required, . 
+however, before the H2 and H3 distributions for realistic hadronic events become 
+similar to those obtained in the free quark and gluon approximation. Only for these 
+energies can the H2 and H3 distributions be considered as direct quantitative tests of 
+perturbative QeD; at lower energies, the details of the distributions calculated from 
+QeD perturbation theory are blurred by the fragmentation of the quarks and gluons 
+into hadrons. The agreement between the results for realistic hadron final states and 
+for free quarks and gluons can be improved slightly by considering only the higher­
+momentum hadrons in each event. This procedure does not affect the discrimination 
+between different types of events offered by the HI; it merely gives results which are 
+closer to the free quark and gluon approximation. 
+We also considered the production and decay of heavy leptons and of mesons 
+
+PDF PAGE 80
+492 G.c. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+containing heavy quarks. These processes give rise to events of a rather spherical 
+'shape', which should be clearly distinguished from other types of event. Several 
+possible mechanisms for the weak decays of heavy mesons were considered . It 
+should be possible to discriminate between them on the basis of measurements of 
+the 'shapes ' of events using the HI. 
+In sect. 6, we discussed a class of observables (BI) which use the direction of the 
+incoming beams as an axis and are, therefore, not rotationally invariant . There is no 
+clean separation of e + e- -+ qq and qq(G) in the BI distributions and generally they 
+do not provide very good discrimination between different types of events, although 
+events involving heavy quark or lepton production could be distinguished by their 
+use. 
+In sect. 7, we considered the extension of our analysis of event shapes in e + e­
+annihilation to final states in deep inelastic lepton-hadron scattering. The main dif­
+ficulty in this case is the presence of fragments of the target in the final state . Never­
+theless, it appears that the HI could be used to identify three-jet final states in deep 
+inelastic scattering. 
+Finally, in sect. 8, we gave a very brief discussion of the analogues of the HI in 
+two dimensions (the CI ) . These should be useful for analyses of final states in which 
+a natural plane is defined. If this plane is chosen to be orthogonal to the virtual 
+photon direction in the target nucleon's rest frame, then idealized two-jet events in 
+deep inelastic lepton-nucleon scattering give CI ~ 0, while three-jet ones give non­
+zero values for C21. The CI also promise to be useful in the analysis of hadron-hadron 
+collisions involving the production of particles with large transverse momenta. The 
+related variables DI , also discussed in sect. 7, appear to allow a more precise formula­
+tion of certain azimuthal angular correlations that have been previously proposed 
+as tests of QCD. 
+We hope to present more detailed analyses of the 'shapes ' of events in deep ine­
+lastic lepton-nucleon scattering in a future publication. 
+We are grateful to R.D. Field and R.P. Feynman for the use of their jet-develop­
+ment computer program , and to the MATHLAB group of the MIT Laboratory for 
+Computer Science for the use of MACSYMA. 
+Appendix 
+Three-jet kinematics 
+The momenta for e + e - annihilation to three particles via a virtual photon are 
+assigned according to fig. 54. In our calculations, at most one of the final particles 
+has a non-zero mass, and, in this case, the kinematics for the process become very 
+I 
+
+PDF PAGE 81
+C.c. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+MOMENTA FOR 2--3 PROCESS 
+Fig. 54. Defmitions of the momenta for a 2 --> 3 process. 
+simple. Let us work in the rest frame of the 'decaying ' virtual photon, so that 
+Q=Pl +P2 +P3=0 , 
+£1 +£2 +£3 =Vs. 
+Now define 
+x. = 2Ei 
+I vs ' 
+(i = 1,2,3) . 
+Energy conservation demands 
+6Xi=2. 
+Take particle 3 to be massive, and write 
+pi = p~ = ° , P~ = p2 . 
+Then 
+q = (.;s, 0, 0, 0) , 
+Pi = ~Xiv'S (1,0, sin (Xi, cos (Xi) , (i=1,2). 
+The expression for P3 does not have such a simple form . However, for all i and 
+j(k =1= i =1= j) 
+Pi' Pi = Pi ' (q - Pk) - pi = Pi' (q - pd - pJ 
+= H(Pi + Pi) . (q - Pk) - pi - pJl 
+= Hq2 - 2q· Pk + p~ - pi - pJl . 
+If all the final particles are massless, this gives 
+Pi' Pi = ~s(1 - xd . 
+When particle 3 has mass p, define 
+p2 p2 
+{3=_=2 . 
+s s 
+493 
+(A.l) 
+(A.2) 
+(A.3) 
+(AA) 
+(A.S) 
+(A.6) 
+(A.7) 
+(A.8) 
+
+PDF PAGE 82
+494 
+Then 
+Now 
+G.C. Fox, S. Wolfram / Event shapes in e + e- annihilation 
+PI· P2 = !s[1 -X3 +~] , 
+P2·P3=!s[I-Xl-~] , 
+Pl·P3=!s[I- X2-m. 
+PI · P2 =E1E2(l-cOS<1>12) 
+=!XIX2S(l-cOS<1>12)·=1S[XI +X2 -1 +~], 
+(A.9) 
+(A.lO) 
+so that the angle <1>12 between the three-momenta of particles 1 and 2 is given by 
+=2[(l-xd(l-x2)-~] - 1. 
+xI X2 
+(A.ll) 
+The physical region for the process of fig. 54 is determined simply by demanding 
+that 
+-1 < cos <1> 12 < 1 , 
+which implies 
+(A.l2) 
+(A.13) 
+The physical region for a characteristic value of ~ is illustrated in fig. 55. Solving the 
+inequalities (A.l3), one finds that 
+(A.l4) 
+while 
+(A.I5) 
+The expressions for cos <1>13 and cos <1>23 are simple only if all the final particles are 
+massless, in which case 
+2(l-Xk) cos <1>i; = 1 - , xjX; (ii=ii=k) (A.16) 
+The momenta q 1 and q2 of the incoming electron and positron clearly satisfy 
+(A.l7) 
+
+PDF PAGE 83
+495 
+DALITZ PLOT FOR 3 PARTICLE FINAL STATE 
+~----------------------~o 
+1-/3 ...---~ 
+1- v13 
+1-/3 I xI 
+Fig. 55. The physical region in the fractional energies xi = 2E;/.Js for a process with three final­
+state particles. Particles 1 and 2 are taken to be massless, while particle 3 has a mass jJ. = .J(ii. 
+in their c.m. frame (virtual photon rest frame). Momentum conservation requires 
+the momenta of the final particles to lie in a plane. Let (J be the angle which the nor­
+mal (N) to this plane makes with the direction of the electron's momentum. Then, 
+if all the particles are massless, 
+ql . Pi =!SXi (1- sin (J cos 4>;), (i = 1,2,3), 
+q2 . Pi = !SXi (1 + sin (J cos 4>;) , 
+(A.I8) 
+where 4>i are the angles of the final particles' momenta relative to the axis formed 
+by the intersection of the plane containing N and the e - direction with the plane of 
+the final particles. 
+References 
+[1) B.H. Wiik and G. Wolf, A review of e + e - interactions, DESY preprint 78/23 (May 1978). 
+[2) G. Sterman and S. Weinberg, Phys. Rev. Lett. 39 (1977) 1436. 
+[3) J. Ellis, M.K. Gaillard and G.G. Ross, Nucl. Phys. Bill (1976) 253. 
+[4) T. Applequist and H.D. Politzer, Phys. Rev. Lett. 34 (1975) 43; Phys. Rev. D12 (1975) 
+1404. 
+[5) H. Georgi and M. Machacek, Phys. Rev. Lett. 39 (1977) 1237; 
+E. Farhi, Phys. Rev. Lett. 39 (1977) 1587; 
+S.-Y. Pi, R.L. Jaffe and F.E. Low, Phys. Rev. Lett. 41 (1978) 142. 
+
+PDF PAGE 84
+496 
+[6] A. de Rujula, 1. Ellis, E.G. Floratos and M.K. Gaillard, Nucl. Phys. BI38 (1978) 387. 
+[7] M.G. Rossman (ed.), The molecular replacement method (Gordon and Breach, New York, 
+1972). 
+[8] T. Kinoshita, J. Math. Phys. 3 (1962) 650 ; 
+T.D. Lee and M. Nauenberg, Phys. Rev. 133 (1964) B1549; 
+G. Sterman, Phys. Rev. D14 (1976) 2123. 
+[9] 1. Frenkel, R. Meuldermans, I. Mohammad and J.C. Taylor, Nucl. Phys. B121 (1977) 58. 
+[10] H. Georgi and H.D. Politzer, Nucl. Phys. B136 (1978) 445. 
+[11] T. Applequist and H. Georgi, Phys. Rev. D8 (1973) 4000 ; 
+A. Zee, Phys. Rev. D8 (1973) 4038 . 
+[I2] S. Wolfram, Non-logarithmic terms and the effective coupling, Caltech preprint in preparation. 
+[13] A. Ore and 1.L. Powell, Phys. Rev. 75 (1949) 1696. 
+[14] M. Krammer and H. Krasemann, Phys. Lett. 73B (1978) 58. 
+[15] L. Lewin, Dilogarithms and associated functions (McDonald, 1958). 
+[16] I.S. Gradshteyn and I.M. Ryzhik, Table of integrals, series and products, (Academic Press, 
+New York, 1965). 
+[17] G.c. Fox and S. Wolfram, Tests for coplanar events in e + e - annihilation, Phys. Lett. B, in 
+press. 
+[18] R.D. Field and R.P. Feynman, Nucl. Phys. B136 (1978) 1. 
+[19] W.G. Scott , in 'Neutrinos-78', ed. E.C. Fowler, Purdue, 1978. 
+[20] U. Sukhatme and 1. Tran Thanh Van, Phys. Lett. 76B (1978) 489. 
+[21] H. Georgi and H.D. Politzer, Phys. Rev. Lett. 40 (1978) 3; 
+A. Mendez, Nucl. Phys. B145 (1978) 199. 
+[22] R.P. Feynman, R.D. Field and G.C. Fox, Phys. Rev. D18 (1978) 3320. 
+[23] M.G. Albrow et a!., Nucl. Phys. B135 (1978) 46l. 
+[24] S. Brandt and H.D. Dahmen, Axes and scalar measures of two-jet and three-jet events, 
+Z. Phys. C, in press. 
+[25] G. Sterman, Phys. Rev: D17 (1978) 2789. 
+[26] G. Kiillen and A. Sabry, Mat. Fys. Medd. Dan. Vid. Selsk, 29 (1955) no.17. 
+[27] C.L. Basham, L.S. Brown, S.D. Ellis and S.T. Love, Phys. Rev. D17 (1978) 2298. 
+[28] C.L. Basham, L.S. Brown, S.D. Ellis and S.T. Love, Phys. Rev. Lett . 41 (1978) 1585. 
+[29] G.C. Fox and S. Wolfram, Energy correlations in e + e - annihilation events, Caltech preprint 
+in preparation . 
+[30] K. Koller, H. Krasemann and T.F. Walsh, The 3-gluon decay of quarkonium, DESY pre­
+print, 78/37 (1978). 
+[31] G.c. Fox and S. Wolfram, Phys. Rev. Lett. 41 (1978) 1581. 
+I. 

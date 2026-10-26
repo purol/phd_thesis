@@ -1222,6 +1222,8 @@ Figure~\ref{fig:FBDT_var_importance} shows the variable importance for FastBDT i
 Appendices~\ref{sec:off_variables}-\ref{sec:side_variables} show distributions of several variables for the off-resonance sample and the sideband region.
 A detailed list and descriptions for the input variables are provided in Table~\ref{tab:FastBDT1var}.
 Figure~\ref{fig:fewFastBDTinputs} shows two important variables: $E_{\textrm{ecl}}$ and \texttt{harmonicMomentThrust2}.
+The latter is the second-order harmonic moment calculated with respect to the event thrust axis~\cite{Fox:1978vw}.
+It characterizes the momentum-weighted angular distribution of particles relative to this axis.
 Figures~\ref{fig:FastBDTinputs1}-\ref{fig:FastBDTinputs2} show the MC distributions of all FastBDT input variables.
 \begin{figure}[h]
     \centering
@@ -4384,7 +4386,7 @@ For each distribution, the selection requirement on the plotted variable is omit
     \\
     \hline
 
-    \path{extraInfo__boEeclv200}
+    $E_{\textrm{ecl}}$
     &
     Extra energy deposited in the ECL.
     \\
