@@ -1145,7 +1145,8 @@ The reason why the random selection is used is that other powerful variables wil
 \subsection{$D$ veto variables}
 \label{subsec:Dveto_reconstruction}
 Even though $D$ veto is applied, as discussed in Section~\ref{subsec:one_dimensional_cut}, there is still background from $D$ mesons.
-To suppress these events, we try to reconstruct $D$ meson candidates in the event, and use their information in the MVA technique.
+To suppress this background, we reconstruct $D$-meson candidates in the event.
+Variables derived from these candidates are used as inputs to the MVA classifier described in Section~\ref{subsec:MVA}, together with other variables that discriminate signal from background.
 In this section, the reconstruction procedure for these $D$-meson candidates is discussed.
 
 The reconstruction of $D$ mesons is performed using the following procedure:
@@ -1200,6 +1201,7 @@ As noted above, the third category is not used for MVA.
 The reason is that the third category shows some data-MC discrepancy.
 
 \subsection{Multivariate Analysis}
+\label{subsec:MVA}
 This section discusses the MVA performed after the best-candidate selection.
 We use FastBDT as the MVA method~\cite{Keck:2017gsv}.
 FastBDT is a boosted-decision-tree-based classifier.
