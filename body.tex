@@ -1185,7 +1185,10 @@ The reconstruction of $D$ mesons is performed using the following procedure:
     \item $D^{0} \rightarrow K_{S}^{0} \pi^{+} \pi^{-} \pi^{0}$
     \item $D^{0} \rightarrow K^{+} \pi^{-} \pi^{0} \pi^{0}$
   \end{itemize}
-  As shown above, the third category includes the first category, and the fourth category includes the second category. Because fake $D$-meson candidates can arise from ECL background in decay modes containing a $\pi^{0}$, we deliberately reconstruct with and without $\pi^{0}$. Charge-conjugate decay modes are also reconstructed.
+  Including decay modes with $\pi^{0}$ mesons allows us to reconstruct a wider range of $D$ decays, but can also introduce fake $D$ candidates through ECL background.
+  Excluding these modes reduces this source of fake candidates, but limits the range of reconstructed $D$ decays.
+  We therefore construct both sets of candidates: the first and second categories use only modes without $\pi^{0}$, while the third and fourth categories additionally include modes with $\pi^{0}$.
+  Charge-conjugate decay modes are also reconstructed.
   \item Perform a vertex fit. Candidates for which the vertex fit does not converge are not treated as $D$-meson candidates.
 \end{enumerate}
 In this analysis, the following variables are used as MVA input:
