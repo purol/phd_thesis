@@ -1295,14 +1295,13 @@ In the grid search, the area under the receiver operating characteristic curve~(
 Figure~\ref{fig:gridsearch} shows the result of the grid search.
 For each hyperparameter combination in the grid search, there are two AUC values: AUC from training and testing samples.
 We want to keep the AUC value as large as possible, while keeping the testing AUC close to the training AUC.
-The x-axis of the figure is the rank of the AUC value for the testing sample.
-A lower rank indicates a higher AUC value.
-The blue dots show the AUC values for the testing sample.
-The red dots show the AUC values for the training sample.
+The hyperparameter combinations are ranked in descending order of the AUC evaluated on the testing sample.
+The $x$-axis shows this rank, with smaller rank numbers corresponding to higher testing AUC values.
+At each rank, the blue and red dots show the testing and training AUC values, respectively, for the same hyperparameter combination.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.65\textwidth]{./picture/FBDT_input/AUC.png}
-    \caption{Result of grid search. $x$-axis shows rank of AUC value for the testing sample. Lower rank means higher AUC value. $y$-axis shows AUC value. The blue dots show the AUC values for the testing sample. The red dots show the AUC values for the training sample.}
+    \caption{Result of grid search. Hyperparameter combinations are ranked by decreasing testing AUC. At each rank, the blue and red dots show the testing and training AUC values, respectively, for the same hyperparameter combination.}
     \label{fig:gridsearch}
 \end{figure}
 With the selected hyperparameters in Table~\ref{tab:FBDT_gridsearch}, the AUC values for training and testing samples are 0.966473 and 0.963756, respectively.
