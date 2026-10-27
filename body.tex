@@ -1,7 +1,7 @@
 \chapter{Introduction}\label{chap:introduction}
 \section{Theoretical Overview}
 $B\rightarrow X_{s} \nu \bar{\nu}$ is a flavour-changing neutral-current~(FCNC) process and cannot occur at tree level.
-The dominant contributions arise from electroweak penguin and box diagrams, shown in Figure~\ref{fig:feynman_diagram}.
+The dominant contributions arise from electroweak penguin and box diagrams, shown in Fig.~\ref{fig:feynman_diagram}.
 \begin{figure}[h]
     \centering
     \subfloat[][penguin diagram]{\includegraphics[width=0.4\textwidth]{./picture/EWP.png}}
@@ -640,7 +640,7 @@ Figures~\ref{fig:q2_KandKstar} and~\ref{fig:q2_K_reweighted} show the $q^{2}$ di
     \caption{$q^{2}$ distribution for the reweighted $B\to K\nu\bar{\nu}$ MC sample, compared with the Standard Model prediction~\cite{Parrott:2022zte}. The blue points show the reweighted MC distribution, and the red bands indicate the theoretical uncertainties of the prediction in each $q^{2}$ bin.}
     \label{fig:q2_K_reweighted}
 \end{figure}
-For $B\to K^{*}\nu\bar{\nu}$, the MC distribution differs from the central values of the theoretical prediction in several $q^{2}$ bins, as shown in Figure~\ref{fig:q2_KandKstar} (right).
+For $B\to K^{*}\nu\bar{\nu}$, the MC distribution differs from the central values of the theoretical prediction in several $q^{2}$ bins, as shown in Fig.~\ref{fig:q2_KandKstar} (right).
 These differences arise from the finite width of the $K^{*}$ resonance included in the MC simulation, whereas the theoretical calculation assumes a fixed $K^{*}$ mass.
 This was verified by fixing the $K^{*}$ mass in the MC simulation, which brought the $q^{2}$ distribution into agreement with the central values of the theoretical prediction.
 Since the finite width reflects the physical nature of the $K^{*}$ resonance, the MC distribution is retained without additional $q^{2}$ reweighting.
@@ -1224,7 +1224,7 @@ A detailed list and descriptions for the input variables are provided in Table~\
 Figure~\ref{fig:fewFastBDTinputs} shows two important variables: $E_{\textrm{ecl}}$ and \texttt{harmonicMomentThrust2}.
 The latter is the second-order harmonic moment calculated with respect to the event thrust axis~\cite{Fox:1978vw}.
 It characterizes the momentum-weighted angular distribution of particles relative to this axis.
-Figures~\ref{fig:FastBDTinputs1}-\ref{fig:FastBDTinputs2} show the MC distributions of all FastBDT input variables.
+Figures~\ref{fig:FastBDTinputs1}--\ref{fig:FastBDTinputs2} show the MC distributions of all FastBDT input variables.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.95\textwidth]{./picture/FBDT_input/Var_importance.png}
@@ -1507,7 +1507,7 @@ The bin boundary between MR2 and MR3 is set to $1.0~\textrm{GeV}/c^{2}$, slightl
 
 The bin boundaries along the $\mathcal{O}_{\textrm{BDT}}$ axis are determined to maximize the sensitivity while avoiding fit bias.
 If small bin widths are used, the sensitivity improves.
-However, if the number of events in the bin is small, the pull distribution of the signal strength does not follow a Gaussian distribution, as seen in Figure~\ref{fig:non-gaussian}.
+However, if the number of events in the bin is small, the pull distribution of the signal strength does not follow a Gaussian distribution, as seen in Fig.~\ref{fig:non-gaussian}.
 Therefore, the number and size of bins are determined to fulfill these conditions.
 
 In each $M_{X_{s}}^{\textrm{reco}}$ region, the bin boundaries along $\mathcal{O}_{\textrm{BDT}}$ are defined as follows:
@@ -1544,7 +1544,7 @@ the signal and background samples.
     \centering
     \subfloat[][Signal]{\includegraphics[width=0.5\textwidth]{./picture/histfactory/signal_hist.png}}
     \subfloat[][Background]{\includegraphics[width=0.5\textwidth]{./picture/histfactory/bkgs_hist.png}}
-    \caption{Bin index distributions for the signal and background samples.}
+    \caption{Bin index distributions for the signal and background samples. The distributions show the expected event yields for an integrated luminosity of $365.37~\textrm{fb}^{-1}$. The signal normalization assumes the SM branching ratio.}
     \label{fig:template_histogram}
 \end{figure}
 
@@ -1769,7 +1769,7 @@ $\mathcal{O}_{\textrm{BDT}} > 0.86$ & \multicolumn{1}{c}{4767} & \multicolumn{1}
     \label{tab:cutflow_sideband_on}
 \end{table}
 
-Figures~\ref{fig:sideband_used_vars1}-\ref{fig:sideband_used_vars2} show the distributions of the FastBDT input variables.
+Figures~\ref{fig:sideband_used_vars1}--\ref{fig:sideband_used_vars2} show the distributions of the FastBDT input variables.
 The event yields in data and MC show a discrepancy.
 After the FastBDT requirement, the data-to-MC ratio is
 \begin{equation}
@@ -1782,8 +1782,8 @@ After the FastBDT requirement, the data-to-MC ratio is
 \end{equation}
 These ratios are obtained after applying the calibration and correction factors listed in Chapter~\ref{chap:correction}, including the $q\bar{q}$ correction factor.
 The $q\bar{q}$ correction factor is calculated using the off-resonance sample, following the cut flow in Table~\ref{tab:cutflow_sideband_on}, with the $M_{\textrm{bc}}$ correction defined in Eq.~\ref{eq:Mbc_corr}.
-The MC distributions are normalized to the data in Figure~\ref{fig:sideband_used_vars1}-\ref{fig:sideband_used_vars2}.
-$q\bar{q}$ correction factor is \underline{not} applied in Figure~\ref{fig:sideband_used_vars1}-\ref{fig:sideband_used_vars2}.
+The MC distributions are normalized to the data in Figs.~\ref{fig:sideband_used_vars1}--\ref{fig:sideband_used_vars2}.
+$q\bar{q}$ correction factor is \underline{not} applied in Figs.~\ref{fig:sideband_used_vars1}--\ref{fig:sideband_used_vars2}.
 
 Figure~\ref{fig:FBDT_sideband_on} shows the distribution of the bin index defined in Sec.~\ref{sec:signal_region}.
 \begin{figure}
@@ -1846,7 +1846,7 @@ $\chi^{2}$ values are
   \end{cases}
 \end{equation}
 with 19 degrees of freedom.
-Here, the number of degrees of freedom is 19 rather than 20 because the MC distributions are normalized to the data in Figure~\ref{fig:FBDT_sideband_distribution}.
+Here, the number of degrees of freedom is 19 rather than 20 because the MC distributions are normalized to the data in Fig.~\ref{fig:FBDT_sideband_distribution}.
 Since an overall normalization uncertainty of $\pm20\%$ is assigned to the background samples, only the shape agreement is evaluated.
 The corresponding $p$-values are
 \begin{equation}
@@ -2059,7 +2059,7 @@ This large discrepancy had not been found in the previous iteration.
 In Appendix~\ref{sec:Jpsi_third_bin}, this discrepancy is investigated.
 A rough estimate including the look-elsewhere effect across the 15 bins suggests that such an extreme count can plausibly arise by chance.
 Figures~\ref{fig:XsJpsi_used_vars1}--\ref{fig:XsJpsi_used_vars2} show the distributions of the FastBDT input variables.
-The MC distributions are normalized to the data in Figures~\ref{fig:XsJpsi_used_vars1}--\ref{fig:XsJpsi_used_vars2}.
+The MC distributions are normalized to the data in Figs.~\ref{fig:XsJpsi_used_vars1}--\ref{fig:XsJpsi_used_vars2}.
 \begin{figure}
     \centering
     \subfloat{\includegraphics[width=0.5\textwidth]{./picture/XsJpsi/MVA_BB_Jpsi.png}}
@@ -2288,7 +2288,7 @@ Correction factors are then applied to these private samples to reproduce the ob
 The measured $M_{p\bar{p}}$ distributions are fitted to obtain the correction functions.
 An exponential function is used to fit the $B^{+}\rightarrow K^{+}p\bar{p}$, $B^{+}\rightarrow K^{*+}p\bar{p}$, and $B^{0}\rightarrow K^{*0}p\bar{p}$ distributions.
 A second-order polynomial is used for the $B^{0}\rightarrow K^{0}p\bar{p}$ distribution.
-The red curves in Figures~\ref{fig:Knn_distribution}--\ref{fig:K0starnn_distribution} show the fitted functions.
+The red curves in Figs.~\ref{fig:Knn_distribution}--\ref{fig:K0starnn_distribution} show the fitted functions.
 The correction factors are defined as the ratios of the fitted functions to the distributions generated with a flat $M_{n\bar{n}}$ model.
 
 A correction is also required for the remaining $B\rightarrow X_{s}n\bar{n}$ decays.
@@ -2419,7 +2419,7 @@ A correction factor is then applied to the nonresonant $B^{+}\rightarrow K^{+}K_
 Figure~\ref{fig:KKL0KL0_kinematics} shows the Dalitz plots for $B^{+}\rightarrow K^{+}K_{L}^{0}K_{L}^{0}$ decays generated using a flat phase-space model and a model based on the experimental results of Ref.~\cite{BaBar:2012iuj}.
 A small distortion is present in the flat-phase-space distribution because of \texttt{PHOTOS}.
 Because this effect is small, additional correction for \texttt{PHOTOS} is not considered.
-The correction factor is obtained from the bin-by-bin ratio of the two Dalitz-plot distributions shown in Figure~\ref{fig:KKL0KL0_kinematics}.
+The correction factor is obtained from the bin-by-bin ratio of the two Dalitz-plot distributions shown in Fig.~\ref{fig:KKL0KL0_kinematics}.
 \begin{figure}
   \centering
   \subfloat[]{\includegraphics[width=0.45\textwidth]{./picture/systematic/PHSP_KKLKL.png}}
@@ -3020,7 +3020,7 @@ Here, the fragmentation in $B \rightarrow X_{s} J/\psi$ decays is obtained from 
 This correction factor is an overall factor and does not depend on $M_{X_{s}}$.
 In general, the fragmentations in $B \rightarrow X_{s} \gamma$ and $B \rightarrow X_{s} J/\psi$ decays are in good agreement.
 However, some differences are observed for several modes, such as the $K2\pi$ mode with one $\pi^{0}$.
-In the regions $1.15<M_{X_{s}}<1.5~\textrm{GeV}/c^{2}$ and $1.5<M_{X_{s}}<2.0~\textrm{GeV}/c^{2}$, the differences for the seven decay modes shown in Figure~\ref{fig:fragmentation_compare} are assigned as systematic uncertainties.
+In the regions $1.15<M_{X_{s}}<1.5~\textrm{GeV}/c^{2}$ and $1.5<M_{X_{s}}<2.0~\textrm{GeV}/c^{2}$, the differences for the seven decay modes shown in Fig.~\ref{fig:fragmentation_compare} are assigned as systematic uncertainties.
 \begin{figure}
   \centering
   \subfloat[][$1.15<M_{X_{s}}<1.5~\textrm{GeV}/c^{2}$]{\includegraphics[width=0.45\textwidth]{./picture/systematic/fragmentation_compare_1.15_1.5.png}}
@@ -3036,7 +3036,7 @@ Table~\ref{tab:Pythia_fluctuation} summarizes the varied \texttt{PYTHIA} paramet
 \begin{table}
 \caption{
         Summary of the fluctuated \texttt{PYTHIA} parameters.
-        Among the tested values, combinations are selected such that the fragmentations of the seven decay categories shown in Figure~\ref{fig:fragmentation_compare} are within $2\sigma$ of the $B\rightarrow X_s\gamma$ result.
+        Among the tested values, combinations are selected such that the fragmentations of the seven decay categories shown in Fig.~\ref{fig:fragmentation_compare} are within $2\sigma$ of the $B\rightarrow X_s\gamma$ result.
         Here, $\sigma$ is defined as the difference between the
         $B \rightarrow X_s\gamma$ and $B\rightarrow X_s J/\psi$ studies.
     }
@@ -3098,7 +3098,7 @@ Table~\ref{tab:Pythia_fluctuation} summarizes the varied \texttt{PYTHIA} paramet
     \label{tab:Pythia_fluctuation}
 \end{table}
 The tested values are chosen based on the fragmentation in the $B \rightarrow X_{s} \gamma$ study.
-Among the parameter combinations listed in Table~\ref{tab:Pythia_fluctuation}, combinations are selected such that the fragmentations of the seven decay categories shown in Figure~\ref{fig:fragmentation_compare} are within $2\sigma$ of the $B\rightarrow X_{s}\gamma$ result.
+Among the parameter combinations listed in Table~\ref{tab:Pythia_fluctuation}, combinations are selected such that the fragmentations of the seven decay categories shown in Fig.~\ref{fig:fragmentation_compare} are within $2\sigma$ of the $B\rightarrow X_{s}\gamma$ result.
 Here, $\sigma$ is defined as the difference between the $B \rightarrow X_{s} \gamma$ and $B \rightarrow X_{s} J/\psi$ studies.
 The systematic uncertainty is assigned as the maximum deviation from the nominal value.
 Table~\ref{tab:Pythia_fluctuation_result} shows the nominal fragmentation fractions used in this analysis and the maximally deviated fractions obtained from the \texttt{PYTHIA} parameter fluctuations.
@@ -3554,7 +3554,7 @@ The p-value for this chi squared value is
 \begin{equation}
     \textrm{p-value} = \mathcal{P}(\chi^{2}_{15} > 54.3) < 0.01.
 \end{equation}
-This low p-value mainly originates from the $0.6 < M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}$ region, as shown in Figure~\ref{fig:bin_index_prefit}.
+This low p-value mainly originates from the $0.6 < M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}$ region, as shown in Fig.~\ref{fig:bin_index_prefit}.
 
 Figure~\ref{fig:bin_index_postfit} shows the bin-index distribution after the fit.
 \begin{figure}
@@ -4996,7 +4996,7 @@ Here, the $B\rightarrow K_{1}(1270)\nu\bar{\nu}$ sample is generated using a fla
 Figures~\ref{fig:K1270_Kcpicpic},~\ref{fig:K1270_K0picpi0}, ~\ref{fig:K1270_K0picpic}, and~\ref{fig:K1270_Kcpicpi0} show the efficiency distributions as functions of $M_{X_{s}}$ for several final states.
 
 The efficiencies are found to be consistent between the two samples.
-In addition, the efficiency mainly depends on the multiplicity of $X_{s}$, as shown in Figure~\ref{fig:Diagonal_Efficiencymatrix}.
+In addition, the efficiency mainly depends on the multiplicity of $X_{s}$, as shown in Fig.~\ref{fig:Diagonal_Efficiencymatrix}.
 Consequently, for the mismodelling associated with \texttt{PYTHIA}, only the systematic uncertainty from the fragmentation among the $nK\,m\pi$ modes is considered.
 
 \begin{figure}[h]
