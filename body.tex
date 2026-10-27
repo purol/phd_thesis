@@ -494,7 +494,7 @@ To avoid human bias, the data collected from the Belle II experiment are not ana
 Before checking the data, the analysis procedure is optimized using MC samples.
 
 \subsection{Background Monte Carlo samples}
-\label{subsec:backgroundMC}
+\label{sec:backgroundMC}
 The background MC samples used in this analysis include samples produced centrally by the Belle II collaboration and samples generated specifically for this analysis, referred to as private MC samples.
 The centrally produced samples belong to the MC15 production campaign and comprise run-independent~(MC15ri) and run-dependent~(MC15rd) samples.
 Here, a run refers to a period of data taking under approximately stable operating conditions.
@@ -542,10 +542,10 @@ However, studies of $B\to K^{(*)}p\bar{p}$ show $M_{p\bar{p}}$ distributions tha
 Because $B\to K^{(*)}n\bar{n}$ has a detector response similar to that of $B\to K^{(*)}\nu\bar{\nu}$ decays, dedicated modeling is needed.
 Therefore, direct $B\to K^{(*)}n\bar{n}$ decays without the $J/\psi$ resonance are removed from the official MC15rd samples and private $B\to K^{(*)}n\bar{n}$ samples are produced.
 For the private $B\to K^{(*)}n\bar{n}$ samples, a flat $M_{n\bar{n}}$ distribution is required.
-The details of the correction for the $M_{n\bar{n}}$ distribution are discussed in Section~\ref{sec:Xsnnbar_correction}.
+The details of the correction for the $M_{n\bar{n}}$ distribution are discussed in Sec.~\ref{sec:Xsnnbar_correction}.
 
 \subsection{Signal Monte Carlo samples}
-\label{subsec:signal_MC}
+\label{sec:signal_MC}
 Separate signal MC samples are generated for three components: $B\to K\nu\bar{\nu}$, $B\to K^{*}\nu\bar{\nu}$, and $B\to X_s\nu\bar{\nu}$ excluding the $K$ and $K^{*}$ modes.
 
 For the $B\rightarrow K \nu \bar{\nu}$ sample, the following parameters are used in Eq.~\ref{eq:Knunu_formfactor}~\cite{Buras:2014fpa}:
@@ -722,10 +722,10 @@ In this analysis, we use on-resonance and off-resonance data samples correspondi
 These data were collected from 2019 to 2022.
 The off-resonance sample is used to estimate the correction and its systematic uncertainty for $e^{+}e^{-}\rightarrow q\bar{q}$ events.
 To avoid bias, the data in the signal region are not examined until the analysis procedure is finalized.
-The definition of the signal region will be given in Section~\ref{sec:signal_region}.
+The definition of the signal region will be given in Sec.~\ref{sec:signal_region}.
 
 \chapter{Reconstruction and Selection}
-\label{sec:rec_and_selec}
+\label{chap:rec_and_selec}
 
 \section{Tagging Method}
 The missing energy carried by neutrinos in the $B \rightarrow X_{s} \nu \bar{\nu}$ decay makes the analysis challenging.
@@ -828,7 +828,7 @@ In this analysis, the sum-of-exclusive method is used.
 In the sum of exclusive method, we construct the exclusive decay channels and combine them to obtain the branching ratio of the inclusive decay mode.
 A total of 30 decay modes are reconstructed for $X_{s}$: $Kn\pi~(0 \leq n \leq 4)$ with at most two $\pi^{0}$, and $3Kn\pi~(0 \leq n \leq 1)$ with at most one $\pi^{0}$ and one $K_{S}^{0}$, where $K$ indicates $K^{\pm}$ or $K_{S}^{0}$ and $\pi$ indicates $\pi^{\pm}$ or $\pi^{0}$.
 These decay modes cover 93\% of the entire $B\rightarrow X_s\nu\bar{\nu}$ signal MC sample, assuming that $K^0$ mesons decay into $K_S^0$ and $K_L^0$ with equal probabilities.
-These decay modes also cover 83\% of the remaining $B \rightarrow X_{s} \nu \bar{\nu}$ signal MC sample, excluding the separately generated $B \rightarrow K\nu\bar{\nu}$ and $B \rightarrow K^{*}\nu\bar{\nu}$ samples, as described in Section~\ref{subsec:signal_MC}.
+These decay modes also cover 83\% of the remaining $B \rightarrow X_{s} \nu \bar{\nu}$ signal MC sample, excluding the separately generated $B \rightarrow K\nu\bar{\nu}$ and $B \rightarrow K^{*}\nu\bar{\nu}$ samples, as described in Sec.~\ref{sec:signal_MC}.
 Table~\ref{tab:Xs_modes} summarizes the reconstructed $X_{s}$ decay modes.
 \begin{table}
 \caption{List of reconstructed $X_{s}$ decays.}
@@ -910,7 +910,7 @@ $B_{\textrm{tag}}^{+}X_{su}^{-}$, $B_{\textrm{tag}}^{0}X_{sd}^{0}$, $\bar{B}_{\t
 \section{Preselections}
 \label{sec:preselection}
 After reconstruction, loose selection criteria are applied to save computing resources.
-These criteria are referred to as preselections because they are applied before the output files are written by \texttt{basf2}; otherwise, they are no different from the selection criteria discussed in Section~\ref{sec:selection}.
+These criteria are referred to as preselections because they are applied before the output files are written by \texttt{basf2}; otherwise, they are no different from the selection criteria discussed in Sec.~\ref{sec:selection}.
 The only difference is that the preselection is applied before the output files are written by \texttt{basf2}.
 
 To reduce combinatorial background, we require
@@ -928,7 +928,7 @@ Figure~\ref{fig:MXs_preselection} shows the $M_{X_{s}}^{\textrm{reco}}$ distribu
 \end{figure}
 
 Ideally, no tracks, $\pi^0$ candidates, or $K_S^0$ candidates should remain after reconstructing the $\Upsilon(4S)$ candidate.
-We require that no $\pi^{0}$ or $K_{S}^{0}$ candidates defined in Section~\ref{sec:particle_selection} remain.
+We require that no $\pi^{0}$ or $K_{S}^{0}$ candidates defined in Sec.~\ref{sec:particle_selection} remain.
 In addition, no loose tracks are allowed to remain.
 Loose tracks are defined by $dr < 2~\textrm{cm}$ and $|dz| < 4~\textrm{cm}$.
 For these loose tracks, other criteria, such as \texttt{nCDCHits} and \texttt{nPXDHits}, are not applied.
@@ -943,12 +943,12 @@ Table~\ref{tab:preselection_cutflow} shows the cut flow and the numbers of MC ev
 \begin{sidewaystable}
 \caption{
         Number of events surviving the preselection requirements described
-        in Section~\ref{sec:preselection}.
+        in Sec.~\ref{sec:preselection}.
         Cross-feed events are included in the signal category.
         The signal and background samples are scaled to an equivalent
         luminosity of $365.37~\textrm{fb}^{-1}$.
         The calibration and correction factors listed in
-        Section~\ref{sec:correction} are not applied.
+        Chapter~\ref{chap:correction} are not applied.
     }
     \centering
     \renewcommand{\arraystretch}{1.25}
@@ -1039,7 +1039,7 @@ We use this strategy because optimization at each selection stage does not guara
 Consequently, we try to optimize the selection at the most powerful selection stage, MVA output, and use loose selection criteria before the optimization.
 
 \subsection{One-dimensional cut-based selection}
-\label{subsec:one_dimensional_cut}
+\label{sec:one_dimensional_cut}
 We require the $B_{\textrm{tag}}$ candidate to satisfy
 \begin{equation}
 \begin{aligned}
@@ -1125,14 +1125,14 @@ This veto region is determined from the $M_{X_{s}}^{\textrm{reco}}$ distribution
 \end{figure}
 
 \subsection{Best candidate selection}
-After the selections discussed in Section~\ref{subsec:one_dimensional_cut}, the multiplicity of $\Upsilon(4S)$ candidates per event is 1.71 in the signal MC.
+After the selections discussed in Sec.~\ref{sec:one_dimensional_cut}, the multiplicity of $\Upsilon(4S)$ candidates per event is 1.71 in the signal MC.
 Figure~\ref{fig:multiplicity} shows the multiplicity of $\Upsilon(4S)$ candidates for the signal and background MC samples.
 The best candidate selection~(BCS) is performed in two steps.
 First, we keep the $\Upsilon(4S)$ candidates whose $B_{\textrm{tag}}$ has the highest $\mathcal{P}_{\textrm{FEI}}$ value.
 For the signal sample, the fraction of $B_{\textrm{tag}}$ candidates with $\texttt{isSignal} == 1$ increases from 30\% to 46\% after the first step of BCS, where the \texttt{isSignal} value is unity when the particle is correctly reconstructed in \texttt{basf2}.
 After the first step of BCS, the multiplicity becomes 1.06 in the signal MC.
 There can be more than one $\Upsilon(4S)$ candidate, because there can be exchange between photon candidates in the rest of the event~(ROE) and photon candidates in $\pi^{0}$ used to reconstruct $X_{s}$.
-In addition, ROE can have tracks that are not identified as loose tracks defined in Section~\ref{sec:preselection}.
+In addition, ROE can have tracks that are not identified as loose tracks defined in Sec.~\ref{sec:preselection}.
 These additional tracks can also be exchanged with tracks in $K^{0}$ candidates used to reconstruct $X_{s}$.
 Second, we keep only one $\Upsilon(4S)$ candidate randomly.
 The reason why the random selection is used is that other powerful variables will be used in the MVA stage.
@@ -1143,10 +1143,10 @@ The reason why the random selection is used is that other powerful variables wil
     \label{fig:multiplicity}
 \end{figure}
 \subsection{$D$ veto variables}
-\label{subsec:Dveto_reconstruction}
-Even though $D$ veto is applied, as discussed in Section~\ref{subsec:one_dimensional_cut}, there is still background from $D$ mesons.
+\label{sec:Dveto_reconstruction}
+Even though $D$ veto is applied, as discussed in Sec.~\ref{sec:one_dimensional_cut}, there is still background from $D$ mesons.
 To suppress this background, we reconstruct $D$-meson candidates in the event.
-Variables derived from these candidates are used as inputs to the MVA classifier described in Section~\ref{subsec:MVA}, together with other variables that discriminate signal from background.
+Variables derived from these candidates are used as inputs to the MVA classifier described in Sec.~\ref{sec:MVA}, together with other variables that discriminate signal from background.
 In this section, the reconstruction procedure for these $D$-meson candidates is discussed.
 
 The reconstruction of $D$ mesons is performed using the following procedure:
@@ -1204,7 +1204,7 @@ As noted above, the third category is not used for MVA.
 The reason is that the third category shows some data-MC discrepancy.
 
 \subsection{Multivariate Analysis}
-\label{subsec:MVA}
+\label{sec:MVA}
 This section discusses the MVA performed after the best-candidate selection.
 We use FastBDT as the MVA method~\cite{Keck:2017gsv}.
 FastBDT is a boosted-decision-tree-based classifier.
@@ -1336,17 +1336,17 @@ This retains the background-dominated interval between 0.86 and the FOM-maximizi
 Including this interval in the fit helps constrain the background yields in the more signal-rich region at higher $\mathcal{O}_{\textrm{BDT}}$ values.
 
 \section{Summary}
-Table~\ref{tab:cutflow} shows the cut flow described in Section~\ref{sec:selection}.
+Table~\ref{tab:cutflow} shows the cut flow described in Sec.~\ref{sec:selection}.
 The signal and background samples are scaled to an equivalent integrated luminosity of $365.37~\textrm{fb}^{-1}$.
 \begin{sidewaystable}
 \caption{
         Numbers of events surviving the selection requirements described
-        in Section~\ref{sec:selection}.
+        in Sec.~\ref{sec:selection}.
         The signal and background samples are scaled to an equivalent
         integrated luminosity of $365.37~\textrm{fb}^{-1}$.
         Cross-feed events are included in the signal category.
         The calibration and correction factors listed in
-        Section~\ref{sec:correction} are not applied.
+        Chapter~\ref{chap:correction} are not applied.
     }
     \centering
     \renewcommand{\arraystretch}{1.2}
@@ -1469,7 +1469,7 @@ The signal and background samples are scaled to an equivalent integrated luminos
     \end{tabularx}
     \label{tab:cutflow}
 \end{sidewaystable}
-The efficiency as a function of $M_{X_{s}}$ is shown in Section~\ref{sec:efficiency_as_MXs}.
+The efficiency as a function of $M_{X_{s}}$ is shown in Appendix~\ref{sec:efficiency_as_MXs}.
 Figure~\ref{fig:Diagonal_Efficiencymatrix} shows the proper reconstruction efficiency for each $X_{s}$ decay mode.
 Figure~\ref{fig:crossfeedmatrix} shows the cross-feed matrix.
 The cross-feed matrix is defined as $\epsilon_{\mathrm{mode}}/\epsilon_{\mathrm{true}}$, where $\epsilon_{\mathrm{mode}}$ is the efficiency for events to be reconstructed in a given mode, and $\epsilon_{\mathrm{true}}$ is the efficiency for events to be reconstructed in the correct decay mode.
@@ -1496,7 +1496,7 @@ We divide the signal region into $3\times5$ bins.
 The bin boundaries along the $M_{X_{s}}^{\textrm{reco}}$ axis are $[0.0, 0.6, 1.0, 2.0]~\textrm{GeV}/c^{2}$.
 These three bins correspond to the regions dominated by $K$, $K^{*}$, and the remaining $X_{s}$ states.
 Hereafter, we label them MR1, MR2, and MR3, respectively.
-When the signal MC is produced, the mass threshold, $M_{X_{s}} > 1.1~\textrm{GeV}/c^{2}$, is required, as discussed in Section~\ref{subsec:signal_MC}.
+When the signal MC is produced, the mass threshold, $M_{X_{s}} > 1.1~\textrm{GeV}/c^{2}$, is required, as discussed in Sec.~\ref{sec:signal_MC}.
 The bin boundary between MR2 and MR3 is set to $1.0~\textrm{GeV}/c^{2}$, slightly below this threshold, to minimize sensitivity to the modeling of this threshold.
 In each $M_{X_{s}}^{\textrm{reco}}$ region, the bin boundaries along $\mathcal{O}_{\textrm{BDT}}$ are defined as follows:
 \begin{equation}
@@ -1652,7 +1652,7 @@ In this analysis, the one-sided negative log profile likelihood ratio is used as
 where $\hat{\mu}$ is the signal strength obtained from the best fit to the data.
 
 \chapter{Validation}
-\label{sec:validation}
+\label{chap:validation}
 \section{Off-resonance}
 \label{sec:off_resonance}
 The off-resonance sample is used for two purposes.
@@ -1684,12 +1684,12 @@ After the FastBDT requirement, the data-to-MC ratios are
     0.78 \pm 0.10 & (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}).
   \end{cases}
 \end{equation}
-These ratios are obtained after applying the calibration and correction factors listed in Section~\ref{sec:correction}, \underline{except} for the $q\bar{q}$ correction factor.
+These ratios are obtained after applying the calibration and correction factors listed in Chapter~\ref{chap:correction}, \underline{except} for the $q\bar{q}$ correction factor.
 
 Table~\ref{tab:cutflow_off} shows the cut flow for the off-resonance sample.
 Figure~\ref{fig:FBDT_off} shows the FastBDT output distribution.
 \begin{table}
-\caption{Cut flow for off-resonance sample. The entries show the numbers of events surviving each selection requirement. MC samples are scaled to $42.74~\textrm{fb}^{-1}$. Calibration and correction factors listed in Section~\ref{sec:correction} are \underline{not} applied in this table.}
+\caption{Cut flow for off-resonance sample. The entries show the numbers of events surviving each selection requirement. MC samples are scaled to $42.74~\textrm{fb}^{-1}$. Calibration and correction factors listed in Chapter~\ref{chap:correction} are \underline{not} applied in this table.}
   \renewcommand{\arraystretch}{1.2}
   \centering
 \begin{tabular}{ p{7cm} ||  p{3cm} | p{3cm} | p{3cm}  }
@@ -1718,12 +1718,12 @@ $\mathcal{O}_{\textrm{BDT}} > 0.86$ & \multicolumn{1}{c}{208} & \multicolumn{1}{
     \centering
     \includegraphics[width=0.48\textwidth]{./picture/off/MVA_BB_offres.png}
     \includegraphics[width=0.48\textwidth]{./picture/off/bin_index_offres.png}
-    \caption{The left plot shows the FastBDT output distribution for the off-resonance sample. The right plot shows the distribution of the bin index defined in Section~\ref{sec:signal_region}. Calibration and correction factors listed in Section~\ref{sec:correction} are applied, \underline{except} for the $q\bar{q}$ correction factor.}
+    \caption{The left plot shows the FastBDT output distribution for the off-resonance sample. The right plot shows the distribution of the bin index defined in Sec.~\ref{sec:signal_region}. Calibration and correction factors listed in Chapter~\ref{chap:correction} are applied, \underline{except} for the $q\bar{q}$ correction factor.}
     \label{fig:FBDT_off}
 \end{figure}
 
 \section{On-resonance $M_{\textrm{bc}}$ sideband}
-During the selection procedure in Section~\ref{sec:selection}, we apply the following requirement on $M_{\textrm{bc}}$:
+During the selection procedure in Sec.~\ref{sec:selection}, we apply the following requirement on $M_{\textrm{bc}}$:
 \begin{equation}
   M_{\textrm{bc}} > 5.27~\textrm{GeV}/c^{2}.
 \end{equation}
@@ -1734,7 +1734,7 @@ We define an $M_{\textrm{bc}}$ sideband as
 The region $5.26 < M_{\textrm{bc}} < 5.27~\textrm{GeV}/c^{2}$ is not included in the sideband to ensure sufficient separation from the signal region.
 Table~\ref{tab:cutflow_sideband_on} shows the cut flow for the sideband study. 
 \begin{table}
-\caption{Cut flow for the on-resonance $M_{\textrm{bc}}^{\textrm{tag}}$ sideband sample. The entries show the numbers of events surviving each selection requirement. The MC samples are scaled to an integrated luminosity of $365.4~\textrm{fb}^{-1}$. Calibration and correction factors listed in Section~\ref{sec:correction} are not applied in this table.}
+\caption{Cut flow for the on-resonance $M_{\textrm{bc}}^{\textrm{tag}}$ sideband sample. The entries show the numbers of events surviving each selection requirement. The MC samples are scaled to an integrated luminosity of $365.4~\textrm{fb}^{-1}$. Calibration and correction factors listed in Chapter~\ref{chap:correction} are not applied in this table.}
   \renewcommand{\arraystretch}{1.2}
   \centering
   \resizebox{\textwidth}{!}{%
@@ -1772,17 +1772,17 @@ After the FastBDT requirement, the data-to-MC ratio is
     1.10 \pm 0.03 & (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}).
   \end{cases}
 \end{equation}
-These ratios are obtained after applying the calibration and correction factors listed in Section~\ref{sec:correction}, including the $q\bar{q}$ correction factor.
+These ratios are obtained after applying the calibration and correction factors listed in Chapter~\ref{chap:correction}, including the $q\bar{q}$ correction factor.
 The $q\bar{q}$ correction factor is calculated using the off-resonance sample, following the cut flow in Table~\ref{tab:cutflow_sideband_on}, with the $M_{\textrm{bc}}$ correction defined in Eq.~\ref{eq:Mbc_corr}.
 The MC distributions are normalized to the data in Figure~\ref{fig:sideband_used_vars1}-\ref{fig:sideband_used_vars2}.
 $q\bar{q}$ correction factor is \underline{not} applied in Figure~\ref{fig:sideband_used_vars1}-\ref{fig:sideband_used_vars2}.
 
-Figure~\ref{fig:FBDT_sideband_on} shows the distribution of the bin index defined in Section~\ref{sec:signal_region}.
+Figure~\ref{fig:FBDT_sideband_on} shows the distribution of the bin index defined in Sec.~\ref{sec:signal_region}.
 \begin{figure}
     \centering
     \subfloat{\includegraphics[width=0.5\textwidth]{./picture/sideband/MVA_BB_sideband.png}}
         \subfloat{\includegraphics[width=0.5\textwidth]{./picture/sideband/bin_index_sideband.png}}
-    \caption{The left plot shows the FastBDT output distribution for the on-resonance sideband sample. The right plot shows the distribution of the bin index defined in Section~\ref{sec:signal_region}. In both plots, calibration and correction factors listed in Section~\ref{sec:correction} are applied, including $q\bar{q}$ correction factor.}
+    \caption{The left plot shows the FastBDT output distribution for the on-resonance sideband sample. The right plot shows the distribution of the bin index defined in Sec.~\ref{sec:signal_region}. In both plots, calibration and correction factors listed in Chapter~\ref{chap:correction} are applied, including $q\bar{q}$ correction factor.}
     \label{fig:FBDT_sideband_on}
 \end{figure}
 There seems to be some deviation between data and MC in the region $0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}$.
@@ -1852,7 +1852,7 @@ The corresponding $p$-values are
 indicating acceptable agreement between data and MC.
 
 \chapter{Control sample study}
-\label{sec:control_sample}
+\label{chap:control_sample}
 In this analysis, $B\rightarrow X_{s} J/\psi$ is selected as a control sample.
 This decay mode has a large branching ratio and contains an $X_{s}$ system.
 We use the control sample to estimate the correction factor for the FastBDT output requirement and its uncertainty.
@@ -1865,7 +1865,7 @@ Therefore, we reweight those double-counted decay channels.
 The $B\rightarrow X_sJ/\psi$ analysis procedure is similar to that of the $B\rightarrow X_s\nu\bar{\nu}$ analysis.
 However, the following additional procedures are applied at the reconstruction stage:
 \begin{enumerate}
-  \item Reconstruct $B_{\textrm{tag}}$ and $X_{s}$ candidates. The reconstruction method is the same as that used in the $B\rightarrow X_s\nu\bar{\nu}$ analysis described in Section~\ref{sec:reconstruction}.
+  \item Reconstruct $B_{\textrm{tag}}$ and $X_{s}$ candidates. The reconstruction method is the same as that used in the $B\rightarrow X_s\nu\bar{\nu}$ analysis described in Sec.~\ref{sec:reconstruction}.
   \label{item:B_Xs_reco_control}
   \item Reconstruct $J/\psi(\rightarrow\mu^{+}\mu^{-})$. Selection criteria are
   \begin{itemize}
@@ -1897,7 +1897,7 @@ Table~\ref{tab:cutflow_Jpsi_1} shows the cut flow for $B\rightarrow X_{s} J/\psi
         luminosity of $365.37~\textrm{fb}^{-1}$.
         Cross-feed events are included in the signal category.
         The calibration and correction factors listed in
-        Section~\ref{sec:correction} are not applied.
+        Chapter~\ref{chap:correction} are not applied.
     }
     \centering
     \renewcommand{\arraystretch}{1.2}
@@ -2049,14 +2049,14 @@ Figure~\ref{fig:FBDT_control_without_signal_embedding} shows the FastBDT output 
 The third bin in the right figure shows a large discrepancy between data and MC.
 This large discrepancy had not been found in the previous iteration.
 In Appendix~\ref{sec:Jpsi_third_bin}, this discrepancy is investigated.
-We conclude that this large deviation can occur when the look-elsewhere effect associated with FastBDT retraining is taken into account.
+A rough estimate including the look-elsewhere effect across the 15 bins suggests that such an extreme count can plausibly arise by chance.
 Figures~\ref{fig:XsJpsi_used_vars1}--\ref{fig:XsJpsi_used_vars2} show the distributions of the FastBDT input variables.
 The MC distributions are normalized to the data in Figures~\ref{fig:XsJpsi_used_vars1}--\ref{fig:XsJpsi_used_vars2}.
 \begin{figure}
     \centering
     \subfloat{\includegraphics[width=0.5\textwidth]{./picture/XsJpsi/MVA_BB_Jpsi.png}}
     \subfloat{\includegraphics[width=0.5\textwidth]{./picture/XsJpsi/bin_index_Jpsi_compare.png}}
-    \caption{The left plot shows the FastBDT output distribution for $B\rightarrow X_{s} J/\psi$ analysis. The right plot shows the bin index distribution defined in Section~\ref{subsec:histogram_templates}. In both plots, calibration and correction factors in Section~\ref{sec:correction} are applied, except for the $q\bar q$ correction factor. For the comparison, the right plot also includes the $B\rightarrow X_s\nu\bar{\nu}$ signal MC distribution for comparison.}
+    \caption{The left plot shows the FastBDT output distribution for $B\rightarrow X_{s} J/\psi$ analysis. The right plot shows the bin index distribution defined in Sec.~\ref{sec:signal_region}. In both plots, calibration and correction factors in Chapter~\ref{chap:correction} are applied, except for the $q\bar q$ correction factor. For the comparison, the right plot also includes the $B\rightarrow X_s\nu\bar{\nu}$ signal MC distribution for comparison.}
     \label{fig:FBDT_control_without_signal_embedding}
 \end{figure}
 
@@ -2070,7 +2070,7 @@ The data-to-MC ratios are
   \end{cases}
 \end{equation}
 where only the statistical uncertainties in data and MC are included.
-The calibration and correction factors listed in Section~\ref{sec:correction} are applied, except for the $q\bar q$ correction factor.
+The calibration and correction factors listed in Chapter~\ref{chap:correction} are applied, except for the $q\bar q$ correction factor.
 
 For the FastBDT selection efficiency, the data-to-MC ratios are
 \begin{equation}
@@ -2085,7 +2085,7 @@ For the FastBDT selection efficiency, the data-to-MC ratios are
 where $\epsilon_{\textrm{Data}}^{\textrm{FBDT}}$ and $\epsilon_{\textrm{MC}}^{\textrm{FBDT}}$ are the FastBDT selection efficiencies in data and MC, respectively.
 
 \chapter{Calibration and corrections}
-\label{sec:correction}
+\label{chap:correction}
 \section{Hadron PID}
 \label{sec:pid_correction}
 In this analysis, we apply corrections to the hadron PID efficiencies in the MC samples.
@@ -2098,7 +2098,7 @@ Figure~\ref{fig:Kaonmis} shows the data-to-MC ratio for the misidentification ra
 Figure~\ref{fig:Pionmis} shows the data-to-MC ratio for the misidentification rate for kaons identified as pions.
 
 Leptons misidentified as kaons or pions constitute one source of background.
-In Section~\ref{sec:PID_fakes}, the particle compositions of the kaon and pion candidates are shown.
+In Appendix~\ref{sec:PID_fakes}, the particle compositions of the kaon and pion candidates are shown.
 We correct the rates at which electrons and muons are misidentified as pions or kaons.
 Figures~\ref{fig:KaonEplus} and~\ref{fig:KaonEminus} show the data-to-MC ratios for the rates at which electrons are misidentified as kaons.
 Figures~\ref{fig:KaonMUplus} and~\ref{fig:KaonMUminus} show the data-to-MC ratios for the rates at which muons are misidentified as kaons.
@@ -2177,7 +2177,7 @@ The correction factor is derived using the $D^{*+} \rightarrow D^{0}(\rightarrow
 This correction factor depends on the $K_{S}^{0}$ momentum, polar angle, and the distance between the IP and the $K_{S}^{0}$ decay vertex.
 
 \section{FastBDT efficiency}
-The FastBDT efficiency correction factors are obtained from the $B \rightarrow X_{s} J/\psi$ control-sample study described in Section~\ref{sec:control_sample}.
+The FastBDT efficiency correction factors are obtained from the $B \rightarrow X_{s} J/\psi$ control-sample study described in Chapter~\ref{chap:control_sample}.
 The data-to-MC ratios given in Eq.~\ref{eq:FBDT_efficiency_ratio_data_MC_XsJpsi} are applied separately in each $M_{X_{s}}^{\textrm{reco}}$ bin.
 
 \section{FEI calibration for $B\bar{B}$}
@@ -2197,7 +2197,7 @@ The labels $e$ and $\mu$ denote the calibration results obtained using the $B \r
 \end{figure}
 
 \section{$q\bar{q}$ efficiency}
-The $q\bar{q}$ background efficiency is corrected using correction factors derived from the off-resonance sample described in Section~\ref{sec:off_resonance}.
+The $q\bar{q}$ background efficiency is corrected using correction factors derived from the off-resonance sample described in Sec.~\ref{sec:off_resonance}.
 The data-to-MC ratios given in Eq.~\ref{eq:off_resonance_ratio} are applied separately in each $M_{X_{s}}^{\textrm{reco}}$ bin.
 
 \section{Fragmentation of $X_{s}$}
@@ -2223,7 +2223,7 @@ Each sample has advantages and disadvantages:
   \item The $B \rightarrow X_{s} J/\psi$ decay proceeds through a different process dominated by strong interactions.
   Therefore, its fragmentation may also differ from that in $B \rightarrow X_{s} \nu \bar{\nu}$ decays.
 \end{itemize}
-In this analysis, the fragmentation of the remaining $B \rightarrow X_{s} \nu \bar{\nu}$ signal MC sample, defined in Section~\ref{subsec:signal_MC}, is corrected using the results of the $B \rightarrow X_{s} \gamma$ study.
+In this analysis, the fragmentation of the remaining $B \rightarrow X_{s} \nu \bar{\nu}$ signal MC sample, defined in Sec.~\ref{sec:signal_MC}, is corrected using the results of the $B \rightarrow X_{s} \gamma$ study.
 The uncertainty in this correction is estimated from the difference between the results of the $B \rightarrow X_{s} \gamma$ and $B \rightarrow X_{s} J/\psi$ studies.
 
 Figure~\ref{fig:fragmentation_Xs} shows the fragmentation fractions of the nine decay-mode categories in each $M_{X_{s}}$ region.
@@ -2275,7 +2275,7 @@ Figures~\ref{fig:Knn_distribution}--\ref{fig:K0starnn_distribution} compare the 
   \label{fig:K0starnn_distribution}
 \end{figure}
 
-As discussed in Section~\ref{subsec:backgroundMC}, the official $B\rightarrow K^{(*)}n\bar{n}$ samples are replaced with private MC samples generated with a flat $M_{n\bar{n}}$ distribution.
+As discussed in Sec.~\ref{sec:backgroundMC}, the official $B\rightarrow K^{(*)}n\bar{n}$ samples are replaced with private MC samples generated with a flat $M_{n\bar{n}}$ distribution.
 Correction factors are then applied to these private samples to reproduce the observed $M_{p\bar{p}}$ distributions.
 The measured $M_{p\bar{p}}$ distributions are fitted to obtain the correction functions.
 An exponential function is used to fit the $B^{+}\rightarrow K^{+}p\bar{p}$, $B^{+}\rightarrow K^{*+}p\bar{p}$, and $B^{0}\rightarrow K^{*0}p\bar{p}$ distributions.
@@ -2286,7 +2286,7 @@ The correction factors are defined as the ratios of the fitted functions to the 
 A correction is also required for the remaining $B\rightarrow X_{s}n\bar{n}$ decays.
 However, no previous experimental measurement of $B\rightarrow X_{s}p\bar{p}$ decays is available.
 Therefore, a study of $B\rightarrow X_{s}p\bar{p}$ decays is performed.
-To reconstruct $B\rightarrow X_{s}p\bar{p}$ decays, the $X_{s}$ and $B_{\textrm{tag}}$ candidates are reconstructed using the method described in Section~\ref{sec:rec_and_selec}.
+To reconstruct $B\rightarrow X_{s}p\bar{p}$ decays, the $X_{s}$ and $B_{\textrm{tag}}$ candidates are reconstructed using the method described in Chapter~\ref{chap:rec_and_selec}.
 Additionally, proton candidates are selected by the following criteria:
 \begin{itemize}
   \item $\texttt{protonID} > 0.6$
@@ -2487,7 +2487,7 @@ To correct $B \rightarrow K^{*} K_{L}^{0} K_{L}^{0}$ and $B \rightarrow X_{s} K_
 However, no such experimental measurements are available.
 Therefore, studies of $B\rightarrow K^{*}K_{S}^{0}K_{S}^{0}$ and $B\rightarrow X_{s}K_{S}^{0}K_{S}^{0}$ decays are performed.
 
-To reconstruct $B \rightarrow K^{*} K_{S}^{0} K_{S}^{0}$ decay, the $K\pi$ and $B_{\textrm{tag}}$ candidates are reconstructed using the method described in Section~\ref{sec:rec_and_selec}.
+To reconstruct $B \rightarrow K^{*} K_{S}^{0} K_{S}^{0}$ decay, the $K\pi$ and $B_{\textrm{tag}}$ candidates are reconstructed using the method described in Chapter~\ref{chap:rec_and_selec}.
 The $K\pi$ candidate is combined with two $K_{S}^{0}$ candidates to reconstruct $B_{\textrm{sig}}\rightarrow K^{*}K_{S}^{0}K_{S}^{0}$.
 After the reconstruction, several cuts are applied. Table~\ref{tab:cutflow_KstarKLKL} shows the cut flow for $B \rightarrow K^{*} K_{S}^{0} K_{S}^{0}$ analysis.
 Figure~\ref{fig:Mbc_KstarKLKL} shows the $M_{\textrm{bc}}$ distribution of the $B_{\textrm{sig}}$ candidates after BCS.
@@ -2529,7 +2529,7 @@ Using the Feldman--Cousins method, the upper limit on the signal yield is 2.90 e
 The expected signal yield in MC is 3.89 events.
 The correction factor is therefore determined to be $2.90/3.89=0.74$.
 
-To reconstruct $B \rightarrow X_{s} K_{S}^{0} K_{S}^{0}$ decay, the $X_{s}$ and $B_{\textrm{tag}}$ candidates are reconstructed using the method described in Section~\ref{sec:rec_and_selec}.
+To reconstruct $B \rightarrow X_{s} K_{S}^{0} K_{S}^{0}$ decay, the $X_{s}$ and $B_{\textrm{tag}}$ candidates are reconstructed using the method described in Chapter~\ref{chap:rec_and_selec}.
 The $X_{s}$ candidate is combined with two $K_{S}^{0}$ candidates to reconstruct $B_{\textrm{sig}}\rightarrow X_{s}K_{S}^{0}K_{S}^{0}$.
 After the reconstruction, several cuts are applied. Table~\ref{tab:cutflow_XsKLKL} shows the cut flow for $B \rightarrow X_{s} K_{S}^{0} K_{S}^{0}$ analysis.
 Figure~\ref{fig:Mbc_XsKLKL} shows the $M_{\textrm{bc}}$ of $B_{\textrm{sig}}$ distribution after BCS.
@@ -2612,7 +2612,7 @@ $D\rightarrow K_{L}^{0}X$ decays from $B$ mesons~\cite{Belle-II:2023esi}.
 In this analysis, a scale factor of $1.3\pm0.1$ is applied.
 
 \chapter{Systematic uncertainties}
-\label{sec:systematic_uncertainty}
+\label{chap:systematic_uncertainty}
 \section{Tracking efficiency}
 The official relative uncertainty of $\pm 0.27\%$ is assigned to each track among the daughters of the $X_{s}$ candidates.
 This uncertainty is determined using the tag-and-probe method with $1\times3$-prong $\tau^{+}\tau^{-}$ events in $e^{+}e^{-}\rightarrow \tau^{+}\tau^{-}$ collisions.
@@ -2693,8 +2693,8 @@ The leading 19 eigenvectors are retained and implemented as independent nuisance
 \end{figure}
 
 \section{$K_{S}^{0}$ efficiency}
-The official uncertainty associated with the $K_{S}^{0}$ efficiency correction factor, discussed in Section~\ref{sec:KS0_eff_corr}, is used.
-The same procedure described in Section~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
+The official uncertainty associated with the $K_{S}^{0}$ efficiency correction factor, discussed in Sec.~\ref{sec:KS0_eff_corr}, is used.
+The same procedure described in Sec.~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
 
 A total of 500 toy samples are generated to estimate the covariance matrix associated with the $K_{S}^{0}$ efficiency uncertainty.
 For each toy sample, the $K_{S}^{0}$ efficiency correction factors are varied according to Gaussian distributions defined by their uncertainties.
@@ -2716,8 +2716,8 @@ The leading 4 eigenvectors are retained and implemented as independent nuisance 
 \end{figure}
 
 \section{$\pi^{0}$ efficiency}
-The official uncertainty associated with the $\pi^{0}$ efficiency correction factor, discussed in Section~\ref{sec:pi0_eff_corr}, is used.
-The same procedure described in Section~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
+The official uncertainty associated with the $\pi^{0}$ efficiency correction factor, discussed in Sec.~\ref{sec:pi0_eff_corr}, is used.
+The same procedure described in Sec.~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
 
 A total of 500 toy samples are generated to estimate the covariance matrix associated with the $\pi^{0}$ efficiency uncertainty.
 For each toy sample, the $\pi^{0}$ efficiency correction factors are varied according to Gaussian distributions defined by their uncertainties.
@@ -2739,11 +2739,11 @@ The leading 7 eigenvectors are retained and implemented as independent nuisance 
 \end{figure}
 
 \section{FastBDT efficiency}
-The $B \rightarrow X_{s} J/\psi$ control-sample study is described in Section~\ref{sec:control_sample}.
+The $B \rightarrow X_{s} J/\psi$ control-sample study is described in Chapter~\ref{chap:control_sample}.
 The uncertainties in the data-to-MC ratios of the FastBDT selection efficiency given in Eq.~\ref{eq:FBDT_efficiency_ratio_data_MC_XsJpsi} are assigned as systematic uncertainties.
 
 \section{Form Factors for $B \rightarrow K^{(*)} \nu \bar{\nu}$}
-\label{subsec:formfactor_uncertainty}
+\label{sec:formfactor_uncertainty}
 The decay amplitudes for $B\rightarrow K\nu\bar{\nu}$ and $B\rightarrow K^{*}\nu\bar{\nu}$ depend on the form factors given in Eqs.~\ref{eq:Kamp} and~\ref{eq:Kstaramp}.
 These form factors have uncertainties arising from the parameters of the $z$ expansion given in Eqs.~\ref{eq:coeff_Kff} and~\ref{eq:Kstnunu_alpha}.
 
@@ -2754,7 +2754,7 @@ Because the form-factor parameters are correlated~\cite{Parrott:2022rgu,Bharucha
 The parameters are varied along the resulting eigenvectors.
 
 \section{FEI calibration for $B\bar{B}$}
-As discussed in Section~\ref{sec:FEI_calibration}, the official FEI calibration factors are applied.
+As discussed in Sec.~\ref{sec:FEI_calibration}, the official FEI calibration factors are applied.
 These calibration factors have associated uncertainties and correlations among the $B_{\textrm{tag}}$ decay channels.
 The covariance matrix of the FEI calibration factors is diagonalized using PCA, and the resulting eigenvectors define independent variation directions.
 
@@ -2762,7 +2762,7 @@ A total of 500 toy samples are generated by varying the FEI calibration factors 
 For each toy sample, the predicted event yields in the fit bins are recalculated.
 A covariance matrix of the predicted yields across the fit bins is then constructed from the toy samples.
 
-The same procedure described in Section~\ref{sec:hadron_pid_syst} is applied to this yield covariance matrix to reduce the number of nuisance parameters.
+The same procedure described in Sec.~\ref{sec:hadron_pid_syst} is applied to this yield covariance matrix to reduce the number of nuisance parameters.
 Figure~\ref{fig:FEI_corr} shows the correlation matrices reconstructed using all eigenvectors and using only the leading three eigenvectors.
 The cumulative explained variance ratio for these three eigenvectors is 0.98.
 The leading three eigenvectors are retained and implemented as independent nuisance parameters in the fit.
@@ -2776,11 +2776,11 @@ The leading three eigenvectors are retained and implemented as independent nuisa
 \end{figure}
 
 \section{Additional uncertainty in the FEI calibration}
-As discussed in Section~\ref{sec:FEI_calibration}, the official FEI efficiency calibration factors are applied.
+As discussed in Sec.~\ref{sec:FEI_calibration}, the official FEI efficiency calibration factors are applied.
 These factors are derived using $B\rightarrow X\ell\nu$ decays.
 As an additional study, a possible dependence of the FEI calibration on the signal-side decay topology and cut flow is investigated using $B\rightarrow K^{(*)}J/\psi$ decays.
 
-The control-sample analysis described in Section~\ref{sec:control_sample} is used.
+The control-sample analysis described in Chapter~\ref{chap:control_sample} is used.
 However, the $X_{s}$ candidate is required to be reconstructed in either a $K$ or $K\pi$ final state with $M_{X_{s}}<1.0~\textrm{GeV}/c^{2}$.
 Figure~\ref{fig:another_FEI_charged} shows the event yields in data and MC for the different $B_{\textrm{tag}}$ decay channels.
 \begin{figure}
@@ -2860,11 +2860,11 @@ Figure~\ref{fig:NEWFEICAL_corr} shows the correlation matrices associated with t
 \end{figure}
 
 \section{$q\bar{q}$ efficiency}
-The $q\bar{q}$ background efficiency is corrected using correction factors derived from the off-resonance sample described in Section~\ref{sec:off_resonance}.
+The $q\bar{q}$ background efficiency is corrected using correction factors derived from the off-resonance sample described in Sec.~\ref{sec:off_resonance}.
 The uncertainties in the data-to-MC ratios given in Eq.~\ref{eq:off_resonance_ratio} are assigned as systematic uncertainties.
 
 \section{Photon multiplicity}
-As discussed in Section~\ref{sec:photon_mul_corr}, the neutral-tag wrong-charge sideband is used to estimate the uncertainty associated with the photon multiplicity correction.
+As discussed in Sec.~\ref{sec:photon_mul_corr}, the neutral-tag wrong-charge sideband is used to estimate the uncertainty associated with the photon multiplicity correction.
 
 Figure~\ref{fig:neutral_tag_wrong_charge_sideband} shows the data-to-MC ratios as a function of the number of remaining photon candidates.
 These data-to-MC ratios are used to define systematic variations of the photon multiplicity correction factors.
@@ -2892,7 +2892,7 @@ Applying the $+1\sigma$ systematic variation improves the data--MC agreement.
   \label{fig:sideband_multiplicity}
 \end{figure}
 
-The same procedure described in Section~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
+The same procedure described in Sec.~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
 
 A total of 500 toy samples are generated to estimate the covariance matrix associated with the uncertainties in the photon multiplicity correction factors.
 For each toy sample, the photon multiplicity correction factors are varied according to Gaussian distributions defined by their uncertainties.
@@ -2929,7 +2929,7 @@ The branching ratios are~\cite{Buras:2014fpa,Parrott:2022zte}
   BR(\textrm{B}^{0}\rightarrow K^{*0}\nu \bar{\nu})_{SM}&=(9.19 \pm 0.86 \pm 0.50) \times 10^{-6}.
 \end{align}
 The first uncertainty in $BR(B^{0}\rightarrow K^{*0}\nu\bar{\nu})_{\mathrm{SM}}$ arises from the form factors.
-Because the form-factor uncertainty is already included in Section~\ref{subsec:formfactor_uncertainty}, only the second uncertainty is considered here.
+Because the form-factor uncertainty is already included in Sec.~\ref{sec:formfactor_uncertainty}, only the second uncertainty is considered here.
 
 In addition, the uncertainties in the $B\rightarrow K$ form factors result in a relative uncertainty of $^{+0.056}_{-0.055}$ in the $B\rightarrow K\nu\bar{\nu}$ branching ratio.
 This relative uncertainty is calculated using the correlation matrix given in Ref.~\cite{Parrott:2022rgu}.
@@ -2942,7 +2942,7 @@ The Fermi motion momentum $p_{F}$ in Eq.~\ref{eq:pf} is used to produce the sign
 To estimate the uncertainty associated with the Fermi motion momentum, signal samples with different $p_{F}$ values are produced without detector simulation.
 
 Figure~\ref{fig:pf_syst} shows the $M_{X_{s}}$ distributions obtained with different $p_{F}$ values.
-The discontinuities arise from the fragmentation correction described in Section~\ref{sec:frag_corr}.
+The discontinuities arise from the fragmentation correction described in Sec.~\ref{sec:frag_corr}.
 The weights are obtained from the ratios of the $M_{X_{s}}$ distributions
 generated with varied and nominal $p_{F}$ values.
 These weights are applied to the nominal signal MC sample, and the resulting changes in the signal templates are assigned as the systematic uncertainty associated with the Fermi motion momentum.
@@ -2950,17 +2950,17 @@ These weights are applied to the nominal signal MC sample, and the resulting cha
   \centering
   \subfloat[][$M_{X_{s}}$ distributions for the charged signal sample obtained with different $p_{F}$
   values. The discontinuities arise from the fragmentation correction
-  described in Section~\ref{sec:frag_corr}.]{\includegraphics[width=0.45\textwidth]{./picture/systematic/Xsu_pf.png}}
+  described in Sec.~\ref{sec:frag_corr}.]{\includegraphics[width=0.45\textwidth]{./picture/systematic/Xsu_pf.png}}
   \hfill
   \subfloat[][$M_{X_{s}}$ distributions for the neutral signal sample obtained with different $p_{F}$
   values. The discontinuities arise from the fragmentation correction
-  described in Section~\ref{sec:frag_corr}.]{\includegraphics[width=0.45\textwidth]{./picture/systematic/Xsd_pf.png}}
+  described in Sec.~\ref{sec:frag_corr}.]{\includegraphics[width=0.45\textwidth]{./picture/systematic/Xsd_pf.png}}
   \caption{}
   \label{fig:pf_syst}
 \end{figure}
 
 \section{$K^{*}-X_{s}$ transition}
-As discussed in Section~\ref{subsec:signal_MC}, the remaining $B \rightarrow X_{s} \nu \bar{\nu}$ sample, excluding $B\rightarrow K \nu \bar{\nu}$ and $B \rightarrow K^{*} \nu \bar{\nu}$, is generated with the requirement $M_{X_{s}} > 1.1~\textrm{GeV}/c^{2}$.
+As discussed in Sec.~\ref{sec:signal_MC}, the remaining $B \rightarrow X_{s} \nu \bar{\nu}$ sample, excluding $B\rightarrow K \nu \bar{\nu}$ and $B \rightarrow K^{*} \nu \bar{\nu}$, is generated with the requirement $M_{X_{s}} > 1.1~\textrm{GeV}/c^{2}$.
 
 To estimate the systematic uncertainty associated with this mass threshold, the remaining $B \rightarrow X_{s} \nu \bar{\nu}$ samples are generated with varied threshold values of $M_{X_{s}} = 1.1 \pm 0.1~\textrm{GeV}/c^{2}$.
 The variation of $0.1~\textrm{GeV}/c^{2}$ is motivated by the $M_{X_{s}}$ distribution in the $B \rightarrow X_s\gamma$ study~\cite{Belle:2014nmp}.
@@ -2968,7 +2968,7 @@ The resulting changes in the event yields in the fit bins are assigned as the sy
 
 Non-$K^{(*)}$ components may contribute below $1.0~\textrm{GeV}/c^{2}$.
 To quantify this effect, the impact of the S-wave component in $K\pi\nu\bar{\nu}$ decays is examined.
-As discussed in Section~\ref{sec:K700}, the S-wave component does not change the final result at the first decimal place.
+As discussed in Appendix~\ref{sec:K700}, the S-wave component does not change the final result at the first decimal place.
 Therefore, no additional systematic uncertainty associated with non-$K^{(*)}$ components below $1.0~\textrm{GeV}/c^{2}$ is included.
 
 \section{b-quark mass}
@@ -3001,7 +3001,7 @@ Because of the finite sizes of the MC samples, the histogram templates have stat
 These uncertainties are included as systematic uncertainties.
 
 \section{Fragmentation of $X_{s}$}
-As discussed in Section~\ref{sec:frag_corr}, the correction for the fragmentation of $X_{s}$ is derived using $B \rightarrow X_{s} \gamma$ decays.
+As discussed in Sec.~\ref{sec:frag_corr}, the correction for the fragmentation of $X_{s}$ is derived using $B \rightarrow X_{s} \gamma$ decays.
 The systematic uncertainty associated with the fragmentation correction is estimated using two methods.
 The first method uses the difference between the fragmentations observed in $B \rightarrow X_{s} \gamma$ and $B \rightarrow X_{s} J/\psi$ decays.
 The second method is based on fluctuations of \texttt{PYTHIA} parameters.
@@ -3126,7 +3126,7 @@ missing modes & 7.6\% & 1.6\% & 8.4\% & 2.4\% & 16\% & 5.6\% & 35\% & 23\% & 57\
     \label{tab:Pythia_fluctuation_result}
 \end{sidewaystable}
 
-The same procedure described in Section~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
+The same procedure described in Sec.~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
 
 A total of 500 toy samples are generated to estimate the covariance matrix associated with the fragmentation uncertainties.
 For each toy sample, the fragmentation fractions are varied according to Gaussian distributions defined by their uncertainties.
@@ -3159,7 +3159,7 @@ The efficiency differences between these two samples are smaller than the differ
 Consequently, among the systematic uncertainties associated with \texttt{PYTHIA} mismodelling, only the uncertainty from the fragmentation is considered.
 
 \section{Background normalization}
-As discussed in Section~\ref{sec:validation}, data--MC discrepancies are observed in the event yields in the $M_{\textrm{bc}}$ sideband and the FastBDT sideband.
+As discussed in Chapter~\ref{chap:validation}, data--MC discrepancies are observed in the event yields in the $M_{\textrm{bc}}$ sideband and the FastBDT sideband.
 The data-to-MC ratios in the $M_{\textrm{bc}}$ sideband region are
 \begin{linenomath*}
   \begin{equation*}
@@ -3249,7 +3249,7 @@ Figure~\ref{fig:BBremaindecay} shows the decay modes of $B$ mesons in the charge
     \label{fig:BBremaindecay}
 \end{figure}
 
-The same procedure described in Section~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
+The same procedure described in Sec.~\ref{sec:hadron_pid_syst} is used to reduce the number of nuisance parameters.
 
 A total of 500 toy samples are generated to estimate the covariance matrix associated with the uncertainties in the $B$ meson branching ratios.
 For each toy sample, the branching ratios are varied according to Gaussian distributions defined by their uncertainties from the PDG.
@@ -3269,15 +3269,15 @@ The leading eight eigenvectors are retained and implemented as independent nuisa
 \end{figure}
 
 \section{Mismodelling of $B\rightarrow X_{s} n\bar{n}$ decays}
-As discussed in Section~\ref{sec:Xsnnbar_correction}, the $M_{n\bar{n}}$ distribution is modeled in this analysis.
+As discussed in Sec.~\ref{sec:Xsnnbar_correction}, the $M_{n\bar{n}}$ distribution is modeled in this analysis.
 To cover possible mismodelling, a relative uncertainty of $\pm100\%$ is assigned to the branching ratio of $B\rightarrow X_{s} n\bar{n}$ decays.
 
 \section{Mismodelling of $B\rightarrow X_{s} K_{L}^{0} K_{L}^{0}$ decays}
-As discussed in Section~\ref{sec:XsKLKL_correct}, the Dalitz-plot distribution is modeled in this analysis.
+As discussed in Sec.~\ref{sec:XsKLKL_correct}, the Dalitz-plot distribution is modeled in this analysis.
 To cover possible mismodelling, a relative uncertainty of $\pm100\%$ is assigned to the branching ratio of $B\rightarrow X_{s} K_{L}^{0} K_{L}^{0}$ decays.
 
 \section{$D\rightarrow K_{L}^{0}X$ decay from $B$ meson}
-As discussed in Section~\ref{sec:DtoKLX_correction}, a scale factor of $1.3\pm0.1$ is applied to $D\rightarrow K_{L}^{0}X$ decays from $B$ mesons.
+As discussed in Sec.~\ref{sec:DtoKLX_correction}, a scale factor of $1.3\pm0.1$ is applied to $D\rightarrow K_{L}^{0}X$ decays from $B$ mesons.
 The uncertainty in this scale factor is adopted as a systematic uncertainty.
 
 \section{$K_{L}^{0}$ ECL efficiency}
@@ -3291,7 +3291,7 @@ Instead, a relative uncertainty of $\pm17\%$ is assigned to events containing EC
 This uncertainty is motivated by the hadronic-tag $B^{+} \rightarrow K^{+} \nu \bar{\nu}$ analysis~\cite{Belle-II:2023esi}.
 
 \section{Uncorrelated uncertainties}
-As discussed in Section~\ref{sec:systematic_uncertainty} and Eq.~\ref{eq:PCA_approximation}, PCA is performed for some systematic uncertainties, and the dominant eigenvectors are retained.
+As discussed in Chapter~\ref{chap:systematic_uncertainty} and Eq.~\ref{eq:PCA_approximation}, PCA is performed for some systematic uncertainties, and the dominant eigenvectors are retained.
 The remaining component of the covariance matrix is approximated by a diagonal matrix.
 The diagonal elements are adopted as uncorrelated bin-by-bin uncertainties.
 To reduce the number of nuisance parameters, these uncorrelated uncertainties are added in quadrature to the MC statistical uncertainties.
@@ -3360,12 +3360,12 @@ Statistical uncertainty & 1.65 & 2.86 & 5.43 \\
 \end{table}
 
 \section{Fit bias}
-As discussed in Sections~\ref{sec:fit_quality} and~\ref{sec:unblind_result}, a bias associated with the fitter is observed.
+As discussed in Chapter~\ref{chapter:fit_quality} and Sec.~\ref{sec:unblind_result}, a bias associated with the fitter is observed.
 This effect is included as a systematic uncertainty.
 However, to quantify its impact precisely, the uncertainty is assigned only after unblinding the signal region.
 
 \chapter{Fit quality check}
-\label{sec:fit_quality}
+\label{chapter:fit_quality}
 In this section, the fitter bias is investigated using toy MC studies and linearity tests.
 
 \section{Toy MC study}
@@ -3469,7 +3469,7 @@ The slopes are in good agreement with unity, while the intercepts show some devi
 \section{Summary}
 A small fitter bias is observed.
 To account for this bias, additional post-unblinding systematic uncertainties are assigned.
-These post-unblinding systematic uncertainties are discussed in Section~\ref{sec:unblind_result}.
+These post-unblinding systematic uncertainties are discussed in Sec.~\ref{sec:unblind_result}.
 
 \chapter{Results}
 \section{Results of MC study}
@@ -3576,7 +3576,7 @@ The fit result is
 \end{equation}
 where the fitter bias is not considered.
 
-However, as discussed in Section~\ref{sec:fit_quality}, a bias associated with the fitter is observed.
+However, as discussed in Chapter~\ref{chapter:fit_quality}, a bias associated with the fitter is observed.
 To include this effect as a post-unblinding systematic uncertainty, a toy MC study is performed.
 A total of 10000 toy MC samples are generated with the $\mu$ values obtained in Eq.~\ref{eq:fit_result_three_mu}.
 The nuisance parameters are varied according to Gaussian distributions.
@@ -3825,7 +3825,7 @@ $\epsilon$--$\eta$ plane.
 
 \subsection{Flavour-violating $\bar{b}sZ'$ coupling}
 
-As discussed in Section~\ref{sec:Zprime_model}, a flavour-violating
+As discussed in Sec.~\ref{sec:Zprime_model}, a flavour-violating
 $\bar{b}sZ'$ coupling is considered.
 The ratio of the branching ratios in the presence and absence of this
 coupling is given by~\cite{Altmannshofer:2009ma}
@@ -3879,7 +3879,7 @@ $Z'_{L}$--$Z'_{R}$ plane.
 
 \subsection{Invisible light scalar}
 
-As discussed in Section~\ref{sec:invisible_scalar}, an invisible light
+As discussed in Sec.~\ref{sec:invisible_scalar}, an invisible light
 scalar is considered.
 Using Eq.~\ref{eq:lagrangian_light_scalar}, the differential decay width
 for the process involving this invisible particle is given by
@@ -4122,7 +4122,7 @@ Figure~\ref{fig:CLs_projection} shows the projected $CL_{s}$ results for $50~\te
 
 \chapter{Particle selection variable distributions}
 \label{sec:particle_selection_distributions}
-This appendix presents the distributions of the variables used for the particle selections described in Section~\ref{sec:particle_selection}, obtained from the signal MC sample.
+This appendix presents the distributions of the variables used for the particle selections described in Sec.~\ref{sec:particle_selection}, obtained from the signal MC sample.
 MC truth information is used to distinguish correctly reconstructed (true) candidates from incorrectly reconstructed (fake) candidates.
 For each distribution, the selection requirement on the plotted variable is omitted, while all other particle selection requirements are applied.
 
@@ -4295,7 +4295,7 @@ For each distribution, the selection requirement on the plotted variable is omit
         Unless otherwise specified, the ROE denotes the rest of the event
         with respect to $B_{\textrm{tag}}$.
         The reconstruction of the $D$-meson candidates is described in
-        Section~\ref{subsec:Dveto_reconstruction}.
+        Sec.~\ref{sec:Dveto_reconstruction}.
         A total of 32 variables are used.
     }
     \label{tab:FastBDT1var}
@@ -4830,6 +4830,56 @@ For each distribution, the selection requirement on the plotted variable is omit
     \caption{FastBDT input variables.}
     \label{fig:XsJpsi_used_vars2}
 \end{figure}
+
+\section{Investigation of the discrepancy in the $B\rightarrow X_{s}J/\psi$ control sample}
+\label{sec:Jpsi_third_bin}
+
+A large data--MC discrepancy is observed in the third bin of the bin-index distribution shown in the right panel of Fig.~\ref{fig:FBDT_control_without_signal_embedding}.
+This bin contains only one data event.
+Such a large discrepancy was not observed in the previous iteration of the analysis, whose bin-index distribution is shown in Fig.~\ref{fig:Jpsi_bin_index_past_iteration}.
+The MC expectations are similar between the two iterations, whereas the number of data events in the third bin changes substantially.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]
+    {./picture/Jpsi_investigation/bin_index_Jpsi.png}
+  \caption{Bin-index distribution for the $B\rightarrow X_{s}J/\psi$ control sample in the previous iteration of the analysis.}
+  \label{fig:Jpsi_bin_index_past_iteration}
+\end{figure}
+
+The two main changes since the previous iteration are a bug fix in the best candidate selection implementation and retraining of FastBDT.
+The effect of the bug fix was checked and found to be small.
+We therefore investigate how the third bin event count depends on the randomness of the FastBDT training.
+
+FastBDT is retrained 900 times with different random seeds, while the training and testing samples are kept fixed.
+Each classifier is applied to the same control-sample data using identical bin boundaries.
+Figure~\ref{fig:Jpsi_bin_3} shows the distribution of the number of data events in the third bin across these retrainings.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]
+    {./picture/Jpsi_investigation/bin_3.png}
+  \caption{Distribution of the number of control-sample data events in the third bin across 900 FastBDT retrainings with different random seeds. The samples and bin boundaries are kept fixed.}
+  \label{fig:Jpsi_bin_3}
+\end{figure}
+
+Exactly one event is found in the third bin in 8 of the 900 retrainings, and at most one event is found in 9 retrainings.
+The observed frequency of obtaining at most one event is therefore $9/900=0.01$.
+We define equally extreme outcomes in the upper tail by the same probability.
+The estimated probability of an extreme outcome in either tail is then
+\begin{equation}
+  p_{\textrm{extreme}} \simeq 2\times\frac{9}{900}=0.02.
+\end{equation}
+
+For a rough estimate across all 15 bins, we assume that this probability applies to each bin and neglect correlations among them.
+Under these assumptions, the probability of obtaining at least one such extreme result is approximately
+\begin{equation}
+  p_{\textrm{any}}
+  \simeq 1-(1-p_{\textrm{extreme}})^{15}
+  =1-(1-0.02)^{15}
+  \simeq 0.26.
+\end{equation}
+This rough estimate suggests that a bin count as extreme as that observed in the third bin can plausibly arise by chance from the randomness of the FastBDT training.
 
 \chapter{PID correction table}
 \label{sec:pid_table}
