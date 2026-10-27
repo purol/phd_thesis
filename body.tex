@@ -1555,7 +1555,7 @@ To construct the probability density function, the tool \texttt{HistFactory}, pr
 \texttt{HistFactory} provides an easy way to construct a probability density function.
 It also gives a way to incorporate changes on shapes of histogram templates by systematic uncertainties.
 
-\texttt{HistFactory} provides the following probability density function:
+\texttt{HistFactory} provides the following probability density function~\cite{HistFactory}:
 \begin{equation}
     \mathcal{P}(n_{cb}, a_{p}|\phi_{p},\alpha_{p},\gamma_{b}) = \prod_{\textrm{c}\in \textrm{channels}} \prod_{\textrm{b}\in \textrm{bins}} \textrm{Pois}(n_{cb}|\nu_{cb}) \cdot G(L_{0}|\lambda, \Delta_{L}) \cdot \prod_{p\in \mathbb{S}+\boldsymbol{\Gamma}} f_{p}(a_{p}|\alpha_{p}),
 \end{equation}
@@ -1564,14 +1564,20 @@ The factor $G(L_{0}|\lambda,\Delta_{L})$ is a Gaussian constraint on the luminos
 Here, $L_{0}$ is the measured integrated luminosity, and $\Delta_{L}$ is its uncertainty, expressed as one standard deviation.
 Each $f_{p}(a_{p}|\alpha_{p})$ is a constraint term for an auxiliary measurement $a_{p}$ with nuisance parameter $\alpha_{p}$.
 In this analysis, all constraint terms $f_{p}(a_{p}|\alpha_{p})$ are Gaussian distributions.
-The expected event yield $\nu_{cb}$ is given by
+
+In \texttt{HistFactory}, each signal or background component is referred to as a sample and is indexed by $s$.
+Each sample is represented by a histogram template.
+The expected event yield $\nu_{cb}$ is obtained by summing the contributions from all samples~\cite{HistFactory}:
 \begin{equation}
-    \nu_{cb}(\phi_{p},\alpha_{p},\gamma_{b})=\lambda_{cs}\gamma_{cb}\phi_{cs}(\alpha)\eta(\boldsymbol{\alpha})\sigma_{csb}(\boldsymbol{\alpha}),
+    \nu_{cb}(\phi_{p},\alpha_{p},\gamma_{b}) = \sum_{s}
+    \lambda_{cs}\gamma_{cb}\phi_{cs}(\alpha)
+    \eta_{cs}(\boldsymbol{\alpha})
+    \sigma_{csb}(\boldsymbol{\alpha}),
 \end{equation}
 where
 \begin{itemize}
   \item $\lambda_{cs}$: luminosity parameter for a given channel and sample.
-  \item $\gamma_{cb}$: bin-by-bin scale factor used for statistical uncertainties, bin-by-bin shape systematics~(\texttt{ShapeSys}), and data-driven shape extrapolations~(\texttt{ShapeFactor}). For statistical uncertainties, $\gamma_{csb}$ is shared among all samples in the channel.
+  \item $\gamma_{cb}$: bin-by-bin scale factor used for statistical uncertainties, bin-by-bin shape systematics~(\texttt{ShapeSys}), and data-driven shape extrapolations~(\texttt{ShapeFactor}). For statistical uncertainties, $\gamma_{cb}$ is shared among all samples in the channel.
   \item $\phi_{cs}$: product of unconstrained normalization factors for a given sample within a given channel. These typically include the parameter of interest.
   \item $\eta_{cs}(\boldsymbol{\alpha})$: the parametrized normalization uncertainties~(\texttt{OverallSys}) for a given sample within a given channel.
   \item $\sigma_{csb}$: the parametrized histogram~(\texttt{HistoSys}) for a given sample within a given channel.
