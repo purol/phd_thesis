@@ -1559,9 +1559,12 @@ It also gives a way to incorporate changes on shapes of histogram templates by s
 \begin{equation}
     \mathcal{P}(n_{cb}, a_{p}|\phi_{p},\alpha_{p},\gamma_{b}) = \prod_{\textrm{c}\in \textrm{channels}} \prod_{\textrm{b}\in \textrm{bins}} \textrm{Pois}(n_{cb}|\nu_{cb}) \cdot G(L_{0}|\lambda, \Delta_{L}) \cdot \prod_{p\in \mathbb{S}+\boldsymbol{\Gamma}} f_{p}(a_{p}|\alpha_{p}),
 \end{equation}
-where $n_{cb}$ is the number of observed events in channel $\textrm{c}$ and bin $\textrm{b}$, $f_{p}(a_{p}|\alpha_{p})$ is a constraint term for an auxiliary measurement $a_{p}$ with nuisance parameter $\alpha_{p}$.
-In this analysis, all constraint terms, $f_p(a_p|\alpha_p)$, are Gaussian distributions.
-The number of expected events is
+where $\textrm{Pois}(n_{cb}|\nu_{cb})$ is the Poisson probability of observing $n_{cb}$ events in channel $c$ and bin $b$, given an expected event yield of $\nu_{cb}$.
+The factor $G(L_{0}|\lambda,\Delta_{L})$ is a Gaussian constraint on the luminosity parameter $\lambda$.
+Here, $L_{0}$ is the measured integrated luminosity, and $\Delta_{L}$ is its uncertainty, expressed as one standard deviation.
+Each $f_{p}(a_{p}|\alpha_{p})$ is a constraint term for an auxiliary measurement $a_{p}$ with nuisance parameter $\alpha_{p}$.
+In this analysis, all constraint terms $f_{p}(a_{p}|\alpha_{p})$ are Gaussian distributions.
+The expected event yield $\nu_{cb}$ is given by
 \begin{equation}
     \nu_{cb}(\phi_{p},\alpha_{p},\gamma_{b})=\lambda_{cs}\gamma_{cb}\phi_{cs}(\alpha)\eta(\boldsymbol{\alpha})\sigma_{csb}(\boldsymbol{\alpha}),
 \end{equation}
