@@ -3554,7 +3554,7 @@ The p-value for this chi squared value is
 \begin{equation}
     \textrm{p-value} = \mathcal{P}(\chi^{2}_{15} > 54.3) < 0.01.
 \end{equation}
-This low p-value mainly originates from the $0.6 < M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}$ region, as shown in Fig.~\ref{fig:bin_index_prefit}.
+This low p-value mainly originates from the $1.0 < M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}$ region, as shown in Fig.~\ref{fig:bin_index_prefit}.
 
 Figure~\ref{fig:bin_index_postfit} shows the bin-index distribution after the fit.
 \begin{figure}
@@ -3591,8 +3591,8 @@ The nuisance parameters are varied according to Gaussian distributions.
 The pull value is then calculated using Eq.~\ref{eq:pull_equation}.
 The systematic uncertainty from the fitter bias is calculated as follows:
 \begin{align}
-    \sigma_{\textrm{syst mean}} =& \sigma_{\textrm{total}} \times \mu_{\textrm{pull}},\\
-    \sigma_{\textrm{syst width}} =& \sigma_{\textrm{total}} \times (\sigma_{\textrm{pull}} - 1),
+    \sigma_{\textrm{syst mean}} =& \sigma_{\textrm{total}} \times \left| \mu_{\textrm{pull}} \right|,\\
+    \sigma_{\textrm{syst width}} =& \sigma_{\textrm{total}} \times \left| \sigma_{\textrm{pull}} - 1 \right|,
 \end{align}
 where $\sigma_{\textrm{syst mean}}$ is the systematic uncertainty from the mean of the pull distribution, $\mu_{\textrm{pull}}$ is the mean of the pull distribution, $\sigma_{\textrm{syst width}}$ is the systematic uncertainty from the width of the pull distribution, $\sigma_{\textrm{pull}}$ is the width of the pull distribution, and $\sigma_{\textrm{total}}$ is the total uncertainty from the fit.
 Here, $\sigma_{\textrm{total}}$ is obtained from the fit result.
