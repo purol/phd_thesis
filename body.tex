@@ -1474,6 +1474,10 @@ Figure~\ref{fig:Diagonal_Efficiencymatrix} shows the proper reconstruction effic
 Figure~\ref{fig:crossfeedmatrix} shows the cross-feed matrix.
 The cross-feed matrix is defined as $\epsilon_{\mathrm{mode}}/\epsilon_{\mathrm{true}}$, where $\epsilon_{\mathrm{mode}}$ is the efficiency for events to be reconstructed in a given mode, and $\epsilon_{\mathrm{true}}$ is the efficiency for events to be reconstructed in the correct decay mode.
 
+All 30 decay modes are present in the signal MC sample and are included in the reconstruction.
+In this sample, no candidates reconstructed in the $K_{S}^{0}\pi^{+}\pi^{-}\pi^{+}\pi^{-}$ or $K^{+}K^{-}K_{S}^{0}\pi^{0}$ mode survive the full selection.
+For these two modes, $\epsilon_{\mathrm{true}}$ is zero, so the corresponding cross-feed ratios are undefined.
+
 \begin{figure}
 \includegraphics[width=0.9\textwidth]{./picture/Diagonal_Efficiency.png}
 \caption{Proper reconstruction efficiencies after all selection requirements are applied. For example, the efficiency for $B^{+}\rightarrow K^{+}\nu\bar{\nu}$ events to be reconstructed as $B^{+}\rightarrow K^{+}\nu\bar{\nu}$ is $6.01\times 10^{-3}$.}
@@ -1481,7 +1485,7 @@ The cross-feed matrix is defined as $\epsilon_{\mathrm{mode}}/\epsilon_{\mathrm{
 \end{figure}
 \begin{figure}
 \includegraphics[width=0.9\textwidth]{./picture/cross_feed_matrix.png}
-\caption{Cross-feed matrix. It is defined as $\epsilon_{\mathrm{mode}}/\epsilon_{\mathrm{true}}$, where $\epsilon_{\mathrm{mode}}$ is the efficiency for events to be reconstructed in a given mode, and $\epsilon_{\mathrm{true}}$ is the efficiency for events to be reconstructed in the correct decay mode.}
+\caption{Cross-feed matrix after all selection requirements. For each generated decay mode, the entries show $\epsilon_{\mathrm{mode}}/\epsilon_{\mathrm{true}}$. Here, $\epsilon_{\mathrm{mode}}$ is the efficiency for reconstruction in the mode specified by the row, and $\epsilon_{\mathrm{true}}$ is the efficiency for reconstruction in the correct decay mode. Gray columns indicate undefined ratios for modes with $\epsilon_{\mathrm{true}}=0$ in the signal MC sample.}
 \label{fig:crossfeedmatrix}
 \end{figure}
 
