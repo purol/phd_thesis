@@ -1500,8 +1500,16 @@ We divide the signal region into $3\times5$ bins.
 The bin boundaries along the $M_{X_{s}}^{\textrm{reco}}$ axis are $[0.0, 0.6, 1.0, 2.0]~\textrm{GeV}/c^{2}$.
 These three bins correspond to the regions dominated by $K$, $K^{*}$, and the remaining $X_{s}$ states.
 Hereafter, we label them MR1, MR2, and MR3, respectively.
-When the signal MC is produced, the mass threshold, $M_{X_{s}} > 1.1~\textrm{GeV}/c^{2}$, is required, as discussed in Sec.~\ref{sec:signal_MC}.
+
+The remaining $B\rightarrow X_{s}\nu\bar{\nu}$ signal MC sample excludes the separately generated $K$ and $K^{*}$ components.
+This sample is generated with $M_{X_{s}} > 1.1~\textrm{GeV}/c^{2}$, as discussed in Sec.~\ref{sec:signal_MC}.
 The bin boundary between MR2 and MR3 is set to $1.0~\textrm{GeV}/c^{2}$, slightly below this threshold, to minimize sensitivity to the modeling of this threshold.
+
+The bin boundaries along the $\mathcal{O}_{\textrm{BDT}}$ axis are determined to maximize the sensitivity while avoiding fit bias.
+If small bin widths are used, the sensitivity improves.
+However, if the number of events in the bin is small, the pull distribution of the signal strength does not follow a Gaussian distribution, as seen in Figure~\ref{fig:non-gaussian}.
+Therefore, the number and size of bins are determined to fulfill these conditions.
+
 In each $M_{X_{s}}^{\textrm{reco}}$ region, the bin boundaries along $\mathcal{O}_{\textrm{BDT}}$ are defined as follows:
 \begin{equation}
     \textrm{Bin boundary} = 
@@ -1511,10 +1519,6 @@ In each $M_{X_{s}}^{\textrm{reco}}$ region, the bin boundaries along $\mathcal{O
     [0.86, 0.9, 0.94, 0.96, 0.98, 1.0] & (\textrm{in MR3}).
   \end{cases}
 \end{equation}
-These bin boundaries are determined to maximize the sensitivity while avoiding fit bias.
-If small bin widths are used, the sensitivity improves.
-However, if the number of events in the bin is small, the pull distribution of the signal strength does not follow a Gaussian distribution, as seen in Figure~\ref{fig:non-gaussian}.
-Therefore, the number and size of bins are determined to fulfill these conditions.
 \begin{figure}[h]
   \centering
   \subfloat{\includegraphics[width=0.65\textwidth]{./picture/bad_pull.png}}
