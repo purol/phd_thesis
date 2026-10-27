@@ -1629,8 +1629,8 @@ For this purpose, a test statistic $q_{\mu}(x)$ is defined, which maps a dataset
 The convention adopted here is that a larger value of $q_{\mu}(x)$ corresponds to greater incompatibility between the tested value of $\mu$ and the dataset $x$.
 
 Consequently, a large value of $q_{\mu_{\textrm{test}}}(x_{\textrm{obs}})$ indicates that $\mu_{\textrm{test}}$ is incompatible with the observed data $x_{\textrm{obs}}$.
-To quantify this incompatibility, toy MC samples are generated under the hypothesis $\mu=\mu_{\textrm{test}}$: $x_{\textrm{toy},1}$, $x_{\textrm{toy},2}$, $\dots$.
-From these toys, we can obtain the distribution of $q_{\mu_{\textrm{test}}}(x)$.
+To quantify this incompatibility, toy MC samples $x_{\textrm{toy},i}$ $(i=1,2,\ldots)$ are generated under the hypothesis $\mu=\mu_{\textrm{test}}$.
+These samples are used to obtain the distribution of $q_{\mu_{\textrm{test}}}(x)$.
 The corresponding p-value, denoted by $CL_{s+b}$, is then defined as
 \begin{equation}
     CL_{s+b}=\mathcal{P}(q>q_\mu(x_{\textrm{obs}})|\mu=\mu_{\textrm{test}}).
