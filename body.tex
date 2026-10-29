@@ -2090,8 +2090,10 @@ Figure~\ref{fig:FBDT_control_without_signal_embedding} shows the FastBDT output 
 The third bin in the right figure shows a large discrepancy between data and MC.
 This discrepancy was not observed in an earlier version of the analysis.
 Since then, a bug in the best candidate selection implementation has been fixed, and the FastBDT classifier has been retrained.
-In Appendix~\ref{sec:Jpsi_third_bin}, this discrepancy is investigated.
-A rough estimate including the look-elsewhere effect across the 15 bins suggests that such an extreme count can plausibly arise by chance.
+
+This discrepancy is investigated in Appendix~\ref{sec:Jpsi_third_bin} by retraining FastBDT 900 times with different random seeds.
+A rough estimate including the look-elsewhere effect gives a probability of approximately $26\%$ for at least one such extreme count among the 15 bins.
+
 Figures~\ref{fig:XsJpsi_used_vars1}--\ref{fig:XsJpsi_used_vars2} show the distributions of the FastBDT input variables.
 The MC distributions are normalized to the data in Figs.~\ref{fig:XsJpsi_used_vars1}--\ref{fig:XsJpsi_used_vars2}.
 \begin{figure}
