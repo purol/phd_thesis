@@ -1670,12 +1670,14 @@ where $\hat{\mu}$ is the signal strength obtained from the best fit to the data.
 
 \chapter{Validation}
 \label{chap:validation}
+This chapter examines the agreement between data and MC using the off-resonance sample, the on-resonance $M_{\textrm{bc}}$ sideband, and the FastBDT sideband.
+Both event yields and distribution shapes are compared.
+The use of these comparisons to determine corrections and systematic uncertainties is discussed in Chapters~\ref{chap:correction} and~\ref{chap:systematic_uncertainty}, respectively.
+
 \section{Off-resonance}
 \label{sec:off_resonance}
-The off-resonance sample is used for two purposes.
-First, it is used to check the data--MC agreement of the FastBDT input variables.
-Second, it is used to obtain correction factors and their uncertainties.
-For this study, we use off-resonance data and off-resonance $e^{+}e^{-}\rightarrow q\bar{q}$ MC samples.
+We compare off-resonance data with off-resonance $e^{+}e^{-}\rightarrow q\bar{q}$ MC samples.
+These samples are used to examine the agreement in event yields and in the shapes of the FastBDT input and output distributions.
 
 We use a cut flow similar to that shown in Table~\ref{tab:cutflow}.
 However, $M_{\textrm{bc}}$ distribution is shifted because of the lower center-of-mass energy.
@@ -1688,23 +1690,27 @@ where $\sqrt{s^{\textrm{on}}}$ and $\sqrt{s^{\textrm{off}}}$ are the SuperKEKB c
 In this analysis, $\sqrt{s^{\textrm{on}}}$ is set to the center-of-mass energy used for the run-independent MC sample.
 No correction is applied to $\Delta E$, because its distribution is not shifted.
 
-Figures~\ref{fig:off_used_vars1}--\ref{fig:off_used_vars2} show the distributions of the FastBDT input variables.
-MC distributions are scaled to the data in the figures.
-The overall event yields in data and MC show a discrepancy.
-After the FastBDT requirement, the data-to-MC ratios are
+Table~\ref{tab:cutflow_off} shows the cut flow for the off-resonance sample.
+For the yield comparison below, the calibration and correction factors described in Chapter~\ref{chap:correction} are applied, except for the $q\bar{q}$ correction factor itself.
+After the FastBDT requirement, the data-to-MC yield ratios are
 \begin{equation}
 \label{eq:off_resonance_ratio}
-    \frac{\textrm{Data}}{\textrm{MC}} = 
-  \begin{cases}
-    1.21 \pm 0.13 & (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}), \\[10pt]
-    0.90 \pm 0.20 & (0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}), \\[10pt]
-    0.78 \pm 0.10 & (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}).
-  \end{cases}
+    \frac{\textrm{Data}}{\textrm{MC}} =
+    \begin{cases}
+    1.21 \pm 0.13 &
+    (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}), \\[10pt]
+    0.90 \pm 0.20 &
+    (0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}/c^{2}), \\[10pt]
+    0.78 \pm 0.10 &
+    (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}).
+    \end{cases}
 \end{equation}
-These ratios are obtained after applying the calibration and correction factors listed in Chapter~\ref{chap:correction}, \underline{except} for the $q\bar{q}$ correction factor.
+These ratios are used to determine the $q\bar{q}$ correction described in Sec.~\ref{sec:qq_eff_corr}.
+Figure~\ref{fig:FBDT_off} shows the FastBDT output and bin index distributions.
 
-Table~\ref{tab:cutflow_off} shows the cut flow for the off-resonance sample.
-Figure~\ref{fig:FBDT_off} shows the FastBDT output distribution.
+Figures~\ref{fig:off_used_vars1}--\ref{fig:off_used_vars2} show the FastBDT input distributions.
+In these figures, the MC distributions are normalized to the data yields to compare their shapes.
+
 \begin{table}
 \caption{Cut flow for off-resonance sample. The entries show the numbers of events surviving each selection requirement. MC samples are scaled to $42.74~\textrm{fb}^{-1}$. Calibration and correction factors listed in Chapter~\ref{chap:correction} are \underline{not} applied in this table.}
   \renewcommand{\arraystretch}{1.2}
@@ -1740,6 +1746,7 @@ $\mathcal{O}_{\textrm{BDT}} > 0.86$ & \multicolumn{1}{c}{208} & \multicolumn{1}{
 \end{figure}
 
 \section{On-resonance $M_{\textrm{bc}}$ sideband}
+\label{sec:mbc_sideband_validation}
 During the selection procedure in Sec.~\ref{sec:selection}, we apply the following requirement on $M_{\textrm{bc}}$:
 \begin{equation}
   M_{\textrm{bc}} > 5.27~\textrm{GeV}/c^{2}.
@@ -1778,23 +1785,27 @@ $\mathcal{O}_{\textrm{BDT}} > 0.86$ & \multicolumn{1}{c}{4767} & \multicolumn{1}
     \label{tab:cutflow_sideband_on}
 \end{table}
 
-Figures~\ref{fig:sideband_used_vars1}--\ref{fig:sideband_used_vars2} show the distributions of the FastBDT input variables.
-The event yields in data and MC show a discrepancy.
-After the FastBDT requirement, the data-to-MC ratio is
+For the yield comparison, the calibration and correction factors described in Chapter~\ref{chap:correction} are applied.
+These include the $q\bar{q}$ correction determined specifically for this sideband, as described in Sec.~\ref{sec:qq_eff_corr}.
+After the FastBDT requirement, the data-to-MC yield ratios are
 \begin{equation}
-    \frac{\textrm{Data}}{\textrm{MC}} = 
-  \begin{cases}
-    1.12 \pm 0.03 & (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}), \\[10pt]
-    1.04 \pm 0.05 & (0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}), \\[10pt]
-    1.10 \pm 0.03 & (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}).
-  \end{cases}
+\label{eq:mbc_sideband_ratio}
+    \frac{\textrm{Data}}{\textrm{MC}} =
+    \begin{cases}
+    1.12 \pm 0.03 &
+    (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}), \\[10pt]
+    1.04 \pm 0.05 &
+    (0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}/c^{2}), \\[10pt]
+    1.10 \pm 0.03 &
+    (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}).
+    \end{cases}
 \end{equation}
-These ratios are obtained after applying the calibration and correction factors listed in Chapter~\ref{chap:correction}, including the $q\bar{q}$ correction factor.
-The $q\bar{q}$ correction factor is calculated using the off-resonance sample, following the cut flow in Table~\ref{tab:cutflow_sideband_on}, with the $M_{\textrm{bc}}$ correction defined in Eq.~\ref{eq:Mbc_corr}.
-The MC distributions are normalized to the data in Figs.~\ref{fig:sideband_used_vars1}--\ref{fig:sideband_used_vars2}.
-$q\bar{q}$ correction factor is \underline{not} applied in Figs.~\ref{fig:sideband_used_vars1}--\ref{fig:sideband_used_vars2}.
+The quoted uncertainties include only the statistical uncertainties of data and MC.
 
-Figure~\ref{fig:FBDT_sideband_on} shows the distribution of the bin index defined in Sec.~\ref{sec:signal_region}.
+Figures~\ref{fig:sideband_used_vars1}--\ref{fig:sideband_used_vars2} show the FastBDT input distributions.
+For these shape comparisons, the MC distributions are normalized to the data yields, and the $q\bar{q}$ correction is not applied.
+Figure~\ref{fig:FBDT_sideband_on} shows the FastBDT output and bin index distributions with the corrections applied.
+
 \begin{figure}
     \centering
     \subfloat{\includegraphics[width=0.5\textwidth]{./picture/sideband/MVA_BB_sideband.png}}
@@ -1802,17 +1813,16 @@ Figure~\ref{fig:FBDT_sideband_on} shows the distribution of the bin index define
     \caption{The left plot shows the FastBDT output distribution for the on-resonance sideband sample. The right plot shows the distribution of the bin index defined in Sec.~\ref{sec:signal_region}. In both plots, calibration and correction factors listed in Chapter~\ref{chap:correction} are applied, including $q\bar{q}$ correction factor.}
     \label{fig:FBDT_sideband_on}
 \end{figure}
-There seems to be some deviation between data and MC in the region $0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}$.
-If the assigned systematic uncertainties account for this discrepancy, no additional systematic uncertainty or correction is required.
-To evaluate this quantitatively, a fit is performed.
-Figure~\ref{fig:FBDT_sideband_on_postfit} shows the FastBDT output distribution after the fit.
+A discrepancy between data and MC is observed in the region $0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}$.
+To test whether the assigned systematic uncertainties can account for this discrepancy, we fit the sideband data including the uncertainties described in Chapter~\ref{chap:systematic_uncertainty}.
+Figure~\ref{fig:FBDT_sideband_on_postfit} shows the bin index distribution after the fit.
 After the fit, the $\chi^{2}$ for the first region is
 \begin{equation}
-    \chi^{2}_{5} = 8.34 \; (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}).
+    \chi^{2}_{5} = 8.34 \; (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}).
 \end{equation}
 Then, the p-value is
 \begin{equation}
-    \textrm{p-value} = \mathcal{P}(\chi^{2}_{5} > 8.34) = 0.14 \; (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}),
+    \textrm{p-value} = \mathcal{P}(\chi^{2}_{5} > 8.34) = 0.14 \; (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}),
 \end{equation}
 which is an acceptable value.
 Consequently, the assigned systematic uncertainties can account for the data-MC discrepancy.
@@ -1824,6 +1834,7 @@ Consequently, the assigned systematic uncertainties can account for the data-MC 
 \end{figure}
 
 \section{FastBDT sideband}
+\label{sec:fbdt_sideband_validation}
 For validation, the FastBDT sideband is also examined.
 This sideband is defined as
 \begin{equation}
@@ -1831,21 +1842,35 @@ This sideband is defined as
 \end{equation}
 This region is dominated by background.
 
-The cut flow shown in Table~\ref{tab:cutflow} is used.
-However, the requirement $0.8 < \mathcal{O}_{\textrm{BDT}} < 0.86$ is applied instead of $\mathcal{O}_{\textrm{BDT}} > 0.86$.
-Additionally, the off-resonance sample sample is analyzed to obtain the $q\bar{q}$ correction factor for the FastBDT sideband.
+We use the cut flow shown in Table~\ref{tab:cutflow}, replacing the requirement $\mathcal{O}_{\textrm{BDT}}>0.86$ with $0.8<\mathcal{O}_{\textrm{BDT}}<0.86$.
+The $q\bar{q}$ correction used for this sideband is described in Sec.~\ref{sec:qq_eff_corr}.
 
-Figure~\ref{fig:FBDT_sideband_distribution} shows the FastBDT output distribution for each $M_{X_{s}}^{\textrm{reco}}$ region.
+Before normalizing the MC distributions to the data yields for the shape comparison, the data-to-MC yield ratios are
+\begin{equation}
+\label{eq:fbdt_sideband_ratio}
+    \frac{\textrm{Data}}{\textrm{MC}} =
+    \begin{cases}
+    1.11 \pm 0.06 &
+    (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}), \\[10pt]
+    1.02 \pm 0.07 &
+    (0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}/c^{2}), \\[10pt]
+    1.10 \pm 0.04 &
+    (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}).
+    \end{cases}
+\end{equation}
+The quoted uncertainties include only the statistical uncertainties of data and MC.
+
+We then compare the shapes of the FastBDT output distributions.
+Figure~\ref{fig:FBDT_sideband_distribution} shows these distributions in each $M_{X_{s}}^{\textrm{reco}}$ region, with the MC distributions normalized to the data yields.
 \begin{figure}
   \centering
   \subfloat[][$0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}$]{\includegraphics[width=0.3\textwidth]{./picture/FBDT_sideband/MVA_BB_sideband_MXs1.png}}
   \subfloat[][$0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}/c^{2}$]{\includegraphics[width=0.3\textwidth]{./picture/FBDT_sideband/MVA_BB_sideband_MXs2.png}}
   \subfloat[][$1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}$]{\includegraphics[width=0.3\textwidth]{./picture/FBDT_sideband/MVA_BB_sideband_MXs3.png}}
-  \caption{FastBDT output distributions in the FastBDT sideband.}
+  \caption{FastBDT output distributions in the FastBDT sideband. The MC distributions are normalized to the data yields in each $M_{X_{s}}^{\textrm{reco}}$ region.}
   \label{fig:FBDT_sideband_distribution}
 \end{figure}
-The distributions show good agreement between data and MC.
-$\chi^{2}$ values are
+The shape agreement is quantified using a $\chi^{2}$ test, which gives
 \begin{equation}
     \chi^{2}_{19} = 
   \begin{cases}
@@ -1855,8 +1880,7 @@ $\chi^{2}$ values are
   \end{cases}
 \end{equation}
 with 19 degrees of freedom.
-Here, the number of degrees of freedom is 19 rather than 20 because the MC distributions are normalized to the data in Fig.~\ref{fig:FBDT_sideband_distribution}.
-Since an overall normalization uncertainty of $\pm20\%$ is assigned to the background samples, only the shape agreement is evaluated.
+Normalizing the MC distribution to the data yield removes one degree of freedom from each 20-bin distribution.
 The corresponding $p$-values are
 \begin{equation}
     p\textrm{-value} = 
@@ -1866,7 +1890,7 @@ The corresponding $p$-values are
     \mathcal{P}(\chi^{2}_{19} > 17.31) = 0.57 & (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}),
   \end{cases}
 \end{equation}
-indicating acceptable agreement between data and MC.
+indicating acceptable agreement between the shapes of the data and MC distributions.
 
 \chapter{Control sample study}
 \label{chap:control_sample}
@@ -2214,8 +2238,14 @@ The labels $e$ and $\mu$ denote the calibration results obtained using the $B \r
 \end{figure}
 
 \section{$q\bar{q}$ efficiency}
-The $q\bar{q}$ background efficiency is corrected using correction factors derived from the off-resonance sample described in Sec.~\ref{sec:off_resonance}.
-The data-to-MC ratios given in Eq.~\ref{eq:off_resonance_ratio} are applied separately in each $M_{X_{s}}^{\textrm{reco}}$ bin.
+\label{sec:qq_eff_corr}
+The $q\bar{q}$ background prediction is corrected using data-to-MC yield ratios measured in off-resonance samples.
+The MC yields used to determine these ratios include the other applicable calibration and correction factors.
+For the analysis selection, the ratios given in Eq.~\ref{eq:off_resonance_ratio} are applied to the $q\bar{q}$ background separately in each $M_{X_{s}}^{\textrm{reco}}$ bin.
+
+Separate correction factors are determined for the $M_{\textrm{bc}}$ and FastBDT sideband studies described in Secs.~\ref{sec:mbc_sideband_validation} and~\ref{sec:fbdt_sideband_validation}.
+For each study, the off-resonance samples are selected using the corresponding sideband requirements, with the $M_{\textrm{bc}}$ adjustment defined in Eq.~\ref{eq:Mbc_corr}.
+The resulting factors are applied to the $q\bar{q}$ background prediction in the corresponding sideband.
 
 \section{Fragmentation of $X_{s}$}
 \label{sec:frag_corr}
@@ -2877,8 +2907,8 @@ Figure~\ref{fig:NEWFEICAL_corr} shows the correlation matrices associated with t
 \end{figure}
 
 \section{$q\bar{q}$ efficiency}
-The $q\bar{q}$ background efficiency is corrected using correction factors derived from the off-resonance sample described in Sec.~\ref{sec:off_resonance}.
-The uncertainties in the data-to-MC ratios given in Eq.~\ref{eq:off_resonance_ratio} are assigned as systematic uncertainties.
+The $q\bar{q}$ efficiency correction is described in Sec.~\ref{sec:qq_eff_corr}.
+The uncertainties in the off-resonance yield ratios given in Eq.~\ref{eq:off_resonance_ratio} are assigned as systematic uncertainties on this correction.
 
 \section{Photon multiplicity}
 As discussed in Sec.~\ref{sec:photon_mul_corr}, the neutral-tag wrong-charge sideband is used to estimate the uncertainty associated with the photon multiplicity correction.
@@ -3176,33 +3206,11 @@ The efficiency differences between these two samples are smaller than the differ
 Consequently, among the systematic uncertainties associated with \texttt{PYTHIA} mismodelling, only the uncertainty from the fragmentation is considered.
 
 \section{Background normalization}
-As discussed in Chapter~\ref{chap:validation}, data--MC discrepancies are observed in the event yields in the $M_{\textrm{bc}}$ sideband and the FastBDT sideband.
-The data-to-MC ratios in the $M_{\textrm{bc}}$ sideband region are
-\begin{linenomath*}
-  \begin{equation*}
-    \frac{\textrm{Data}}{\textrm{MC}} = 
-  \begin{cases}
-    1.12 \pm 0.03 & (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}), \\[10pt]
-    1.04 \pm 0.05 & (0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}/c^{2}), \\[10pt]
-    1.10 \pm 0.03 & (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}),
-  \end{cases}
-  \end{equation*}
-\end{linenomath*}
-where only the statistical uncertainties of data and MC are included.
-The data-to-MC ratios in the FastBDT sideband region are
-\begin{linenomath*}
-  \begin{equation*}
-    \frac{\textrm{Data}}{\textrm{MC}} = 
-  \begin{cases}
-    1.11 \pm 0.06 & (0.0 < M_{X_{s}}^{\textrm{reco}} < 0.6~\textrm{GeV}/c^{2}), \\[10pt]
-    1.02 \pm 0.07 & (0.6 \leq M_{X_{s}}^{\textrm{reco}} < 1.0~\textrm{GeV}/c^{2}), \\[10pt]
-    1.10 \pm 0.04 & (1.0 \leq M_{X_{s}}^{\textrm{reco}} < 2.0~\textrm{GeV}/c^{2}),
-  \end{cases}
-  \end{equation*}
-\end{linenomath*}
-where only the statistical uncertainties of data and MC are included.
 
-Conservatively, relative uncertainties of $\pm20\%$ are assigned to the overall background normalization in each $M_{X_{s}}^{\textrm{reco}}$ region.
+The data-to-MC yield ratios in the $M_{\textrm{bc}}$ and FastBDT sidebands are given in
+Eqs.~\ref{eq:mbc_sideband_ratio} and~\ref{eq:fbdt_sideband_ratio}, respectively.
+These comparisons show residual differences between the observed and predicted event yields.
+To conservatively cover these differences, relative uncertainties of $\pm20\%$ are assigned to the background normalization in each $M_{X_{s}}^{\textrm{reco}}$ region.
 These uncertainties are applied separately to each background component: charged $B\bar{B}$, mixed $B\bar{B}$, $u\bar{u}$, $d\bar{d}$, $s\bar{s}$, and $c\bar{c}$ templates.
 
 \section{$q\bar{q}$ background shape}
